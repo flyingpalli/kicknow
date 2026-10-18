@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "00ES8GNHFK00000JVV0AG08LVUPGND5I",
+    "name": "SpVgg Unterhaching",
+    "street": "Am Sportpark 9",
+    "city": "82008 Unterhaching",
+    "address": "Am Sportpark 9, 82008 Unterhaching",
+    "url": "https://www.bfv.de/vereine/spvgg-unterhaching/00ES8GNHFK00000JVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C000009VV0AG08LVUPGND5I",
+    "name": "SV Heimstetten",
+    "street": "Am Sportpark 2",
+    "city": "85551 Kirchheim b. München",
+    "address": "Am Sportpark 2, 85551 Kirchheim b. München",
+    "url": "https://www.bfv.de/vereine/sv-heimstetten/00ES8GNH9C000009VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000NVV0AG08LVUPGND5I",
+    "name": "FC Ismaning",
+    "street": "Leuchtenbergstr. 25",
+    "city": "85737 Ismaning",
+    "address": "Leuchtenbergstr. 25, 85737 Ismaning",
+    "url": "https://www.bfv.de/vereine/fc-ismaning/00ES8GNH9C00000NVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C000001VV0AG08LVUPGND5I",
+    "name": "TSV Grünwald",
+    "street": "Dr.-Max-Str. 20",
+    "city": "82031 Grünwald",
+    "address": "Dr.-Max-Str. 20, 82031 Grünwald",
+    "url": "https://www.bfv.de/vereine/tsv-gruenwald/00ES8GNH9C000001VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH80000001VV0AG08LVUPGND5I",
+    "name": "VfR Garching",
+    "street": "Schleißheimer Str. 40",
+    "city": "85748 Garching b. München",
+    "address": "Schleißheimer Str. 40, 85748 Garching b. München",
+    "url": "https://www.bfv.de/vereine/vfr-garching/00ES8GNH80000001VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00001AVV0AG08LVUPGND5I",
+    "name": "SV Pullach",
+    "street": "Wolfratshauser Str. 66 H",
+    "city": "82049 Pullach i. Isartal",
+    "address": "Wolfratshauser Str. 66 H, 82049 Pullach i. Isartal",
+    "url": "https://www.bfv.de/vereine/sv-pullach/00ES8GNHEC00001AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK000014VV0AG08LVUPGND5I",
+    "name": "SV Aubing München",
+    "street": "Kronwinkler Str. 25",
+    "city": "81245 München",
+    "address": "Kronwinkler Str. 25, 81245 München",
+    "url": "https://www.bfv.de/vereine/sv-aubing-muenchen/00ES8GNHAK000014VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000IVV0AG08LVUPGND5I",
+    "name": "SpVgg Feldmoching",
+    "street": "Lerchenauer Str. 270",
+    "city": "80995 München",
+    "address": "Lerchenauer Str. 270, 80995 München",
+    "url": "https://www.bfv.de/vereine/spvgg-feldmoching/00ES8GNHBS00000IVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400001HVV0AG08LVUPGND5I",
+    "name": "FC Teutonia München",
+    "street": "Thusnelda-Lang-Brumann-Straße 14",
+    "city": "80637 München",
+    "address": "Thusnelda-Lang-Brumann-Straße 14, 80637 München",
+    "url": "https://www.bfv.de/vereine/fc-teutonia-muenchen/00ES8GNHD400001HVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000SVV0AG08LVUPGND5I",
+    "name": "TSV Großhadern",
+    "street": "Heiglhofstr. 25",
+    "city": "81377 München",
+    "address": "Heiglhofstr. 25, 81377 München",
+    "url": "https://www.bfv.de/vereine/tsv-grosshadern/00ES8GNHBS00000SVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00000OVV0AG08LVUPGND5I",
+    "name": "TSV Neuried",
+    "street": "Am Sportpark 8",
+    "city": "82061 Neuried",
+    "address": "Am Sportpark 8, 82061 Neuried",
+    "url": "https://www.bfv.de/vereine/tsv-neuried/00ES8GNHEC00000OVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000015VV0AG08LVUPGND5I",
+    "name": "SV Planegg-Krailling",
+    "street": "Hofmarkstr. 51",
+    "city": "82152 Planegg",
+    "address": "Hofmarkstr. 51, 82152 Planegg",
+    "url": "https://www.bfv.de/vereine/sv-planegg-krailling/00ES8GNHEC000015VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000011VV0AG08LVUPGND5I",
+    "name": "TSV Ottobrunn",
+    "street": "Haidgraben 121",
+    "city": "85521 Ottobrunn",
+    "address": "Haidgraben 121, 85521 Ottobrunn",
+    "url": "https://www.bfv.de/vereine/tsv-ottobrunn/00ES8GNHEC000011VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C000004VV0AG08LVUPGND5I",
+    "name": "TSV Haar",
+    "street": "Höglweg 7",
+    "city": "85540 Haar",
+    "address": "Höglweg 7, 85540 Haar",
+    "url": "https://www.bfv.de/vereine/tsv-haar/00ES8GNH9C000004VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000IVV0AG08LVUPGND5I",
+    "name": "FC Unterföhring",
+    "street": "Bergstr. 4 a",
+    "city": "85774 Unterföhring",
+    "address": "Bergstr. 4 a, 85774 Unterföhring",
+    "url": "https://www.bfv.de/vereine/fc-unterfoehring/00ES8GNHFK00000IVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GND74000009VV0AG08LVUPGND5I",
+    "name": "FC Aschheim",
+    "street": "Am Sportpark 4",
+    "city": "85609 Aschheim",
+    "address": "Am Sportpark 4, 85609 Aschheim",
+    "url": "https://www.bfv.de/vereine/fc-aschheim/00ES8GND74000009VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH80000008VV0AG08LVUPGND5I",
+    "name": "TSV Gräfelfing",
+    "street": "Hubert-Reißner-Str. 42",
+    "city": "82166 Gräfelfing",
+    "address": "Hubert-Reißner-Str. 42, 82166 Gräfelfing",
+    "url": "https://www.bfv.de/vereine/tsv-graefelfing/00ES8GNH80000008VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHKK00000NVV0AG08LVUPGND5I",
+    "name": "TSV Sauerlach",
+    "street": "Von-Aychsteter-Str. 14",
+    "city": "82054 Sauerlach",
+    "address": "Von-Aychsteter-Str. 14, 82054 Sauerlach",
+    "url": "https://www.bfv.de/vereine/tsv-sauerlach/00ES8GNHKK00000NVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHGS00000UVV0AG08LVUPGND5I",
+    "name": "TSV Brunnthal",
+    "street": "Postfach 29",
+    "city": "85647 Brunnthal",
+    "address": "Postfach 29, 85647 Brunnthal",
+    "url": "https://www.bfv.de/vereine/tsv-brunnthal/00ES8GNHGS00000UVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000BVV0AG08LVUPGND5I",
+    "name": "SV DJK Taufkirchen",
+    "street": "Platanenstr. 21",
+    "city": "82024 Taufkirchen",
+    "address": "Platanenstr. 21, 82024 Taufkirchen",
+    "url": "https://www.bfv.de/vereine/sv-djk-taufkirchen/00ES8GNHFK00000BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000BVV0AG08LVUPGND5I",
+    "name": "TSV Hohenbrunn-Riemerling",
+    "street": "Putzbrunner Str. 20",
+    "city": "85662 Hohenbrunn",
+    "address": "Putzbrunner Str. 20, 85662 Hohenbrunn",
+    "url": "https://www.bfv.de/vereine/tsv-hohenbrunn-riemerling/00ES8GNH9C00000BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000DVV0AG08LVUPGND5I",
+    "name": "SpVgg Höhenkirchen",
+    "street": "Postfach 1110",
+    "city": "85635 Höhenkirchen-Siegertsbrunn",
+    "address": "Postfach 1110, 85635 Höhenkirchen-Siegertsbrunn",
+    "url": "https://www.bfv.de/vereine/spvgg-hoehenkirchen/00ES8GNH9C00000DVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH8000000AVV0AG08LVUPGND5I",
+    "name": "TSV Grasbrunn-Neukeferloh",
+    "street": "Am Sportpark 1",
+    "city": "85630 Grasbrunn",
+    "address": "Am Sportpark 1, 85630 Grasbrunn",
+    "url": "https://www.bfv.de/vereine/tsv-grasbrunn-neukeferloh/00ES8GNH8000000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH1O00000RVV0AG08LVUPGND5I",
+    "name": "TSV Feldkirchen bei München",
+    "street": "Olympiastr. 1",
+    "city": "85622 Feldkirchen",
+    "address": "Olympiastr. 1, 85622 Feldkirchen",
+    "url": "https://www.bfv.de/vereine/tsv-feldkirchen-bei-muenchen/00ES8GNH1O00000RVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHKK00000PVV0AG08LVUPGND5I",
+    "name": "TSV 1921 Schäftlarn",
+    "street": "Wangener Weg 17",
+    "city": "82069 Hohenschäftlarn",
+    "address": "Wangener Weg 17, 82069 Hohenschäftlarn",
+    "url": "https://www.bfv.de/vereine/tsv-1921-schaeftlarn/00ES8GNHKK00000PVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHGS000008VV0AG08LVUPGND5I",
+    "name": "SpFrd. 1948 Aying",
+    "street": "Am Sportplatz 2",
+    "city": "85653 Aying",
+    "address": "Am Sportplatz 2, 85653 Aying",
+    "url": "https://www.bfv.de/vereine/spfrd-1948-aying/00ES8GNHGS000008VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK000004VV0AG08LVUPGND5I",
+    "name": "SV Lohhof",
+    "street": "Bezirksstr. 27",
+    "city": "85716 Unterschleißheim",
+    "address": "Bezirksstr. 27, 85716 Unterschleißheim",
+    "url": "https://www.bfv.de/vereine/sv-lohhof/00ES8GNHAK000004VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS000016VV0AG08LVUPGND5I",
+    "name": "FC Hertha München",
+    "street": "Höglwörther Str. 219",
+    "city": "81379 München",
+    "address": "Höglwörther Str. 219, 81379 München",
+    "url": "https://www.bfv.de/vereine/fc-hertha-muenchen/00ES8GNHBS000016VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000009VV0AG08LVUPGND5I",
+    "name": "FC Wacker München",
+    "street": "Demleitnerstr. 2",
+    "city": "81371 München",
+    "address": "Demleitnerstr. 2, 81371 München",
+    "url": "https://www.bfv.de/vereine/fc-wacker-muenchen/00ES8GNHEC000009VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00000AVV0AG08LVUPGND5I",
+    "name": "FFC Wacker München",
+    "street": "Wackersberger Str. 67",
+    "city": "81371 München",
+    "address": "Wackersberger Str. 67, 81371 München",
+    "url": "https://www.bfv.de/vereine/ffc-wacker-muenchen/00ES8GNHEC00000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400001AVV0AG08LVUPGND5I",
+    "name": "FC Stern München",
+    "street": "Feldbergstr. 65",
+    "city": "81825 München",
+    "address": "Feldbergstr. 65, 81825 München",
+    "url": "https://www.bfv.de/vereine/fc-stern-muenchen/00ES8GNHD400001AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00000BVV0AG08LVUPGND5I",
+    "name": "SV Waldeck-Obermenzing München",
+    "street": "Meyerbeerstr. 115",
+    "city": "81247 München",
+    "address": "Meyerbeerstr. 115, 81247 München",
+    "url": "https://www.bfv.de/vereine/sv-waldeck-obermenzing-muenchen/00ES8GNHEC00000BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000RVV0AG08LVUPGND5I",
+    "name": "SV Allach 1949 München",
+    "street": "Saarlouiser Str. 86",
+    "city": "80997 München",
+    "address": "Saarlouiser Str. 86, 80997 München",
+    "url": "https://www.bfv.de/vereine/sv-allach-1949-muenchen/00ES8GNHAK00000RVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00001FVV0AG08LVUPGND5I",
+    "name": "SV München Laim",
+    "street": "Riegerhofstr. 20",
+    "city": "80686 München",
+    "address": "Riegerhofstr. 20, 80686 München",
+    "url": "https://www.bfv.de/vereine/sv-muenchen-laim/00ES8GNHBS00001FVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "01S7GCN73G000000VS548985VS2I2GTN",
+    "name": "DJK Pasing",
+    "street": "Agnes-Bernauer-Straße 239",
+    "city": "81241 München",
+    "address": "Agnes-Bernauer-Straße 239, 81241 München",
+    "url": "https://www.bfv.de/vereine/djk-pasing/01S7GCN73G000000VS548985VS2I2GTN"
+  },
+  {
+    "id": "00ES8GNHFK000002VV0AG08LVUPGND5I",
+    "name": "FC Phönix Schleißheim",
+    "street": "Postfach 11 35",
+    "city": "85758 Oberschleißheim",
+    "address": "Postfach 11 35, 85758 Oberschleißheim",
+    "url": "https://www.bfv.de/vereine/fc-phoenix-schleissheim/00ES8GNHFK000002VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH1O00000FVV0AG08LVUPGND5I",
+    "name": "SV Dornach",
+    "street": "Feldkirchner Weg 50",
+    "city": "85609 Aschheim",
+    "address": "Feldkirchner Weg 50, 85609 Aschheim",
+    "url": "https://www.bfv.de/vereine/sv-dornach/00ES8GNH1O00000FVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHI400001BVV0AG08LVUPGND5I",
+    "name": "SV Helfendorf",
+    "street": "Graßer Str. 10",
+    "city": "85653 Aying",
+    "address": "Graßer Str. 10, 85653 Aying",
+    "url": "https://www.bfv.de/vereine/sv-helfendorf/00ES8GNHI400001BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHGS00000HVV0AG08LVUPGND5I",
+    "name": "SC Baierbrunn",
+    "street": "An der Ziegelei 3",
+    "city": "82065 Baierbrunn",
+    "address": "An der Ziegelei 3, 82065 Baierbrunn",
+    "url": "https://www.bfv.de/vereine/sc-baierbrunn/00ES8GNHGS00000HVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "01KK4R4FOO000000VV0AG811VU8477B0",
+    "name": "WSV Isartal Icking",
+    "street": "Spatzenloh 14",
+    "city": "82057 Icking",
+    "address": "Spatzenloh 14, 82057 Icking",
+    "url": "https://www.bfv.de/vereine/wsv-isartal-icking/01KK4R4FOO000000VV0AG811VU8477B0"
+  },
+  {
+    "id": "00ES8GNHJC000001VV0AG08LVUPGND5I",
+    "name": "TSV Hofolding",
+    "street": "Fichtenstr. 33",
+    "city": "85649 Brunnthal",
+    "address": "Fichtenstr. 33, 85649 Brunnthal",
+    "url": "https://www.bfv.de/vereine/tsv-hofolding/00ES8GNHJC000001VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00NAQEEV14000000VTVG0001VSV6MFGI",
+    "name": "JFG Mangfalltal-Maxlrain 06",
+    "street": "Aschhofen 21a",
+    "city": "83620 Feldkirchen",
+    "address": "Aschhofen 21a, 83620 Feldkirchen",
+    "url": "https://www.bfv.de/vereine/jfg-mangfalltal-maxlrain-06/00NAQEEV14000000VTVG0001VSV6MFGI"
+  },
+  {
+    "id": "00ES8GNHQS000010VV0AG08LVUPGND5I",
+    "name": "SC Höhenrain",
+    "street": "Zellweg 2",
+    "city": "83620 Feldkirchen-Westerham",
+    "address": "Zellweg 2, 83620 Feldkirchen-Westerham",
+    "url": "https://www.bfv.de/vereine/sc-hoehenrain/00ES8GNHQS000010VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNI3K00000FVV0AG08LVUPGND5I",
+    "name": "SV Feldkirchen-Mitterharth.",
+    "street": "Am Müllerberg 5",
+    "city": "94351 Feldkirchen",
+    "address": "Am Müllerberg 5, 94351 Feldkirchen",
+    "url": "https://www.bfv.de/vereine/sv-feldkirchen-mitterharth/00ES8GNI3K00000FVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHOC00000CVV0AG08LVUPGND5I",
+    "name": "TSV Mailing-Feldkirchen",
+    "street": "Am Himmelreich 15",
+    "city": "85055 Ingolstadt",
+    "address": "Am Himmelreich 15, 85055 Ingolstadt",
+    "url": "https://www.bfv.de/vereine/tsv-mailing-feldkirchen/00ES8GNHOC00000CVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHQS000005VV0AG08LVUPGND5I",
+    "name": "TV Feldkirchen",
+    "street": "Karl-Weigl-Platz 4",
+    "city": "83620 Feldkirchen-Westerham",
+    "address": "Karl-Weigl-Platz 4, 83620 Feldkirchen-Westerham",
+    "url": "https://www.bfv.de/vereine/tv-feldkirchen/00ES8GNHQS000005VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000AVV0AG08LVUPGND5I",
+    "name": "FC Hochbrück",
+    "street": "Hochstr. 173 a",
+    "city": "85757 Karlsfeld",
+    "address": "Hochstr. 173 a, 85757 Karlsfeld",
+    "url": "https://www.bfv.de/vereine/fc-hochbrueck/00ES8GNH9C00000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH80000002VV0AG08LVUPGND5I",
+    "name": "FC Türk Sport Garching",
+    "street": "Heinz-Katzenberger-Str. 3d",
+    "city": "85764 Oberschleißheim",
+    "address": "Heinz-Katzenberger-Str. 3d, 85764 Oberschleißheim",
+    "url": "https://www.bfv.de/vereine/fc-tuerk-sport-garching/00ES8GNH80000002VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH80000003VV0AG08LVUPGND5I",
+    "name": "SV Plasmaphysik Garching",
+    "street": "Boltzmannstr. 2",
+    "city": "85748 Garching b. München",
+    "address": "Boltzmannstr. 2, 85748 Garching b. München",
+    "url": "https://www.bfv.de/vereine/sv-plasmaphysik-garching/00ES8GNH80000003VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400001EVV0AG08LVUPGND5I",
+    "name": "Swiss-Life-SC München",
+    "street": "Zeppelinstraße 1",
+    "city": "85748 Garching bei München",
+    "address": "Zeppelinstraße 1, 85748 Garching bei München",
+    "url": "https://www.bfv.de/vereine/swiss-life-sc-muenchen/00ES8GNHD400001EVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNL6G00000LVV0AG08LVUPGND5I",
+    "name": "SpVgg Haard",
+    "street": "Häusler Weg 12",
+    "city": "97720 Haard",
+    "address": "Häusler Weg 12, 97720 Haard",
+    "url": "https://www.bfv.de/vereine/spvgg-haard/00ES8GNL6G00000LVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000OVV0AG08LVUPGND5I",
+    "name": "SV Akgüney Spor München",
+    "street": "Ludwig-Thoma-Str. 73",
+    "city": "85540 Haar",
+    "address": "Ludwig-Thoma-Str. 73, 85540 Haar",
+    "url": "https://www.bfv.de/vereine/sv-akgueney-spor-muenchen/00ES8GNHAK00000OVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNIOS00000TVV0AG08LVUPGND5I",
+    "name": "SV Haarbach",
+    "street": "Ortenburger Str. 1A",
+    "city": "94542 Haarbach",
+    "address": "Ortenburger Str. 1A, 94542 Haarbach",
+    "url": "https://www.bfv.de/vereine/sv-haarbach/00ES8GNIOS00000TVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000PVV0AG08LVUPGND5I",
+    "name": "SC Grüne H. Ismaning",
+    "street": "Freisinger Str. 83",
+    "city": "85737 Ismaning",
+    "address": "Freisinger Str. 83, 85737 Ismaning",
+    "url": "https://www.bfv.de/vereine/sc-gruene-h-ismaning/00ES8GNH9C00000PVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000VVV0AG08LVUPGND5I",
+    "name": "Kirchheimer SC",
+    "street": "Florianstr. 24",
+    "city": "85551 Kirchheim b. München",
+    "address": "Florianstr. 24, 85551 Kirchheim b. München",
+    "url": "https://www.bfv.de/vereine/kirchheimer-sc/00ES8GNH9C00000VVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C000008VV0AG08LVUPGND5I",
+    "name": "SpVgg Heimstetten",
+    "street": "Am Sportpark 2a",
+    "city": "85551 Kirchheim b. München",
+    "address": "Am Sportpark 2a, 85551 Kirchheim b. München",
+    "url": "https://www.bfv.de/vereine/spvgg-heimstetten/00ES8GNH9C000008VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000GVV0AG08LVUPGND5I",
+    "name": "FC Biberg",
+    "street": "Zwergerstr. 28",
+    "city": "85579 Neubiberg",
+    "address": "Zwergerstr. 28, 85579 Neubiberg",
+    "url": "https://www.bfv.de/vereine/fc-biberg/00ES8GNHFK00000GVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02JOBV0KQK000000VS5489B5VSIIOV4V",
+    "name": "Heimatkicker Futsal-Club",
+    "street": "Am Floßsteig 4",
+    "city": "82041 Oberhaching",
+    "address": "Am Floßsteig 4, 82041 Oberhaching",
+    "url": "https://www.bfv.de/vereine/heimatkicker-futsal-club/02JOBV0KQK000000VS5489B5VSIIOV4V"
+  },
+  {
+    "id": "02I4HJPSUS000000VS5489B6VT2Q1PM9",
+    "name": "EHC 90 Taufkirchen",
+    "street": "Ottostr. 61",
+    "city": "85521 Ottobrunn",
+    "address": "Ottostr. 61, 85521 Ottobrunn",
+    "url": "https://www.bfv.de/vereine/ehc-90-taufkirchen/02I4HJPSUS000000VS5489B6VT2Q1PM9"
+  },
+  {
+    "id": "01DJEVHORG000000VV0AG80NVSPF297E",
+    "name": "FC Ottobrunn",
+    "street": "Schwalbenstr. 74",
+    "city": "85521 Ottobrunn",
+    "address": "Schwalbenstr. 74, 85521 Ottobrunn",
+    "url": "https://www.bfv.de/vereine/fc-ottobrunn/01DJEVHORG000000VV0AG80NVSPF297E"
+  },
+  {
+    "id": "00ES8GNHEC00001CVV0AG08LVUPGND5I",
+    "name": "Putzbrunner SV",
+    "street": "Michael-Haslbeck-Straße 7b",
+    "city": "85640 Putzbrunn",
+    "address": "Michael-Haslbeck-Straße 7b, 85640 Putzbrunn",
+    "url": "https://www.bfv.de/vereine/putzbrunner-sv/00ES8GNHEC00001CVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000VVV0AG08LVUPGND5I",
+    "name": "DJK Würmtal Planegg",
+    "street": "Georgenstraße 35",
+    "city": "82152 Planegg",
+    "address": "Georgenstraße 35, 82152 Planegg",
+    "url": "https://www.bfv.de/vereine/djk-wuermtal-planegg/00ES8GNHFK00000VVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000BVV0AG08LVUPGND5I",
+    "name": "SVN München",
+    "street": "Fritz-Erler-Straße 3",
+    "city": "81737 München",
+    "address": "Fritz-Erler-Straße 3, 81737 München",
+    "url": "https://www.bfv.de/vereine/svn-muenchen/00ES8GNHD400000BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000008VV0AG08LVUPGND5I",
+    "name": "Münchener Sp. VG. Bajuwaren",
+    "street": "Schellingstr. 117",
+    "city": "80798 München",
+    "address": "Schellingstr. 117, 80798 München",
+    "url": "https://www.bfv.de/vereine/muenchener-sp-vg-bajuwaren/00ES8GNHD4000008VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHGS000005VV0AG08LVUPGND5I",
+    "name": "SV Arget",
+    "street": "Holzkirchener Str. 30 a",
+    "city": "82054 Sauerlach",
+    "address": "Holzkirchener Str. 30 a, 82054 Sauerlach",
+    "url": "https://www.bfv.de/vereine/sv-arget/00ES8GNHGS000005VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHGS00001BVV0AG08LVUPGND5I",
+    "name": "SpFrd Egling",
+    "street": "Kleindinghartinger Straße 10a",
+    "city": "82064 Straßlach-Dingharting",
+    "address": "Kleindinghartinger Straße 10a, 82064 Straßlach-Dingharting",
+    "url": "https://www.bfv.de/vereine/spfrd-egling/00ES8GNHGS00001BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHLS000006VV0AG08LVUPGND5I",
+    "name": "SV Straßlach",
+    "street": "Schulstr. 25",
+    "city": "82064 Straßlach-Dingharting",
+    "address": "Schulstr. 25, 82064 Straßlach-Dingharting",
+    "url": "https://www.bfv.de/vereine/sv-strasslach/00ES8GNHLS000006VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000CVV0AG08LVUPGND5I",
+    "name": "BSG Taufkirchen",
+    "street": "Postfach 1113",
+    "city": "84412 Taufkirchen (Vils)",
+    "address": "Postfach 1113, 84412 Taufkirchen (Vils)",
+    "url": "https://www.bfv.de/vereine/bsg-taufkirchen/00ES8GNHFK00000CVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C00000GVV0AG08LVUPGND5I",
+    "name": "FC Hörgersdorf",
+    "street": "Großköchlham 13",
+    "city": "84416 Taufkirchen (Vils)",
+    "address": "Großköchlham 13, 84416 Taufkirchen (Vils)",
+    "url": "https://www.bfv.de/vereine/fc-hoergersdorf/00ES8GNH9C00000GVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000IVV0AG08LVUPGND5I",
+    "name": "SC Moosen/Vils",
+    "street": "Eichenstr. 1",
+    "city": "84416 Taufkirchen (Vils)",
+    "address": "Eichenstr. 1, 84416 Taufkirchen (Vils)",
+    "url": "https://www.bfv.de/vereine/sc-moosen-vils/00ES8GNHAK00000IVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "018M9C9FO4000000VV0AG811VT1ITCMC",
+    "name": "SV Internationale Taufkirchen",
+    "street": "Lindenring 4",
+    "city": "82024 Taufkirchen",
+    "address": "Lindenring 4, 82024 Taufkirchen",
+    "url": "https://www.bfv.de/vereine/sv-internationale-taufkirchen/018M9C9FO4000000VV0AG811VT1ITCMC"
+  },
+  {
+    "id": "00ES8GNHUK000000VV0AG08LVUPGND5I",
+    "name": "TSV 1968 Taufkirchen",
+    "street": "Am Anger 16",
+    "city": "84574 Taufkirchen",
+    "address": "Am Anger 16, 84574 Taufkirchen",
+    "url": "https://www.bfv.de/vereine/tsv-1968-taufkirchen/00ES8GNHUK000000VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000DVV0AG08LVUPGND5I",
+    "name": "TSV Aspis Taufkirchen",
+    "street": "Postfach 73 Kellerstr. 19 1/2",
+    "city": "84416 Taufkirchen (Vils)",
+    "address": "Postfach 73 Kellerstr. 19 1/2, 84416 Taufkirchen (Vils)",
+    "url": "https://www.bfv.de/vereine/tsv-aspis-taufkirchen/00ES8GNHFK00000DVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHS400000PVV0AG08LVUPGND5I",
+    "name": "TSV Obertaufkirchen",
+    "street": "Am Sportplatz 10",
+    "city": "84419 Obertaufkirchen",
+    "address": "Am Sportplatz 10, 84419 Obertaufkirchen",
+    "url": "https://www.bfv.de/vereine/tsv-obertaufkirchen/00ES8GNHS400000PVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHFK00000KVV0AG08LVUPGND5I",
+    "name": "Fortuna Unterhaching",
+    "street": "Grünauer Allee 6",
+    "city": "82008 Unterhaching",
+    "address": "Grünauer Allee 6, 82008 Unterhaching",
+    "url": "https://www.bfv.de/vereine/fortuna-unterhaching/00ES8GNHFK00000KVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "030RDI2I5S000000VS5489C1VUPQI28P",
+    "name": "SV Pyramiden München",
+    "street": "Bischofshofener Straße 9",
+    "city": "82008 Unterhaching",
+    "address": "Bischofshofener Straße 9, 82008 Unterhaching",
+    "url": "https://www.bfv.de/vereine/sv-pyramiden-muenchen/030RDI2I5S000000VS5489C1VUPQI28P"
+  },
+  {
+    "id": "02PNI2B89C000000VS5489B7VSIBGMOO",
+    "name": "FC Muschetarii",
+    "street": "Carl-von-Linde-Str. 11",
+    "city": "85716 Unterschleißheim",
+    "address": "Carl-von-Linde-Str. 11, 85716 Unterschleißheim",
+    "url": "https://www.bfv.de/vereine/fc-muschetarii/02PNI2B89C000000VS5489B7VSIBGMOO"
+  },
+  {
+    "id": "00ES8GNHBS00000PVV0AG08LVUPGND5I",
+    "name": "Gehörlosen SV 1924 München",
+    "street": "Lena-Christ-Straße 4",
+    "city": "85716 Unterschleißheim",
+    "address": "Lena-Christ-Straße 4, 85716 Unterschleißheim",
+    "url": "https://www.bfv.de/vereine/gehoerlosen-sv-1924-muenchen/00ES8GNHBS00000PVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00001EVV0AG08LVUPGND5I",
+    "name": "SV Riedmoos 1959",
+    "street": "Zum Hirschdamm 3",
+    "city": "85716 Unterschleißheim",
+    "address": "Zum Hirschdamm 3, 85716 Unterschleißheim",
+    "url": "https://www.bfv.de/vereine/sv-riedmoos-1959/00ES8GNHEC00001EVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000009VV0AG08LVUPGND5I",
+    "name": "ESV SpFrd. München-Neuaubing",
+    "street": "Papinstr. 22a",
+    "city": "81249 München",
+    "address": "Papinstr. 22a, 81249 München",
+    "url": "https://www.bfv.de/vereine/esv-spfrd-muenchen-neuaubing/00ES8GNHD4000009VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHLS00000AVV0AG08LVUPGND5I",
+    "name": "FC Traubing",
+    "street": "Ludwig-Thoma-Straße 3",
+    "city": "82327 Tutzing",
+    "address": "Ludwig-Thoma-Straße 3, 82327 Tutzing",
+    "url": "https://www.bfv.de/vereine/fc-traubing/00ES8GNHLS00000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02F3V0D7LC000000VS5489B6VUM6LQK6",
+    "name": "FSV München",
+    "street": "Weltistr. 65",
+    "city": "81477 München",
+    "address": "Weltistr. 65, 81477 München",
+    "url": "https://www.bfv.de/vereine/fsv-muenchen/02F3V0D7LC000000VS5489B6VUM6LQK6"
+  },
+  {
+    "id": "027K5LGVGG000000VS5489B5VUQ74E5T",
+    "name": "Fußball-Talente Freiham",
+    "street": "Hans-Dietrich-Genscher-Str. 13",
+    "city": "81248 München",
+    "address": "Hans-Dietrich-Genscher-Str. 13, 81248 München",
+    "url": "https://www.bfv.de/vereine/fussball-talente-freiham/027K5LGVGG000000VS5489B5VUQ74E5T"
+  },
+  {
+    "id": "02PU8H0L14000000VS5489B7VTSSNBEC",
+    "name": "spiel raum e.V.",
+    "street": "Trimburgstraße 2",
+    "city": "81249 München",
+    "address": "Trimburgstraße 2, 81249 München",
+    "url": "https://www.bfv.de/vereine/spiel-raum-ev/02PU8H0L14000000VS5489B7VTSSNBEC"
+  },
+  {
+    "id": "00ES8GNHEC000005VV0AG08LVUPGND5I",
+    "name": "SV 1925 München-Untermenzing",
+    "street": "Prof.-Eichmann-Str. 11",
+    "city": "80999 München",
+    "address": "Prof.-Eichmann-Str. 11, 80999 München",
+    "url": "https://www.bfv.de/vereine/sv-1925-muenchen-untermenzing/00ES8GNHEC000005VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000SVV0AG08LVUPGND5I",
+    "name": "SV Türkspor Allach/U'men.",
+    "street": "Schönleutnerstr. 2",
+    "city": "80997 München",
+    "address": "Schönleutnerstr. 2, 80997 München",
+    "url": "https://www.bfv.de/vereine/sv-tuerkspor-allach-umen/00ES8GNHAK00000SVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000QVV0AG08LVUPGND5I",
+    "name": "TSV Allach 09 München",
+    "street": "Enterstr. 55",
+    "city": "80999 München",
+    "address": "Enterstr. 55, 80999 München",
+    "url": "https://www.bfv.de/vereine/tsv-allach-09-muenchen/00ES8GNHAK00000QVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "0201QKUO60000000VS54898GVVORTB5G",
+    "name": "FC Posavina München",
+    "street": "Agnes-Bernauer-Str. 239",
+    "city": "81241 München",
+    "address": "Agnes-Bernauer-Str. 239, 81241 München",
+    "url": "https://www.bfv.de/vereine/fc-posavina-muenchen/0201QKUO60000000VS54898GVVORTB5G"
+  },
+  {
+    "id": "00ES8GNHD400000DVV0AG08LVUPGND5I",
+    "name": "SV Nord München-Lerchenau",
+    "street": "Ebereschenstraße 17",
+    "city": "80935 München",
+    "address": "Ebereschenstraße 17, 80935 München",
+    "url": "https://www.bfv.de/vereine/sv-nord-muenchen-lerchenau/00ES8GNHD400000DVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000002VV0AG08LVUPGND5I",
+    "name": "TSV 54 - DJK München",
+    "street": "Grohmannstraße 63",
+    "city": "80933 München",
+    "address": "Grohmannstraße 63, 80933 München",
+    "url": "https://www.bfv.de/vereine/tsv-54-djk-muenchen/00ES8GNHEC000002VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK000010VV0AG08LVUPGND5I",
+    "name": "FC Anadolu Bayern München",
+    "street": "Hans-Dietrich-Genscher-Straße 13",
+    "city": "81248 München",
+    "address": "Hans-Dietrich-Genscher-Straße 13, 81248 München",
+    "url": "https://www.bfv.de/vereine/fc-anadolu-bayern-muenchen/00ES8GNHAK000010VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000JVV0AG08LVUPGND5I",
+    "name": "SpFrd. 03 Pasing München",
+    "street": "Agnes-Bernauer-Str. 239",
+    "city": "81241 München",
+    "address": "Agnes-Bernauer-Str. 239, 81241 München",
+    "url": "https://www.bfv.de/vereine/spfrd-03-pasing-muenchen/00ES8GNHD400000JVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000KVV0AG08LVUPGND5I",
+    "name": "TSG 1888 Pasing München",
+    "street": "Aubinger Str. 12",
+    "city": "81243 München",
+    "address": "Aubinger Str. 12, 81243 München",
+    "url": "https://www.bfv.de/vereine/tsg-1888-pasing-muenchen/00ES8GNHD400000KVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "0278T285B0000000VS5489B5VTIAHD16",
+    "name": "Beton Boys München",
+    "street": "Pollinger Str. 1",
+    "city": "81377 München",
+    "address": "Pollinger Str. 1, 81377 München",
+    "url": "https://www.bfv.de/vereine/beton-boys-muenchen/0278T285B0000000VS5489B5VTIAHD16"
+  },
+  {
+    "id": "029OEGQAF4000000VS5489B6VVQHE8TR",
+    "name": "FC Mainaustrasse",
+    "street": "Wiesentfelser Str. 39",
+    "city": "81249 München",
+    "address": "Wiesentfelser Str. 39, 81249 München",
+    "url": "https://www.bfv.de/vereine/fc-mainaustrasse/029OEGQAF4000000VS5489B6VVQHE8TR"
+  },
+  {
+    "id": "00ES8GNHD400000AVV0AG08LVUPGND5I",
+    "name": "FC Neuhadern München",
+    "street": "Wolkerweg 17",
+    "city": "81375 München",
+    "address": "Wolkerweg 17, 81375 München",
+    "url": "https://www.bfv.de/vereine/fc-neuhadern-muenchen/00ES8GNHD400000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000OVV0AG08LVUPGND5I",
+    "name": "FC Fürstenried München",
+    "street": "Herterichstr. 141",
+    "city": "81476 München",
+    "address": "Herterichstr. 141, 81476 München",
+    "url": "https://www.bfv.de/vereine/fc-fuerstenried-muenchen/00ES8GNHBS00000OVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400001IVV0AG08LVUPGND5I",
+    "name": "SpVgg Thalkirchen",
+    "street": "Arndtstr. 8",
+    "city": "80469 München",
+    "address": "Arndtstr. 8, 80469 München",
+    "url": "https://www.bfv.de/vereine/spvgg-thalkirchen/00ES8GNHD400001IVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000015VV0AG08LVUPGND5I",
+    "name": "TSV München-Solln",
+    "street": "Herterichstr. 141",
+    "city": "81476 München",
+    "address": "Herterichstr. 141, 81476 München",
+    "url": "https://www.bfv.de/vereine/tsv-muenchen-solln/00ES8GNHD4000015VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNH9C000010VV0AG08LVUPGND5I",
+    "name": "ATSV Kirchseeon",
+    "street": "Rodelbahn 16",
+    "city": "85614 Kirchseeon",
+    "address": "Rodelbahn 16, 85614 Kirchseeon",
+    "url": "https://www.bfv.de/vereine/atsv-kirchseeon/00ES8GNH9C000010VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000005VV0AG08LVUPGND5I",
+    "name": "FC Olympia Moosach München",
+    "street": "Saarlouiser Str. 86",
+    "city": "80997 München",
+    "address": "Saarlouiser Str. 86, 80997 München",
+    "url": "https://www.bfv.de/vereine/fc-olympia-moosach-muenchen/00ES8GNHD4000005VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000FVV0AG08LVUPGND5I",
+    "name": "SV Olympiadorf München",
+    "street": "Moosacher Str. 99",
+    "city": "80809 München",
+    "address": "Moosacher Str. 99, 80809 München",
+    "url": "https://www.bfv.de/vereine/sv-olympiadorf-muenchen/00ES8GNHD400000FVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00000BVV0AG08LVUPGND5I",
+    "name": "TSV Moosach b. Grafing",
+    "street": "Pfarrer-Kreutmeier-Weg 4",
+    "city": "85665 Moosach",
+    "address": "Pfarrer-Kreutmeier-Weg 4, 85665 Moosach",
+    "url": "https://www.bfv.de/vereine/tsv-moosach-b-grafing/00ES8GNHAK00000BVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000006VV0AG08LVUPGND5I",
+    "name": "TSV Moosach-Hartmhfn. München",
+    "street": "Lechelstr. 35",
+    "city": "80997 München",
+    "address": "Lechelstr. 35, 80997 München",
+    "url": "https://www.bfv.de/vereine/tsv-moosach-hartmhfn-muenchen/00ES8GNHD4000006VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02L7TQ3B1C000000VS5489B5VUQVNKF9",
+    "name": "Afghanistan Motahed",
+    "street": "Grohmannstraße 63",
+    "city": "80933 München",
+    "address": "Grohmannstraße 63, 80933 München",
+    "url": "https://www.bfv.de/vereine/afghanistan-motahed/02L7TQ3B1C000000VS5489B5VUQVNKF9"
+  },
+  {
+    "id": "02QG9QOE20000000VS5489B8VT7SR0C6",
+    "name": "FC München City",
+    "street": "Karlsteinstr. 2",
+    "city": "80937 München",
+    "address": "Karlsteinstr. 2, 80937 München",
+    "url": "https://www.bfv.de/vereine/fc-muenchen-city/02QG9QOE20000000VS5489B8VT7SR0C6"
+  },
+  {
+    "id": "032DIG0QA0000000VS5489C2VS0U6L6O",
+    "name": "FC Unterschleissheim",
+    "street": "Bad-Soden-Straße 19",
+    "city": "80807 München",
+    "address": "Bad-Soden-Straße 19, 80807 München",
+    "url": "https://www.bfv.de/vereine/fc-unterschleissheim/032DIG0QA0000000VS5489C2VS0U6L6O"
+  },
+  {
+    "id": "00ES8GNHBS000019VV0AG08LVUPGND5I",
+    "name": "SV Istiklal München",
+    "street": "Am Oberwiesenfeld 17",
+    "city": "80809 München",
+    "address": "Am Oberwiesenfeld 17, 80809 München",
+    "url": "https://www.bfv.de/vereine/sv-istiklal-muenchen/00ES8GNHBS000019VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000003VV0AG08LVUPGND5I",
+    "name": "TSV München-Milbertshofen",
+    "street": "Hans-Denzinger-Str. 2",
+    "city": "80807 München",
+    "address": "Hans-Denzinger-Str. 2, 80807 München",
+    "url": "https://www.bfv.de/vereine/tsv-muenchen-milbertshofen/00ES8GNHD4000003VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000LVV0AG08LVUPGND5I",
+    "name": "ESV München-Freimann",
+    "street": "Frankplatz 15",
+    "city": "80939 München",
+    "address": "Frankplatz 15, 80939 München",
+    "url": "https://www.bfv.de/vereine/esv-muenchen-freimann/00ES8GNHBS00000LVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000MVV0AG08LVUPGND5I",
+    "name": "SC München-Freimann",
+    "street": "Rainfarnstr. 25",
+    "city": "80935 München",
+    "address": "Rainfarnstr. 25, 80935 München",
+    "url": "https://www.bfv.de/vereine/sc-muenchen-freimann/00ES8GNHBS00000MVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00000EVV0AG08LVUPGND5I",
+    "name": "SV WB-Allianz München",
+    "street": "Osterwaldstr. 144",
+    "city": "80805 München",
+    "address": "Osterwaldstr. 144, 80805 München",
+    "url": "https://www.bfv.de/vereine/sv-wb-allianz-muenchen/00ES8GNHEC00000EVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000007VV0AG08LVUPGND5I",
+    "name": "VfB Sparta München",
+    "street": "Josef-Wirth-Weg 40",
+    "city": "80939 München",
+    "address": "Josef-Wirth-Weg 40, 80939 München",
+    "url": "https://www.bfv.de/vereine/vfb-sparta-muenchen/00ES8GNHEC000007VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00000AVV0AG08LVUPGND5I",
+    "name": "FC Dreistern Neutrudering",
+    "street": "Feldbergstr. 65",
+    "city": "81825 München",
+    "address": "Feldbergstr. 65, 81825 München",
+    "url": "https://www.bfv.de/vereine/fc-dreistern-neutrudering/00ES8GNHBS00000AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK000017VV0AG08LVUPGND5I",
+    "name": "SV Bav. Giesing 1948 München",
+    "street": "Tsingtauer Str. 90",
+    "city": "81827 München",
+    "address": "Tsingtauer Str. 90, 81827 München",
+    "url": "https://www.bfv.de/vereine/sv-bav-giesing-1948-muenchen/00ES8GNHAK000017VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400001JVV0AG08LVUPGND5I",
+    "name": "SV Gartenstadt Trudering",
+    "street": "Heinrich-Wieland-Str. 102",
+    "city": "81735 München",
+    "address": "Heinrich-Wieland-Str. 102, 81735 München",
+    "url": "https://www.bfv.de/vereine/sv-gartenstadt-trudering/00ES8GNHD400001JVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000001VV0AG08LVUPGND5I",
+    "name": "TSV Maccabi München",
+    "street": "Riemer Straße 300",
+    "city": "81829 München",
+    "address": "Riemer Straße 300, 81829 München",
+    "url": "https://www.bfv.de/vereine/tsv-maccabi-muenchen/00ES8GNHD4000001VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC000000VV0AG08LVUPGND5I",
+    "name": "TSV Trudering München",
+    "street": "Feldbergstr. 65",
+    "city": "81825 München",
+    "address": "Feldbergstr. 65, 81825 München",
+    "url": "https://www.bfv.de/vereine/tsv-trudering-muenchen/00ES8GNHEC000000VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHEC00000DVV0AG08LVUPGND5I",
+    "name": "TSV Waldtrudering München",
+    "street": "Rotkehlchenweg 2",
+    "city": "81827 München",
+    "address": "Rotkehlchenweg 2, 81827 München",
+    "url": "https://www.bfv.de/vereine/tsv-waldtrudering-muenchen/00ES8GNHEC00000DVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02P81A5M68000000VS5489B7VVA4BVNN",
+    "name": "FC Husaria München",
+    "street": "Görzer Str. 54",
+    "city": "81549 München",
+    "address": "Görzer Str. 54, 81549 München",
+    "url": "https://www.bfv.de/vereine/fc-husaria-muenchen/02P81A5M68000000VS5489B7VVA4BVNN"
+  },
+  {
+    "id": "00ES8GNHD4000004VV0AG08LVUPGND5I",
+    "name": "FC Minicar München",
+    "street": "Max-Reinhardt-Weg 28",
+    "city": "81739 München",
+    "address": "Max-Reinhardt-Weg 28, 81739 München",
+    "url": "https://www.bfv.de/vereine/fc-minicar-muenchen/00ES8GNHD4000004VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000MVV0AG08LVUPGND5I",
+    "name": "FC Perlach 1925 München",
+    "street": "Krehlebogen 15",
+    "city": "81737 München",
+    "address": "Krehlebogen 15, 81737 München",
+    "url": "https://www.bfv.de/vereine/fc-perlach-1925-muenchen/00ES8GNHD400000MVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02PU8A0AR0000000VS5489B8VS8PL525",
+    "name": "FC Ukraine München",
+    "street": "Schönstr. 55",
+    "city": "81543 München",
+    "address": "Schönstr. 55, 81543 München",
+    "url": "https://www.bfv.de/vereine/fc-ukraine-muenchen/02PU8A0AR0000000VS5489B8VS8PL525"
+  },
+  {
+    "id": "01S7GB0JV4000000VS548984VTJ68QLL",
+    "name": "Münchner Kickers 2015",
+    "street": "Wolkerweg 17",
+    "city": "81375 München",
+    "address": "Wolkerweg 17, 81375 München",
+    "url": "https://www.bfv.de/vereine/muenchner-kickers-2015/01S7GB0JV4000000VS548984VTJ68QLL"
+  },
+  {
+    "id": "00ES8GNHD4000017VV0AG08LVUPGND5I",
+    "name": "SK Srbija München",
+    "street": "Bert-Brecht-Allee 17",
+    "city": "81737 München",
+    "address": "Bert-Brecht-Allee 17, 81737 München",
+    "url": "https://www.bfv.de/vereine/sk-srbija-muenchen/00ES8GNHD4000017VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "01D6F6Q870000000VV0AG811VTEBPQKJ",
+    "name": "SV K.Kermelikspor München",
+    "street": "Krehlebogen 15",
+    "city": "81737 München",
+    "address": "Krehlebogen 15, 81737 München",
+    "url": "https://www.bfv.de/vereine/sv-kkermelikspor-muenchen/01D6F6Q870000000VV0AG811VTEBPQKJ"
+  },
+  {
+    "id": "00ES8GNHEC00000CVV0AG08LVUPGND5I",
+    "name": "SV Waldperlach München",
+    "street": "Putzbrunner Str. 253",
+    "city": "81739 München",
+    "address": "Putzbrunner Str. 253, 81739 München",
+    "url": "https://www.bfv.de/vereine/sv-waldperlach-muenchen/00ES8GNHEC00000CVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "012PVKEHH8000000VV0AG811VT9N141T",
+    "name": "Türkgücü München",
+    "street": "Heinrich-Wieland-Straße  100",
+    "city": "81737 München",
+    "address": "Heinrich-Wieland-Straße  100, 81737 München",
+    "url": "https://www.bfv.de/vereine/tuerkguecue-muenchen/012PVKEHH8000000VV0AG811VT9N141T"
+  },
+  {
+    "id": "00ES8GNHBS000003VV0AG08LVUPGND5I",
+    "name": "Centro Argentino de Munich",
+    "street": "Margarethe-Danzi-Str. 7",
+    "city": "80639 München",
+    "address": "Margarethe-Danzi-Str. 7, 80639 München",
+    "url": "https://www.bfv.de/vereine/centro-argentino-de-munich/00ES8GNHBS000003VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHAK00001AVV0AG08LVUPGND5I",
+    "name": "FC Bayern München",
+    "street": "Säbener Straße 51-57",
+    "city": "81547 München",
+    "address": "Säbener Straße 51-57, 81547 München",
+    "url": "https://www.bfv.de/vereine/fc-bayern-muenchen/00ES8GNHAK00001AVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02T931P44K000000VS5489C1VVPJFB41",
+    "name": "FC Wölfe München",
+    "street": "Wieskirchstraße 1a",
+    "city": "81539 München",
+    "address": "Wieskirchstraße 1a, 81539 München",
+    "url": "https://www.bfv.de/vereine/fc-woelfe-muenchen/02T931P44K000000VS5489C1VVPJFB41"
+  },
+  {
+    "id": "00ES8GNHAK00000KVV0AG08LVUPGND5I",
+    "name": "TSV 1860 München",
+    "street": "Grünwalder Str. 114",
+    "city": "81547 München",
+    "address": "Grünwalder Str. 114, 81547 München",
+    "url": "https://www.bfv.de/vereine/tsv-1860-muenchen/00ES8GNHAK00000KVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000011VV0AG08LVUPGND5I",
+    "name": "BSC Sendling 1918 München",
+    "street": "Siegenburger Str. 49",
+    "city": "81373 München",
+    "address": "Siegenburger Str. 49, 81373 München",
+    "url": "https://www.bfv.de/vereine/bsc-sendling-1918-muenchen/00ES8GNHD4000011VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS000005VV0AG08LVUPGND5I",
+    "name": "FC Croatia München",
+    "street": "Surheimer Weg 3",
+    "city": "81379 München",
+    "address": "Surheimer Weg 3, 81379 München",
+    "url": "https://www.bfv.de/vereine/fc-croatia-muenchen/00ES8GNHBS000005VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS000014VV0AG08LVUPGND5I",
+    "name": "FC Hellas Monachou München",
+    "street": "Demleitnerstraße 2",
+    "city": "81371 München",
+    "address": "Demleitnerstraße 2, 81371 München",
+    "url": "https://www.bfv.de/vereine/fc-hellas-monachou-muenchen/00ES8GNHBS000014VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02IT0FAACK000000VS5489B6VUDLU3RQ",
+    "name": "JR Mirool",
+    "street": "Gotzinger Str. 8",
+    "city": "81371 München",
+    "address": "Gotzinger Str. 8, 81371 München",
+    "url": "https://www.bfv.de/vereine/jr-mirool/02IT0FAACK000000VS5489B6VUDLU3RQ"
+  },
+  {
+    "id": "00ES8GNHBS00001GVV0AG08LVUPGND5I",
+    "name": "Latino Munich SV München",
+    "street": "Bannwaldseestr. 35",
+    "city": "81379 München",
+    "address": "Bannwaldseestr. 35, 81379 München",
+    "url": "https://www.bfv.de/vereine/latino-munich-sv-muenchen/00ES8GNHBS00001GVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD4000007VV0AG08LVUPGND5I",
+    "name": "MTV München von 1879",
+    "street": "Werdenfelsstraße 70",
+    "city": "81377 München",
+    "address": "Werdenfelsstraße 70, 81377 München",
+    "url": "https://www.bfv.de/vereine/mtv-muenchen-von-1879/00ES8GNHD4000007VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "0321NHLI5C000000VS5489C2VV9QABGJ",
+    "name": "Münchner Futsal Club",
+    "street": "Grünstraße 3",
+    "city": "81369 München",
+    "address": "Grünstraße 3, 81369 München",
+    "url": "https://www.bfv.de/vereine/muenchner-futsal-club/0321NHLI5C000000VS5489C2VV9QABGJ"
+  },
+  {
+    "id": "00ES8GNHAK000012VV0AG08LVUPGND5I",
+    "name": "SC 1893 Armin München",
+    "street": "Mühlthaler Straße 83",
+    "city": "81475 München",
+    "address": "Mühlthaler Straße 83, 81475 München",
+    "url": "https://www.bfv.de/vereine/sc-1893-armin-muenchen/00ES8GNHAK000012VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00001KVV0AG08LVUPGND5I",
+    "name": "SV München West",
+    "street": "Hans-Fischer-Str. 20 / bei Schorpp",
+    "city": "80339 München",
+    "address": "Hans-Fischer-Str. 20 / bei Schorpp, 80339 München",
+    "url": "https://www.bfv.de/vereine/sv-muenchen-west/00ES8GNHBS00001KVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHD400000UVV0AG08LVUPGND5I",
+    "name": "FC Schwabing 1956 München",
+    "street": "Guerickestraße 6",
+    "city": "80805 München",
+    "address": "Guerickestraße 6, 80805 München",
+    "url": "https://www.bfv.de/vereine/fc-schwabing-1956-muenchen/00ES8GNHD400000UVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS000009VV0AG08LVUPGND5I",
+    "name": "FC Maroc München",
+    "street": "Landshuter Allee 83",
+    "city": "80637 München",
+    "address": "Landshuter Allee 83, 80637 München",
+    "url": "https://www.bfv.de/vereine/fc-maroc-muenchen/00ES8GNHBS000009VV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02LU4G3I34000000VS5489B5VVD8CML6",
+    "name": "Fußball-Talente München",
+    "street": "Purfinger Str. 3",
+    "city": "85646 Neufarn",
+    "address": "Purfinger Str. 3, 85646 Neufarn",
+    "url": "https://www.bfv.de/vereine/fussball-talente-muenchen/02LU4G3I34000000VS5489B5VVD8CML6"
+  },
+  {
+    "id": "00ES8GNHBS00000VVV0AG08LVUPGND5I",
+    "name": "FV Hansa Neuhausen München",
+    "street": "Menzinger Str. 54d",
+    "city": "80638 München",
+    "address": "Menzinger Str. 54d, 80638 München",
+    "url": "https://www.bfv.de/vereine/fv-hansa-neuhausen-muenchen/00ES8GNHBS00000VVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "00ES8GNHBS00001IVV0AG08LVUPGND5I",
+    "name": "SV Lochhausen München",
+    "street": "Bienenheimstr. 7",
+    "city": "81249 München",
+    "address": "Bienenheimstr. 7, 81249 München",
+    "url": "https://www.bfv.de/vereine/sv-lochhausen-muenchen/00ES8GNHBS00001IVV0AG08LVUPGND5I"
+  },
+  {
+    "id": "02M93DO66S000000VS5489B6VUITS620",
+    "name": "FC Georgia München",
+    "street": "Nanette-Bald-Straße 37",
+    "city": "81245 München",
+    "address": "Nanette-Bald-Straße 37, 81245 München",
+    "url": "https://www.bfv.de/vereine/fc-georgia-muenchen/02M93DO66S000000VS5489B6VUITS620"
+  }
+]
