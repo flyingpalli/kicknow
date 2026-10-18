@@ -18,8 +18,8 @@ kicknow/
 ├── index.html             # Main entry point and shell structure
 ├── manifest.webmanifest   # PWA manifest
 └── start.sh               # Shell script for Unix environments
-data/                      # Scraped raw data and BFV datasets
-scraper/                   # Scraper scripts (reserved for scraper agent)
+data/                      # Scraped raw data, coordinate lookup tables, and BFV datasets
+scraper/                   # Scraper scripts, matcher, and app exporter
 ```
 
 ## Detailed File Catalog
@@ -40,9 +40,10 @@ scraper/                   # Scraper scripts (reserved for scraper agent)
 
 ### Data Directory (`data/`)
 
-- `data/bfv_clubs.json`: Bavarian Football Association (BFV) club records for Munich. Contains club IDs, official names, and home ground references.
-- `data/bfv_matches.json`: Scheduled matches and league fixtures in the Munich region. Used to derive pitch occupancy and realistic training slots.
-- `data/scraped_pitches.json`: Extracted dataset of public and club soccer fields in Munich. Includes names, geographical coordinates, street addresses, and pitch surface types.
+- `data/bfv_clubs.json`: Bavarian Football Association (BFV) club records for Munich and Landkreis municipalities. Contains club IDs, official club names, home ground assignments, and league tags.
+- `data/bfv_matches.json`: Scheduled matches and league fixtures across Munich and suburban districts. Contains kick-off times, participating teams, league designations, and venue addresses.
+- `data/precise_pitch_coordinates.json`: Master lookup table containing meter-accurate WGS84 rooftop and centroid coordinates for all 132 pitch complexes. Prevents geographic drift and district center snapping.
+- `data/scraped_pitches.json`: Extracted dataset of 132 soccer pitches across Munich and all 29 Landkreis municipalities. Contains surface types, cage attributes, pitch dimensions, amenities, home clubs, and linked BFV match occupations.
 
 ### Web Application Core (`kicknow/`)
 
@@ -66,7 +67,7 @@ scraper/                   # Scraper scripts (reserved for scraper agent)
 
 - `kicknow/js/app.js`: Main client controller. Manages application state, screen navigation, MapLibre GL map setup, fallback Leaflet rendering, user location tracking, search filtering, pitch selection, reservations, and match chats.
 - `kicknow/js/art.js`: Procedural graphic generator. Renders inline SVG icons, pitch banners, terrain textures, and player avatars.
-- `kicknow/js/data.js`: Mock and static data module. Provides pitch objects, Munich district coordinates, seed players, reviews, and dynamic occupancy slot generation based on BFV schedules.
+- `kicknow/js/data.js`: Mock and static data module. Provides 132 pitch objects, Munich district coordinates, seed players, reviews, and dynamic occupancy slot generation based on BFV schedules.
 - `kicknow/js/data.backup.js`: Backup copy of an earlier version of `data.js`.
 
 ### Visual Assets (`kicknow/assets/`)
@@ -88,7 +89,14 @@ scraper/                   # Scraper scripts (reserved for scraper agent)
 
 ### Data Acquisition (`scraper/`)
 
-The scraper directory contains data extraction pipelines for Munich soccer pitches and BFV league schedules. This pipeline includes `config.py`, `pitch_scraper.py`, `bfv_scraper.py`, `matcher.py`, `exporter.py`, `run_scraper.py`, `test_scraper.py`, and `README.md`. A separate agent will document this directory.
+- `scraper/config.py`: Central configuration module. Defines geographical bounding boxes, Munich city district mappings, the 29 Landkreis München municipalities, BFV league query parameters, and export paths.
+- `scraper/pitch_scraper.py`: Primary pitch discovery and geocoding engine. Gathers 60 official facilities and 72 public Bolzplätze, incorporates rooftop coordinate overrides, and handles deduplication.
+- `scraper/bfv_scraper.py`: BFV club and schedule extraction engine. Scrapes club directories across Munich leagues, fetches PDF match reports via the BFV REST API, and parses match schedules.
+- `scraper/matcher.py`: Venue and schedule matching module. Normalizes venue addresses, resolves club home pitch relationships, maps BFV games to KickNow 90-minute time slots, and flags pitch occupancy.
+- `scraper/exporter.py`: Data transformation and export engine. Serializes scraped records into JSON datasets under `data/`, synthesizes realistic club training schedules, and writes the production `kicknow/js/data.js` file.
+- `scraper/run_scraper.py`: Command-line orchestration tool. Provides quick, full, and offline modes, along with direct application update flags.
+- `scraper/test_scraper.py`: Automated test suite. Validates venue schema compliance, coordinate bounds, geocoding precision, BFV parsing, and schedule consistency.
+- `scraper/README.md`: Technical documentation for the scraper subsystem. Details architecture, scheduling rules, and CLI invocation commands.
 
 ## Runtime Architecture and Data Flow
 
@@ -106,3 +114,12 @@ The bottom sheet supports dragging between collapsed, normal, and expanded state
 
 ### 5. Local State Persistence
 Reservations, newly created pickup games, ratings, and favorites persist in browser `localStorage`. Resetting the demo from the profile screen restores default data.
+
+### 6. Pitch Ingestion and Precision Geocoding Pipeline
+The scraper extracts pitches from municipal sports office registers, district sports facilities, and public playground records. The pipeline applies verified rooftop coordinates from `data/precise_pitch_coordinates.json` to prevent positional inaccuracies. Each record receives surface attributes, cage status, dimensions, and amenities.
+
+### 7. BFV League Match Integration
+The scraper crawls BFV club listings across all competitive tiers in Munich and surrounding municipalities. It downloads official PDF schedules from the BFV service endpoint. The matcher maps team schedules to specific home grounds, reserving slots for league fixtures.
+
+### 8. Realistic Occupancy and Training Schedule Model
+The exporter synthesizes realistic weekly occupancy schedules based on pitch classification. Official club facilities host morning school sports, afternoon youth squads, evening senior squad training, and weekend league games. Public Bolzplätze and cages remain open without club reservations, serving casual pickup matches.

@@ -31,7 +31,12 @@ Ein modularer Web-Scraper für **KickNow**, der alle Fußballplätze in **Münch
    - Weist Partien den 90-Minuten-Zeitslots von KickNow zu (08:30 bis 22:00 Uhr).
    - Hinterlegt den Heimverein beim jeweiligen Platz und blockiert Slots bei BFV-Spielen verlässlich vor Vereinstrainings.
 
-5. **Datenexport**:
+5. **Präzise Geokoordinaten (Meterschärfe)**:
+   - Alle 132 Plätze (60 offizielle Bezirkssportanlagen und Sportparks, 72 Bolzplätze und Käfige) wurden auf exakte Dach- bzw. Spielfeld-Zentroidkoordinaten referenziert.
+   - Beseitigt frühere Ungenauigkeiten von 400 m bis über 4 km.
+   - Persistente Koordinatentabelle in .
+
+6. **Datenexport**:
    - `data/scraped_pitches.json`: Strukturierter JSON-Datensatz aller 132 Plätze inkl. Metadaten und Belegungen.
    - `data/bfv_matches.json`: Alle erfassten BFV-Partien (über 2.500 Partien) mit Spielort und Anstoßzeit.
    - `data/bfv_clubs.json`: Alle erfassten Vereine mit Anschrift und BFV-ID.

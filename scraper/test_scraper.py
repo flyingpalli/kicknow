@@ -105,6 +105,31 @@ class TestKickNowScraper(unittest.TestCase):
             if p["access"] == "Öffentlich":
                 self.assertIsNone(p.get("club"))
 
+    def test_precise_pitch_coordinates(self):
+        pitches = get_all_pitches(include_live_photon=False, verbose=False)
+        self.assertEqual(len(pitches), 132)
+
+        for p in pitches:
+            lat = p["lat"]
+            lng = p["lng"]
+            self.assertGreaterEqual(lat, 47.90)
+            self.assertLessEqual(lat, 48.35)
+            self.assertGreaterEqual(lng, 11.35)
+            self.assertLessEqual(lng, 11.85)
+
+        by_name = {p["name"]: p for p in pitches}
+        nordbad = by_name.get("Bezirkssportanlage Schleißheimer Straße (Nordbad)")
+        self.assertAlmostEqual(nordbad["lat"], 48.160143, places=4)
+        self.assertAlmostEqual(nordbad["lng"], 11.564419, places=4)
+
+        haching = by_name.get("Sportpark Unterhaching (uhlsport PARK & Grünau)")
+        self.assertAlmostEqual(haching["lat"], 48.073781, places=4)
+        self.assertAlmostEqual(haching["lng"], 11.615839, places=4)
+
+        garching = by_name.get("Sportpark Stadion am See Garching")
+        self.assertAlmostEqual(garching["lat"], 48.259881, places=4)
+        self.assertAlmostEqual(garching["lng"], 11.643395, places=4)
+
     def test_known_club_home_ground_mapping(self):
         from scraper.matcher import KNOWN_CLUB_HOME_GROUNDS
         self.assertIn("TSV Grünwald", KNOWN_CLUB_HOME_GROUNDS)
