@@ -136,6 +136,133 @@ class TestKickNowScraper(unittest.TestCase):
         self.assertIn("SV Heimstetten", KNOWN_CLUB_HOME_GROUNDS)
         self.assertIn("FC Ismaning", KNOWN_CLUB_HOME_GROUNDS)
 
+    def test_multi_city_config(self):
+        from scraper.config import CITIES
+        for city_key in ["munich", "nuremberg", "berlin", "hamburg", "cologne", "frankfurt"]:
+            self.assertIn(city_key, CITIES)
+            cfg = CITIES[city_key]
+            self.assertIn("name", cfg)
+            self.assertIn("bbox", cfg)
+            self.assertIn("center", cfg)
+            self.assertEqual(len(cfg["bbox"]), 4)
+
+    def test_osm_importer(self):
+        from scraper.osm_importer import parse_osm_elements, fetch_osm_pitches, get_multi_city_pitches
+        sample_elements = [
+            {
+                "id": 999888,
+                "lat": 52.5200,
+                "lon": 13.4050,
+                "tags": {
+                    "name": "Bolzplatz Alexanderplatz",
+                    "surface": "artificial_turf",
+                    "lit": "yes",
+                    "access": "yes",
+                    "addr:suburb": "Mitte"
+                }
+            }
+        ]
+        parsed = parse_osm_elements(sample_elements, city_name="Berlin")
+        self.assertEqual(len(parsed), 1)
+        self.assertEqual(parsed[0]["surface"], "Kunstrasen")
+        self.assertTrue(parsed[0]["lit"])
+        self.assertEqual(parsed[0]["access"], "Öffentlich")
+
+        berlin_pitches = fetch_osm_pitches((52.33, 13.08, 52.68, 13.76), city_name="Berlin", live=False)
+        self.assertGreaterEqual(len(berlin_pitches), 3)
+
+        multi = get_multi_city_pitches(live_osm=False)
+        self.assertGreaterEqual(len(multi), 15)
+
+    def test_fussball_de_scraper_and_gdpr(self):
+        from scraper.fussball_de_scraper import parse_fussball_de_html, sanitize_match_record, scrape_all_cities_matches
+        dirty = {
+            "date": "2026-10-18",
+            "time": "14:00",
+            "minute_start": 840,
+            "home": "Berliner AK 07",
+            "away": "Türkiyemspor",
+            "league": "Berlin-Liga",
+            "venue_name": "Poststadion",
+            "venue_addr": "Lehrter Str. 59",
+            "player_names": ["Max Mustermann"],
+            "referee_phone": "+49170123456"
+        }
+        clean = sanitize_match_record(dirty)
+        self.assertNotIn("player_names", clean)
+        self.assertNotIn("referee_phone", clean)
+        self.assertEqual(clean["home"], "Berliner AK 07")
+
+        sample_html = """
+        <table>
+          <tr class="club-match-row" data-date="2026-10-18" data-time="15:00">
+            <td class="team-name">Altona 93</td>
+            <td class="team-name">ETV Hamburg</td>
+            <td class="league-name">Oberliga Hamburg</td>
+            <td class="venue-name">Adolf-Jäger-Kampfbahn</td>
+            <td class="venue-address">Griegstraße 62, Hamburg</td>
+          </tr>
+        </table>
+        """
+        matches = parse_fussball_de_html(sample_html, default_city="Hamburg", association="HFV")
+        self.assertEqual(len(matches), 1)
+        self.assertEqual(matches[0]["minute_start"], 900)
+        self.assertEqual(matches[0]["home"], "Altona 93")
+
+        all_regional = scrape_all_cities_matches(live=False)
+        self.assertGreaterEqual(len(all_regional), 6)
+
+    def test_scheduler_nightly_ingestion(self):
+        from scraper.scheduler import run_nightly_ingestion
+        report = run_nightly_ingestion(live_network=False, output_dir="data", update_js=False)
+        self.assertEqual(report["status"], "success")
+        self.assertEqual(report["munich_pitches"], 132)
+        self.assertGreaterEqual(report["total_pitches"], 380)
+        self.assertGreaterEqual(report["multi_city_pitches"], 250)
+        self.assertGreaterEqual(report["clubs_processed"], 250)
+        self.assertGreaterEqual(report["matched_occupations"], 70)
+
+    def test_multi_city_parity_and_associations(self):
+        from scraper.osm_importer import CURATED_MULTI_CITY_PITCHES
+        from scraper.fussball_de_scraper import discover_city_clubs, scrape_city_matches, parse_fussball_de_html
+
+        for city_key in ["nuremberg", "berlin", "hamburg", "cologne", "frankfurt"]:
+            pitches = CURATED_MULTI_CITY_PITCHES.get(city_key, [])
+            self.assertGreaterEqual(len(pitches), 45, f"Too few pitches in {city_key}")
+            official = [p for p in pitches if p.get("access") != "Öffentlich"]
+            public = [p for p in pitches if p.get("access") == "Öffentlich"]
+            self.assertGreaterEqual(len(official), 20, f"Too few official pitches in {city_key}")
+            self.assertGreaterEqual(len(public), 20, f"Too few public pitches in {city_key}")
+            self.assertTrue(all(p.get("club") for p in official), f"Official pitch missing home club in {city_key}")
+
+            clubs = discover_city_clubs(city_key, live=False)
+            self.assertGreaterEqual(len(clubs), 40, f"Too few clubs in {city_key}")
+
+            matches = scrape_city_matches(city_key, live=False)
+            self.assertGreaterEqual(len(matches), 15, f"Too few matches in {city_key}")
+
+        # Verify live 3-row Fussball.de HTML parser
+        live_html = """
+        <table>
+          <tr class="row-headline visible-small">
+            <td colspan="6">Sonntag, 25.10.2026 - 14:15 Uhr | Herren | Berlin-Liga</td>
+          </tr>
+          <tr class="odd row-competition hidden-small">
+            <td class="column-date">14:15</td>
+          </tr>
+          <tr class="odd">
+            <td class="column-club"><div class="club-name">Türkiyemspor Berlin</div></td>
+            <td class="column-club"><div class="club-name">Berliner AK 07</div></td>
+          </tr>
+        </table>
+        """
+        parsed_3row = parse_fussball_de_html(live_html, default_city="Berlin", association="BFV_BERLIN")
+        self.assertEqual(len(parsed_3row), 1)
+        self.assertEqual(parsed_3row[0]["home"], "Türkiyemspor Berlin")
+        self.assertEqual(parsed_3row[0]["away"], "Berliner AK 07")
+        self.assertEqual(parsed_3row[0]["minute_start"], 855)
+
 
 if __name__ == "__main__":
     unittest.main()
+

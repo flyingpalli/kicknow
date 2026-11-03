@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./kicknow:/srv/kicknow
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://kicknow:${DB_PASSWORD:-kicknow_secret}@db:5432/kicknow
+      - REDIS_URL=redis://redis:6379/0
+      - SECRET_KEY=${SECRET_KEY:-kicknow_production_secret_key}
+    depends_on:
+      - db
+      - redis
+
+  worker:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    command: python3 -m scraper.scheduler
+    restart: on-failure
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://kicknow:${DB_PASSWORD:-kicknow_secret}@db:5432/kicknow
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgis/postgis:16-3.4-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=kicknow
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-kicknow_secret}
+      - POSTGRES_DB=kicknow
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    restart: always
+    volumes:
+      - redisdata:/data
+
+volumes:
+  caddy_data:
+  caddy_config:
+  pgdata:
+  redisdata:

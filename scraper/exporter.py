@@ -75,20 +75,66 @@ def update_kicknow_data_js(pitches: List[Dict[str, Any]], target_data_js: str = 
     name: 'Alex Mayer',
     first: 'Alex',
     short: 'Alex M.',
+    handle: '@alex_mayer',
     age: 26,
     position: 'Mittelfeld',
     level: 'Fortgeschritten',
     games: 34,
+    lvl: 3,
+    xp: 8,
+    xpMax: 12,
     color: '#0D5C3A'
   }};
 
   const USER_LOCATION = {{
     lat: 48.137154,
     lng: 11.576124,
-    name: 'Marienplatz, München'
+    name: 'Marienplatz, München',
+    label: 'Marienplatz, München'
   }};
 
-  /* ---------- Scraped Fußballplätze (München & Landkreis) ---------- */
+  const CITIES = {{
+    munich: {{ key: 'munich', name: 'München', lat: 48.137154, lng: 11.576124, label: 'Marienplatz, München' }},
+    nuremberg: {{ key: 'nuremberg', name: 'Nürnberg', lat: 49.452102, lng: 11.076665, label: 'Hauptmarkt, Nürnberg' }},
+    berlin: {{ key: 'berlin', name: 'Berlin', lat: 52.520008, lng: 13.404954, label: 'Alexanderplatz, Berlin' }},
+    hamburg: {{ key: 'hamburg', name: 'Hamburg', lat: 53.551086, lng: 9.993682, label: 'Rathausmarkt, Hamburg' }},
+    cologne: {{ key: 'cologne', name: 'Köln', lat: 50.937531, lng: 6.960279, label: 'Heumarkt, Köln' }},
+    frankfurt: {{ key: 'frankfurt', name: 'Frankfurt', lat: 50.110924, lng: 8.682127, label: 'Römerberg, Frankfurt' }}
+  }};
+
+  const MUNICH_LOCATIONS = [
+    {{ name: 'Schwabing', lat: 48.1642, lng: 11.5861, desc: 'München-Nord' }},
+    {{ name: 'Maxvorstadt', lat: 48.1497, lng: 11.5679, desc: 'Universitätsviertel, München' }},
+    {{ name: 'Giesing', lat: 48.1140, lng: 11.5794, desc: 'Obergiesing / Untergiesing' }},
+    {{ name: 'Sendling', lat: 48.1188, lng: 11.5394, desc: 'München-Südwest' }},
+    {{ name: 'Neuhausen-Nymphenburg', lat: 48.1558, lng: 11.5225, desc: 'München-West' }},
+    {{ name: 'Haidhausen', lat: 48.1306, lng: 11.6025, desc: 'Au-Haidhausen, München' }},
+    {{ name: 'Pasing', lat: 48.1472, lng: 11.4614, desc: 'Pasing-Obermenzing' }},
+    {{ name: 'Bogenhausen', lat: 48.1544, lng: 11.6228, desc: 'München-Nordost' }},
+    {{ name: 'Garching bei München', lat: 48.2489, lng: 11.6528, desc: 'Landkreis München (Nord)' }},
+    {{ name: 'Unterhaching', lat: 48.0658, lng: 11.6133, desc: 'Landkreis München (Süd)' }},
+    {{ name: 'Nürnberg Zentrum', lat: 49.4521, lng: 11.0767, desc: 'Mittelfranken' }},
+    {{ name: 'Nürnberg-St. Johannis', lat: 49.4628, lng: 11.0580, desc: 'Nürnberg-Nordwest' }},
+    {{ name: 'Nürnberg-Zerzabelshof', lat: 49.4360, lng: 11.1270, desc: 'Nürnberg-Ost' }},
+    {{ name: 'Berlin-Kreuzberg', lat: 52.4986, lng: 13.4033, desc: 'Friedrichshain-Kreuzberg, Berlin' }},
+    {{ name: 'Berlin-Mitte', lat: 52.5200, lng: 13.4050, desc: 'Berlin Zentrum' }},
+    {{ name: 'Berlin-Prenzlauer Berg', lat: 52.5388, lng: 13.4244, desc: 'Pankow, Berlin' }},
+    {{ name: 'Berlin-Neukölln', lat: 52.4813, lng: 13.4351, desc: 'Berlin-Südost' }},
+    {{ name: 'Berlin-Charlottenburg', lat: 52.5160, lng: 13.3040, desc: 'Berlin-West' }},
+    {{ name: 'Hamburg-Eimsbüttel', lat: 53.5755, lng: 9.9515, desc: 'Hamburg' }},
+    {{ name: 'Hamburg-Altona', lat: 53.5526, lng: 9.9351, desc: 'Hamburg-West' }},
+    {{ name: 'Hamburg-Winterhude', lat: 53.5960, lng: 10.0080, desc: 'Hamburg-Nord' }},
+    {{ name: 'Köln-Südstadt', lat: 50.9214, lng: 6.9603, desc: 'Köln-Innenstadt' }},
+    {{ name: 'Köln-Ehrenfeld', lat: 50.9510, lng: 6.9180, desc: 'Köln-West' }},
+    {{ name: 'Köln-Lindenthal', lat: 50.9280, lng: 6.9120, desc: 'Köln-Südwest' }},
+    {{ name: 'Köln-Nippes', lat: 50.9650, lng: 6.9530, desc: 'Köln-Nord' }},
+    {{ name: 'Frankfurt-Ostend', lat: 50.1109, lng: 8.7061, desc: 'Frankfurt am Main' }},
+    {{ name: 'Frankfurt-Bornheim', lat: 50.1258, lng: 8.7110, desc: 'Frankfurt-Nordost' }},
+    {{ name: 'Frankfurt-Sachsenhausen', lat: 50.0990, lng: 8.6850, desc: 'Frankfurt-Süd' }},
+    {{ name: 'Frankfurt-Bockenheim', lat: 50.1215, lng: 8.6440, desc: 'Frankfurt-West' }}
+  ];
+
+  /* ---------- Scraped Fußballplätze (München & Landkreis + Multi-City) ---------- */
   const PITCHES = {pitches_json};
 
   /* ---------- Spielerpool ---------- */
@@ -377,7 +423,7 @@ def update_kicknow_data_js(pitches: List[Dict[str, Any]], target_data_js: str = 
 
   window.KN = {{
     rng, pick, randInt, shuffle,
-    USER, USER_LOCATION, PITCHES, PLAYERS, SLOT_STARTS, SLOT_LEN, LEVELS,
+    USER, USER_LOCATION, CITIES, MUNICH_LOCATIONS, PITCHES, PLAYERS, SLOT_STARTS, SLOT_LEN, LEVELS,
     genDay, genReviews
   }};
 }})();

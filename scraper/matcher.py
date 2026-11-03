@@ -1,72 +1,195 @@
-"""Connects official pitches to BFV clubs, scheduled matches, and realistic weekly training plans."""
+"""Connects official pitches to clubs, scheduled matches, and realistic weekly training plans across all 6 cities."""
 
 import re
 from typing import List, Dict, Any, Optional, Tuple
 
 from scraper.config import SLOT_STARTS, SLOT_LEN
 
-# Well-known mapping of clubs to their official home ground BSA or Sportpark
-KNOWN_CLUB_HOME_GROUNDS = {
-    "TSV Grünwald": "Sportpark Grünwald",
-    "SV Heimstetten": "Sportpark Heimstetten",
-    "FC Ismaning": "Sportpark Ismaning",
-    "SV Pullach": "Sportplatz Gistelstraße Pullach",
-    "TSV 1921 Schäftlarn": "Sportplatz Hohenschäftlarn",
-    "TSV Sauerlach": "Hauptplatz TSV Sauerlach",
-    "SpFrd. 1948 Aying": "Sportgelände Helfendorf / Aying",
-    "SV Helfendorf": "Sportgelände Helfendorf / Aying",
-    "VfR Garching": "Sportpark Stadion am See Garching",
-    "FC Hochbrück": "Sportanlage Hochbrück (Garching)",
-    "SpVgg Unterhaching": "Sportpark Unterhaching (uhlsport PARK & Grünau)",
-    "TSV Unterhaching": "Sportpark Unterhaching (uhlsport PARK & Grünau)",
-    "SV Lohhof": "Hans-Bayer-Stadion / Sportpark Lohhof",
-    "FC Teutonia München": "Bezirkssportanlage Thusnelda-Lang-Brumann-Straße",
-    "FC Hertha München": "Bezirkssportanlage Surheimer Weg",
-    "FC Wacker München": "Bezirkssportanlage Demleitnerstraße",
-    "SV Aubing": "Bezirkssportanlage Kronwinklerstraße (Aubing)",
-    "SV Aubing München": "Bezirkssportanlage Kronwinklerstraße (Aubing)",
-    "ESV SpFrd. München-Neuaubing": "Bezirkssportanlage Hans-Dietrich-Genscher-Straße",
-    "SpVgg Feldmoching": "Bezirkssportanlage Ebereschenstraße",
-    "SV Allach 1949": "Bezirkssportanlage Franz-Nißl-Straße (Allach)",
-    "TSV Allach 09": "Bezirkssportanlage Franz-Nißl-Straße (Allach)",
-    "TSV Großhadern": "Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)",
-    "FC Neuhadern": "Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)",
-    "FC Neuhadern München": "Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)",
-    "TSV Moosach-Hartmannshofen": "Bezirkssportanlage Franz-Mader-Straße (Moosach)",
-    "SV München Laim": "Bezirkssportanlage Agnes-Bernauer-Straße (Laim)",
-    "SV Waldeck-Obermenzing": "Bezirkssportanlage Meyerbeerstraße (Obermenzing)",
-    "DJK Pasing": "Bezirkssportanlage Am Durchblick (Pasing)",
-    "TSV Solln": "Bezirkssportanlage Herterichstraße",
-    "TSV Milbertshofen": "Bezirkssportanlage Moosacher Straße",
-    "SC München": "Bezirkssportanlage Agilolfingerstraße",
-    "FC Stern München": "Bezirkssportanlage Feldbergstraße",
-    "TSV Trudering": "Bezirkssportanlage Feldbergstraße",
-    "SV Neuperlach": "Bezirkssportanlage Bert-Brecht-Allee (Neuperlach)",
-    "DJK Fasangarten": "Bezirkssportanlage Görzer Straße (Ramersdorf)",
-    "FC Aschheim": "Sportpark Aschheim",
-    "TSV Feldkirchen": "Sportgelände Richthofenstraße Feldkirchen",
-    "TSV Feldkirchen bei München": "Sportgelände Richthofenstraße Feldkirchen",
-    "TSV Haar": "Sportpark Haar (Höglweg)",
-    "TSV Gräfelfing": "Sportanlage Hubert-Reißner-Straße Gräfelfing",
-    "TSV Neuried": "Sportpark Neuried",
-    "TSV Ottobrunn": "Sportanlage am Haidgraben Ottobrunn",
-    "SV Planegg-Krailling": "Sportpark Planegg (Hofmarkstraße)",
-    "SV Putzbrunn": "Sportanlage Florianseck Putzbrunn",
-    "TSV Straßlach": "Sportplatz Straßlach",
-    "SV DJK Taufkirchen": "Sport- und Freizeitpark Köglweg Taufkirchen",
-    "FC Unterföhring": "Sportpark Bergstraße Unterföhring",
-    "TSV Hohenbrunn-Riemerling": "Sportcampus Riemerling / Hohenbrunn",
-    "SpVgg Höhenkirchen": "Sportplatzweg Höhenkirchen",
-    "TSV Grasbrunn-Neukeferloh": "Sportpark Grasbrunn",
-    "TSV Brunnthal": "Sportanlage Jahnstraße Brunnthal",
-    "TSV Oberhaching-Deisenhofen": "Sportzentrum Deisenhofen / Oberhaching",
-    "SV Baierbrunn": "Sport- und Bürgerzentrum Baierbrunn",
-    "FC Phönix Schleißheim": "Sportgelände Theodor-Heuss-Straße Oberschleißheim",
-    "TSV Neubiberg-Ottobrunn": "Sportpark Neubiberg (Zwergerstraße)",
-    "FC Alte Haide-DSC": "Bezirkssportanlage Guerickestraße (Alte Haide)",
-    "SpVgg 1906 Haidhausen": "Bezirkssportanlage Bauernfeindstraße",
-    "Rot-Weiß Oberföhring": "Bezirkssportanlage Englschalkinger Straße"
-}
+# Well-known mapping of clubs to their official home ground BSA or Sportpark across all 6 cities
+KNOWN_CLUB_HOME_GROUNDS: Dict[str, str] = {   '1. FC Köln': 'Parkplatz Bezirkssportanlage Bocklemünd',
+    '1. FC Nürnberg': 'Eichenkreuz Sportanlage Marienberg',
+    '1. FC Nürnberg II': 'Sportanlage Valznerweiher (1. FCN Jugend)',
+    '1. FC PV Nord e.V.': 'Gustav-Böß-Sportanlage',
+    '1. FC Schöneberg': 'Hanne-Sobek-Sportanlage',
+    '1. FC Turbohorn': 'Sportanlage Gammer Weg 49a',
+    '1. FC Union Köln': 'Bezirkssportanlage Nippes',
+    '1. FFC Elbinsel': 'Sportanlage Brucknerstr. 24',
+    '1. FSV Köln 99': 'Parkplatz Bezirkssportanlage',
+    '1. Jugend-Fußball-Schule Köln': 'Bezirkssportanlage Rodenkirchen',
+    '1. Rödelheimer Fc': 'Sportanlage Bundespolizei',
+    '1.FC Besiktas': 'Sportanlage Auguststraße / Eingang Kleine Hamburger Str. 6',
+    '1.FC Lübars': 'Sportanlage Chausseestraße',
+    '1.FC Marzahn 94': 'Sportanlage Holzmarktstraße',
+    '1.FC Novi Pazar 1895': 'Sportanlage Lehrter Straße - Poststadion',
+    '1.FC Turbo United': 'Sportanlage Klinikweg',
+    '1.FC Union Berlin': 'Sportanlage Cornelius-Fredricks-Str.',
+    '1.FC Vikt. Sindlingen': 'Sportanlage Palleskestraße',
+    '1.FC Wacker Lankwitz': 'Sportanlage NNW-Platz/Kokswiese',
+    '1.FC Wilmersdorf': 'Sportanlage Neues Ufer',
+    '1.FFV Spandau': 'Sportanlage Nordufer',
+    '1.SV Ethio Addis FFM': 'Sportanlage Kleinfeld Walter-Richter-Halle',
+    '1.Traber FC Mariendorf': 'Sportanlage Wullenweberstraße',
+    'AFG Colonia': 'Bezirkssportanlage Chorweiler',
+    'AGAGBHH': 'Sportanlage Vogesenstraße 11',
+    'AKM Köln': 'Bezirkssportanlage Bocklemünd',
+    'AS Nippes': 'Sportanlage Venloer Straße/Kolkrabenweg',
+    'AS United': 'Sportanlage Uhlenhoffweg',
+    'ASC Boxdorf': 'Sportparkgraben',
+    'ASV Bergedorf': 'Sportanlage Rüschweg 12',
+    'ASV Berlin': 'Kurt-Ritter-Sportplatz',
+    'ASV Buchenbühl Nürnberg': 'Max-Morlock-Stadion',
+    'ASV Nürnberg Pfeil Phönix': 'Sigena Sportanlage',
+    'ATV 1873 Frankonia Nürnberg': 'Sportanlage Fischbach',
+    'Adlershofer BC': 'Sportplatz Stade Napoléon',
+    'Aimnation': 'Sportplatz Stralsunder Straße',
+    'Alemannia 06 Haselhorst': 'Sportplatz Ungarnstraße',
+    'Alsterbrüder': 'Sportanlage Königshütter Str. 21 (Dulsberg-Süd/überlassen an HSV)',
+    'Alstertal-Langenhorn': 'Sportanlage Habichtstr. 14 (Schützenhof)',
+    'Alt Nettelnburger SC': 'Sportanlage Langenfort 70a',
+    'Altengamme': 'Sportanlage Elligersweg (Meister-Francke-Straße)',
+    'Altenwerder': 'Sportanlage Marckmannstr. 125',
+    'Altona 93': 'Sportanlage Anckelmannplatz 2f (Oskar-Keßlau-Sportanlage)',
+    'Anadolu e.V. Köln': 'Jupp-Röhrig-Sportanlage',
+    'Anadoluspor': 'Stadion Rehberge',
+    'Artemis Sport Ffm': 'Sportanlage Sondershausenstraße 7',
+    'Askania Coepenick': 'Werner-Kluge-Sportanlage',
+    'Ataspor e.V. 74 Köln-Porz': 'Sportanlage Eythstraße',
+    'Atlantik-97': 'Sportanlage Finksweg 82a',
+    'Atletico Hamburg': 'Sportanlage Finkenau (überlassen an K.S. Polonia)',
+    'Außensportanlage TV 1875 Sindlingen e.V.': 'Außensportanlage TV 1875 Sindlingen e.V.',
+    'B.S.C. Reinickendorf': 'Lilli-Henoch-Sportplatz',
+    'B.W. Berolina Mitte': 'Sportplatz Alt-Stralau',
+    'BB U': 'Sportanlage Beethovenstr. 51 (überlassen an UH Adler)',
+    'BCC': 'Sportplatz Hellweg',
+    'BCM Moorweide': 'Sportanlage Tönsfeldtstr. 2 (Kreuzkirche)',
+    'BSC SW Ffm': 'Sportanlage Internationale Schule Frankfurt',
+    'BSG Edscha': 'Sportanlage Salzburger Weg',
+    'Baris': 'Eichenkreuz-Sportanlage',
+    'Beachfeld Eintracht Frankfurt e.V. Standort West': 'Sportanlage Beachfeld Eintracht Frankfurt e.V. '
+                                                        'Standort West',
+    'Bergedorf-West': 'Sportanlage Außenmühlenweg 23 a (Außenmühle)',
+    'Bergstedt': 'Sportanlage Brandesstr. 9 (Wilstorfer Höh)',
+    'Berlin Cricket Academy': 'Sportplatz Körtestraße',
+    'Berlin Eagles Cricket Club': 'Sportplatz Virchowstraße',
+    'Berlin Hilalspor': 'Sportplatz Waldeckpark',
+    'Berliner AK 07': 'Poststadion Moabit (BERLINER AK 07)',
+    'Bosna Köln': 'Parkplatz Sportanlage',
+    'Bundeswehr': 'Sportanlage Holstenhofweg 85 (Douaumont-Kaserne)',
+    'Bunte Liga Köln': 'Sportplatz am Bieselwald',
+    'Bäng, Boom, Bäng Ballfieber': 'Sportplatz Brucknerstraße',
+    'Bühnen-Sport-Club Köln 1961': 'Spielplatz Blücherpark IV/Am Sportplatz 1',
+    'CfB Ford Köln-Niehl 09/52 e.V.': 'Am Sportplatz',
+    'Cologne 11': 'Sportplatz Schulzentrum Wahn',
+    'Cologne FC': 'Weiden Sportplatz',
+    'Conc.Eschersheim': 'Sportanlage Johann Wolfgang Goethe-Universität',
+    'Creu-Höchst': 'Sportanlage Hessenkolleg',
+    'Croatia Köln e.V.': 'Sportplatzstraße',
+    'DJK Eibach': 'Sportplatz DJK Eibach',
+    'DJK Falke Nürnberg': 'Vereinsgaststätte Sportpark Ziegelstein',
+    'DJK Fasangarten': 'Bezirkssportanlage Görzer Straße (Ramersdorf)',
+    'DJK Grün-Weiß Nippes 1919 e.V.': 'Franz-Kremer-Stadion',
+    'DJK Löwe Köln e.V. 1950': 'RheinEnergieSTADION',
+    'DJK Nürnberg-Eibach': 'Am Sportplatz',
+    'DJK Pasing': 'Bezirkssportanlage Am Durchblick (Pasing)',
+    'DJK Roland Köln-West e.V.': 'Stadion',
+    'DJK SW Griesheim': 'Sportanlage DFB-Campus',
+    'DJK Zeilsheim': 'Sportanlage Bornheimer Hang',
+    'Ditib Chorweiler': 'Sportplatzstraße',
+    'Dreieich Panthers': 'Sportanlage Deutsche Bank Park Trainingsplätze',
+    'ESV Blau-Gold Ffm': 'Sportanlage Römerstadtwiese',
+    'ESV SpFrd. München-Neuaubing': 'Bezirkssportanlage Hans-Dietrich-Genscher-Straße',
+    'Eimsbütteler TV': 'Sportpark Eimsbüttel (ETV Hamburg)',
+    'Eintracht Frankfurt': 'Sportanlage Bonames - Nordpark',
+    'FC  Croatia FFm': 'Sportanlage Louisa',
+    'FC Alte Haide-DSC': 'Bezirkssportanlage Guerickestraße (Alte Haide)',
+    'FC Aschheim': 'Sportpark Aschheim',
+    'FC Dynamo Frankfurt': 'Sportanlage Phil.-Theol. Hochschule Sankt Georgen',
+    'FC Ethio Addis Frankfurt': 'Deutsche Bank Park (Stadion)',
+    'FC Fort.Ffm': 'Sportanlage Altenhöferallee',
+    'FC Frankfurt City': 'Sportanlage Sportstätte Frankfurt-Sossenheim',
+    'FC Hertha München': 'Bezirkssportanlage Surheimer Weg',
+    'FC Hochbrück': 'Sportanlage Hochbrück (Garching)',
+    'FC Ismaning': 'Sportpark Ismaning',
+    'FC Neuhadern': 'Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)',
+    'FC Neuhadern München': 'Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)',
+    'FC Phönix Schleißheim': 'Sportgelände Theodor-Heuss-Straße Oberschleißheim',
+    'FC Stern München': 'Bezirkssportanlage Feldbergstraße',
+    'FC Teutonia München': 'Bezirkssportanlage Thusnelda-Lang-Brumann-Straße',
+    'FC Unterföhring': 'Sportpark Bergstraße Unterföhring',
+    'FC Wacker München': 'Bezirkssportanlage Demleitnerstraße',
+    'FSV Frankfurt': 'Sportanlage am Bornheimer Hang (FSV Frankfurt)',
+    'Fußball-Club St. Pauli von 1910 e.V.': 'Sportanlage Wendenstr. 164',
+    'Hamburger Fußball Verband': 'Sportanlage Jenfelder Allee 70 a-c (LLZ HFV)',
+    'Höchster THC e.V.': 'Sportanlage Höchster THC e.V.',
+    'Post SV Nürnberg': 'Sportplatz am Fuchsloch',
+    'Rot-Weiß Oberföhring': 'Bezirkssportanlage Englschalkinger Straße',
+    'SC Fortuna Köln': 'Südstadion & Sportpark Süd (Fortuna Köln)',
+    'SC Germania Nürnberg': 'Restaurant Sportpark Ebensee',
+    'SC München': 'Bezirkssportanlage Agilolfingerstraße',
+    'SGV Nürnberg-Fürth 1883': 'Sportpark Süd',
+    'SV Allach 1949': 'Bezirkssportanlage Franz-Nißl-Straße (Allach)',
+    'SV Aubing': 'Bezirkssportanlage Kronwinklerstraße (Aubing)',
+    'SV Aubing München': 'Bezirkssportanlage Kronwinklerstraße (Aubing)',
+    'SV Baierbrunn': 'Sport- und Bürgerzentrum Baierbrunn',
+    'SV Blau-Gelb Frankfurt e.V.': 'Sportanlage SV Blau-Gelb Frankfurt e.V.',
+    'SV DJK Taufkirchen': 'Sport- und Freizeitpark Köglweg Taufkirchen',
+    'SV Eyüp Sultan Nürnberg': 'Sportplatz',
+    'SV Fühlingen-Chorweiler': 'Sportanlage SV Fühlingen-Chorweiler',
+    'SV Heimstetten': 'Sportpark Heimstetten',
+    'SV Helfendorf': 'Sportgelände Helfendorf / Aying',
+    'SV Laufamholz Nürnberg': 'Sportpark West',
+    'SV Lohhof': 'Hans-Bayer-Stadion / Sportpark Lohhof',
+    'SV München Laim': 'Bezirkssportanlage Agnes-Bernauer-Straße (Laim)',
+    'SV Neuperlach': 'Bezirkssportanlage Bert-Brecht-Allee (Neuperlach)',
+    'SV Orplid Niddainsel Frankfurt e.V.': 'Sportanlage SV Orplid Niddainsel Frankfurt e.V.',
+    'SV Planegg-Krailling': 'Sportpark Planegg (Hofmarkstraße)',
+    'SV Pullach': 'Sportplatz Gistelstraße Pullach',
+    'SV Putzbrunn': 'Sportanlage Florianseck Putzbrunn',
+    'SV Schwaig': 'Sportpark Pegnitztal - SV Schwaig',
+    'SV Wacker': 'Sportanlage SV Wacker',
+    'SV Waldeck-Obermenzing': 'Bezirkssportanlage Meyerbeerstraße (Obermenzing)',
+    'SpFrd. 1948 Aying': 'Sportgelände Helfendorf / Aying',
+    'SpVgg 1906 Haidhausen': 'Bezirkssportanlage Bauernfeindstraße',
+    'SpVgg Feldmoching': 'Bezirkssportanlage Ebereschenstraße',
+    'SpVgg Höhenkirchen': 'Sportplatzweg Höhenkirchen',
+    'SpVgg Mögeldorf 2000 Nürnberg': 'Am Sportplatz',
+    'SpVgg Unterhaching': 'Sportpark Unterhaching (uhlsport PARK & Grünau)',
+    'Sportverein Eidelstedt von 1880 e.V.': 'Sportanlage Redingskamp 25 (SV Eidelstedt)',
+    'TB Johannis 1888': 'Sportpark Johannis (TB Johannis 1888)',
+    'TSG Niederrad e.V.': 'Sportanlage TSG Niederrad e.V.',
+    'TSV 1921 Schäftlarn': 'Sportplatz Hohenschäftlarn',
+    'TSV Allach 09': 'Bezirkssportanlage Franz-Nißl-Straße (Allach)',
+    'TSV Altenfurt Nürnberg': 'Rangers Sportpark',
+    'TSV Brunnthal': 'Sportanlage Jahnstraße Brunnthal',
+    'TSV Buch Nürnberg': 'Sportanlage ASN Pfeil Phönix',
+    'TSV Feldkirchen': 'Sportgelände Richthofenstraße Feldkirchen',
+    'TSV Feldkirchen bei München': 'Sportgelände Richthofenstraße Feldkirchen',
+    'TSV Feucht 04': 'TSV Feucht 04',
+    'TSV Fischbach Nürnberg': 'Sportpark Nord',
+    'TSV Grasbrunn-Neukeferloh': 'Sportpark Grasbrunn',
+    'TSV Großhadern': 'Bezirkssportanlage Ludwig-Hunger-Straße (Hadern)',
+    'TSV Gräfelfing': 'Sportanlage Hubert-Reißner-Straße Gräfelfing',
+    'TSV Grünwald': 'Sportpark Grünwald',
+    'TSV Haar': 'Sportpark Haar (Höglweg)',
+    'TSV Hohenbrunn-Riemerling': 'Sportcampus Riemerling / Hohenbrunn',
+    'TSV Kornburg': 'Sportpark Valznerweiher',
+    'TSV Milbertshofen': 'Bezirkssportanlage Moosacher Straße',
+    'TSV Moosach-Hartmannshofen': 'Bezirkssportanlage Franz-Mader-Straße (Moosach)',
+    'TSV Neubiberg-Ottobrunn': 'Sportpark Neubiberg (Zwergerstraße)',
+    'TSV Neuried': 'Sportpark Neuried',
+    'TSV Oberhaching-Deisenhofen': 'Sportzentrum Deisenhofen / Oberhaching',
+    'TSV Ochenbruck': 'Sportplatz TSV Ochenbruck',
+    'TSV Ottobrunn': 'Sportanlage am Haidgraben Ottobrunn',
+    'TSV Sauerlach': 'Hauptplatz TSV Sauerlach',
+    'TSV Solln': 'Bezirkssportanlage Herterichstraße',
+    'TSV Straßlach': 'Sportplatz Straßlach',
+    'TSV Trudering': 'Bezirkssportanlage Feldbergstraße',
+    'TSV Unterhaching': 'Sportpark Unterhaching (uhlsport PARK & Grünau)',
+    'TV 1874 Bergen-Enkheim e.V.': 'Sportanlage TV 1874 Bergen-Enkheim e.V.',
+    'Turn- und Sportverein Duwo 08 e.V.': 'Sportanlage Sthamerstr. 30 (TSV Duwo 08)',
+    'Tuspo Nürnberg': 'Sportparkgraben',
+    'Türkiyemspor Berlin': 'Sportanlage Katzbachstadion (Türkiyemspor Berlin)',
+    'VfR Garching': 'Sportpark Stadion am See Garching'}
 
 
 def normalize_str(s: str) -> str:
@@ -96,14 +219,19 @@ def find_best_slot_index(minute_start: int) -> int:
 def match_venue_to_pitch(
     venue_name: str,
     venue_addr: str,
-    pitches: List[Dict[str, Any]]
+    pitches: List[Dict[str, Any]],
+    city: Optional[str] = None
 ) -> Optional[Dict[str, Any]]:
-    """Match a BFV venue name and address to an official pitch (never public Bolzplätze)."""
+    """Match a venue name and address to an official pitch within the same city (never public Bolzplätze)."""
     norm_v_name = normalize_str(venue_name)
     norm_v_addr = normalize_str(venue_addr)
 
-    # Only official sports facilities host BFV matches
+    # Only official sports facilities host association matches
     official_pitches = [p for p in pitches if p.get("access") != "Öffentlich"]
+    if city:
+        city_scoped = [p for p in official_pitches if not p.get("city") or p.get("city") == city]
+        if city_scoped:
+            official_pitches = city_scoped
 
     # 1. Match on street and house number
     if norm_v_addr:
@@ -128,10 +256,11 @@ def match_venue_to_pitch(
             if core_p in core_v or core_v in core_p:
                 return p
 
-    # 3. Match on municipality name for suburban Sportparks
+    # 3. Match on district / municipality name (excluding broad city names)
+    city_names_norm = {"münchen", "muenchen", "nürnberg", "nuernberg", "berlin", "hamburg", "köln", "koeln", "frankfurt"}
     for p in official_pitches:
         d = p.get("district", "").lower()
-        if len(d) >= 4 and d in norm_v_name:
+        if len(d) >= 4 and d not in city_names_norm and d in norm_v_name:
             return p
 
     return None
@@ -163,16 +292,25 @@ def connect_pitches_and_matches(
             p["club"] = club_name
             club_pitch_map[club_name] = p["name"]
 
-    # Step 2: Match scheduled BFV matches to pitches
+    for p in pitches:
+        if p.get("club") and p.get("access") != "Öffentlich":
+            club_pitch_map[p["club"]] = p["name"]
+
+    # Step 2: Match scheduled association matches to pitches
     for m in matches:
-        p = match_venue_to_pitch(m['venue_name'], m['venue_addr'], pitches)
+        p = match_venue_to_pitch(m["venue_name"], m["venue_addr"], pitches, city=m.get("city"))
         if not p:
-            # Fallback: check if host club has a known home ground
             host = m.get("home", "").strip()
+            rep = m.get("reported_by_club", "").strip()
             if host in KNOWN_CLUB_HOME_GROUNDS:
                 p = get_pitch_by_name(pitches, KNOWN_CLUB_HOME_GROUNDS[host])
-            elif m.get("reported_by_club", "").strip() in KNOWN_CLUB_HOME_GROUNDS:
-                p = get_pitch_by_name(pitches, KNOWN_CLUB_HOME_GROUNDS[m["reported_by_club"].strip()])
+            elif rep in KNOWN_CLUB_HOME_GROUNDS:
+                p = get_pitch_by_name(pitches, KNOWN_CLUB_HOME_GROUNDS[rep])
+            else:
+                for cand_p in pitches:
+                    if cand_p.get("access") != "Öffentlich" and cand_p.get("club") in (host, rep) and (host or rep):
+                        p = cand_p
+                        break
 
         if not p:
             unmatched_venues.add(f"{m['venue_name']} ({m['venue_addr']})")
@@ -184,7 +322,7 @@ def connect_pitches_and_matches(
 
         occ = {
             "id": f"{p['id']}_{date_key}_{slot_idx}",
-            "pitchId": p['id'],
+            "pitchId": p["id"],
             "date": date_key,
             "slot_idx": slot_idx,
             "start": SLOT_STARTS[slot_idx],
@@ -198,12 +336,10 @@ def connect_pitches_and_matches(
             "reported_club": m.get("reported_by_club", "")
         }
 
-        # Prevent duplicate occupations for the same pitch, date, and slot
         existing = [o for o in p["occupations"] if o["date"] == date_key and o["slot_idx"] == slot_idx]
         if not existing:
             p["occupations"].append(occ)
 
-        # Associate club to pitch if not already set
         host_club = m["home"]
         if host_club and not host_club.endswith(" 2") and not host_club.endswith(" 3") and not host_club.endswith(" II"):
             clean_host = host_club.strip()
@@ -216,8 +352,8 @@ def connect_pitches_and_matches(
 
     # Step 3: Enhance descriptions of pitches with associated clubs
     for p in pitches:
-        if p.get("club") and "Heimspielstätte" not in p['desc']:
-            p['desc'] = f"Heimspielstätte von {p['club']}. " + p['desc']
+        if p.get("club") and "Heimspielstätte" not in p["desc"]:
+            p["desc"] = f"Heimspielstätte von {p['club']}. " + p["desc"]
 
     stats = {
         "total_matches": len(matches),
@@ -227,7 +363,7 @@ def connect_pitches_and_matches(
     }
 
     if verbose:
-        print(f"[Matcher] Successfully matched {matched_count}/{len(matches)} BFV matches to official pitches.")
+        print(f"[Matcher] Successfully matched {matched_count}/{len(matches)} matches to official pitches.")
         print(f"[Matcher] Connected {len(club_pitch_map)} football clubs to their home pitches.")
 
     return pitches, stats

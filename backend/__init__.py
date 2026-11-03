@@ -1,0 +1,1 @@
+"""KickNow Backend Service Package."""

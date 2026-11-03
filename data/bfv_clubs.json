@@ -4,6 +4,8 @@
     "name": "SpVgg Unterhaching",
     "street": "Am Sportpark 9",
     "city": "82008 Unterhaching",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 9, 82008 Unterhaching",
     "url": "https://www.bfv.de/vereine/spvgg-unterhaching/00ES8GNHFK00000JVV0AG08LVUPGND5I"
   },
@@ -12,6 +14,8 @@
     "name": "SV Heimstetten",
     "street": "Am Sportpark 2",
     "city": "85551 Kirchheim b. München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 2, 85551 Kirchheim b. München",
     "url": "https://www.bfv.de/vereine/sv-heimstetten/00ES8GNH9C000009VV0AG08LVUPGND5I"
   },
@@ -20,6 +24,8 @@
     "name": "FC Ismaning",
     "street": "Leuchtenbergstr. 25",
     "city": "85737 Ismaning",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Leuchtenbergstr. 25, 85737 Ismaning",
     "url": "https://www.bfv.de/vereine/fc-ismaning/00ES8GNH9C00000NVV0AG08LVUPGND5I"
   },
@@ -28,6 +34,8 @@
     "name": "TSV Grünwald",
     "street": "Dr.-Max-Str. 20",
     "city": "82031 Grünwald",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Dr.-Max-Str. 20, 82031 Grünwald",
     "url": "https://www.bfv.de/vereine/tsv-gruenwald/00ES8GNH9C000001VV0AG08LVUPGND5I"
   },
@@ -36,6 +44,8 @@
     "name": "VfR Garching",
     "street": "Schleißheimer Str. 40",
     "city": "85748 Garching b. München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schleißheimer Str. 40, 85748 Garching b. München",
     "url": "https://www.bfv.de/vereine/vfr-garching/00ES8GNH80000001VV0AG08LVUPGND5I"
   },
@@ -44,6 +54,8 @@
     "name": "SV Pullach",
     "street": "Wolfratshauser Str. 66 H",
     "city": "82049 Pullach i. Isartal",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wolfratshauser Str. 66 H, 82049 Pullach i. Isartal",
     "url": "https://www.bfv.de/vereine/sv-pullach/00ES8GNHEC00001AVV0AG08LVUPGND5I"
   },
@@ -52,6 +64,8 @@
     "name": "SV Aubing München",
     "street": "Kronwinkler Str. 25",
     "city": "81245 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Kronwinkler Str. 25, 81245 München",
     "url": "https://www.bfv.de/vereine/sv-aubing-muenchen/00ES8GNHAK000014VV0AG08LVUPGND5I"
   },
@@ -60,6 +74,8 @@
     "name": "SpVgg Feldmoching",
     "street": "Lerchenauer Str. 270",
     "city": "80995 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Lerchenauer Str. 270, 80995 München",
     "url": "https://www.bfv.de/vereine/spvgg-feldmoching/00ES8GNHBS00000IVV0AG08LVUPGND5I"
   },
@@ -68,6 +84,8 @@
     "name": "FC Teutonia München",
     "street": "Thusnelda-Lang-Brumann-Straße 14",
     "city": "80637 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Thusnelda-Lang-Brumann-Straße 14, 80637 München",
     "url": "https://www.bfv.de/vereine/fc-teutonia-muenchen/00ES8GNHD400001HVV0AG08LVUPGND5I"
   },
@@ -76,6 +94,8 @@
     "name": "TSV Großhadern",
     "street": "Heiglhofstr. 25",
     "city": "81377 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Heiglhofstr. 25, 81377 München",
     "url": "https://www.bfv.de/vereine/tsv-grosshadern/00ES8GNHBS00000SVV0AG08LVUPGND5I"
   },
@@ -84,6 +104,8 @@
     "name": "TSV Neuried",
     "street": "Am Sportpark 8",
     "city": "82061 Neuried",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 8, 82061 Neuried",
     "url": "https://www.bfv.de/vereine/tsv-neuried/00ES8GNHEC00000OVV0AG08LVUPGND5I"
   },
@@ -92,6 +114,8 @@
     "name": "SV Planegg-Krailling",
     "street": "Hofmarkstr. 51",
     "city": "82152 Planegg",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hofmarkstr. 51, 82152 Planegg",
     "url": "https://www.bfv.de/vereine/sv-planegg-krailling/00ES8GNHEC000015VV0AG08LVUPGND5I"
   },
@@ -100,6 +124,8 @@
     "name": "TSV Ottobrunn",
     "street": "Haidgraben 121",
     "city": "85521 Ottobrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Haidgraben 121, 85521 Ottobrunn",
     "url": "https://www.bfv.de/vereine/tsv-ottobrunn/00ES8GNHEC000011VV0AG08LVUPGND5I"
   },
@@ -108,6 +134,8 @@
     "name": "TSV Haar",
     "street": "Höglweg 7",
     "city": "85540 Haar",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Höglweg 7, 85540 Haar",
     "url": "https://www.bfv.de/vereine/tsv-haar/00ES8GNH9C000004VV0AG08LVUPGND5I"
   },
@@ -116,6 +144,8 @@
     "name": "FC Unterföhring",
     "street": "Bergstr. 4 a",
     "city": "85774 Unterföhring",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bergstr. 4 a, 85774 Unterföhring",
     "url": "https://www.bfv.de/vereine/fc-unterfoehring/00ES8GNHFK00000IVV0AG08LVUPGND5I"
   },
@@ -124,6 +154,8 @@
     "name": "FC Aschheim",
     "street": "Am Sportpark 4",
     "city": "85609 Aschheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 4, 85609 Aschheim",
     "url": "https://www.bfv.de/vereine/fc-aschheim/00ES8GND74000009VV0AG08LVUPGND5I"
   },
@@ -132,6 +164,8 @@
     "name": "TSV Gräfelfing",
     "street": "Hubert-Reißner-Str. 42",
     "city": "82166 Gräfelfing",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hubert-Reißner-Str. 42, 82166 Gräfelfing",
     "url": "https://www.bfv.de/vereine/tsv-graefelfing/00ES8GNH80000008VV0AG08LVUPGND5I"
   },
@@ -140,6 +174,8 @@
     "name": "TSV Sauerlach",
     "street": "Von-Aychsteter-Str. 14",
     "city": "82054 Sauerlach",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Von-Aychsteter-Str. 14, 82054 Sauerlach",
     "url": "https://www.bfv.de/vereine/tsv-sauerlach/00ES8GNHKK00000NVV0AG08LVUPGND5I"
   },
@@ -148,6 +184,8 @@
     "name": "TSV Brunnthal",
     "street": "Postfach 29",
     "city": "85647 Brunnthal",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Postfach 29, 85647 Brunnthal",
     "url": "https://www.bfv.de/vereine/tsv-brunnthal/00ES8GNHGS00000UVV0AG08LVUPGND5I"
   },
@@ -156,6 +194,8 @@
     "name": "SV DJK Taufkirchen",
     "street": "Platanenstr. 21",
     "city": "82024 Taufkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Platanenstr. 21, 82024 Taufkirchen",
     "url": "https://www.bfv.de/vereine/sv-djk-taufkirchen/00ES8GNHFK00000BVV0AG08LVUPGND5I"
   },
@@ -164,6 +204,8 @@
     "name": "TSV Hohenbrunn-Riemerling",
     "street": "Putzbrunner Str. 20",
     "city": "85662 Hohenbrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Putzbrunner Str. 20, 85662 Hohenbrunn",
     "url": "https://www.bfv.de/vereine/tsv-hohenbrunn-riemerling/00ES8GNH9C00000BVV0AG08LVUPGND5I"
   },
@@ -172,6 +214,8 @@
     "name": "SpVgg Höhenkirchen",
     "street": "Postfach 1110",
     "city": "85635 Höhenkirchen-Siegertsbrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Postfach 1110, 85635 Höhenkirchen-Siegertsbrunn",
     "url": "https://www.bfv.de/vereine/spvgg-hoehenkirchen/00ES8GNH9C00000DVV0AG08LVUPGND5I"
   },
@@ -180,6 +224,8 @@
     "name": "TSV Grasbrunn-Neukeferloh",
     "street": "Am Sportpark 1",
     "city": "85630 Grasbrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 1, 85630 Grasbrunn",
     "url": "https://www.bfv.de/vereine/tsv-grasbrunn-neukeferloh/00ES8GNH8000000AVV0AG08LVUPGND5I"
   },
@@ -188,6 +234,8 @@
     "name": "TSV Feldkirchen bei München",
     "street": "Olympiastr. 1",
     "city": "85622 Feldkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Olympiastr. 1, 85622 Feldkirchen",
     "url": "https://www.bfv.de/vereine/tsv-feldkirchen-bei-muenchen/00ES8GNH1O00000RVV0AG08LVUPGND5I"
   },
@@ -196,6 +244,8 @@
     "name": "TSV 1921 Schäftlarn",
     "street": "Wangener Weg 17",
     "city": "82069 Hohenschäftlarn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wangener Weg 17, 82069 Hohenschäftlarn",
     "url": "https://www.bfv.de/vereine/tsv-1921-schaeftlarn/00ES8GNHKK00000PVV0AG08LVUPGND5I"
   },
@@ -204,6 +254,8 @@
     "name": "SpFrd. 1948 Aying",
     "street": "Am Sportplatz 2",
     "city": "85653 Aying",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportplatz 2, 85653 Aying",
     "url": "https://www.bfv.de/vereine/spfrd-1948-aying/00ES8GNHGS000008VV0AG08LVUPGND5I"
   },
@@ -212,6 +264,8 @@
     "name": "SV Lohhof",
     "street": "Bezirksstr. 27",
     "city": "85716 Unterschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bezirksstr. 27, 85716 Unterschleißheim",
     "url": "https://www.bfv.de/vereine/sv-lohhof/00ES8GNHAK000004VV0AG08LVUPGND5I"
   },
@@ -220,6 +274,8 @@
     "name": "FC Hertha München",
     "street": "Höglwörther Str. 219",
     "city": "81379 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Höglwörther Str. 219, 81379 München",
     "url": "https://www.bfv.de/vereine/fc-hertha-muenchen/00ES8GNHBS000016VV0AG08LVUPGND5I"
   },
@@ -228,6 +284,8 @@
     "name": "FC Wacker München",
     "street": "Demleitnerstr. 2",
     "city": "81371 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Demleitnerstr. 2, 81371 München",
     "url": "https://www.bfv.de/vereine/fc-wacker-muenchen/00ES8GNHEC000009VV0AG08LVUPGND5I"
   },
@@ -236,6 +294,8 @@
     "name": "FFC Wacker München",
     "street": "Wackersberger Str. 67",
     "city": "81371 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wackersberger Str. 67, 81371 München",
     "url": "https://www.bfv.de/vereine/ffc-wacker-muenchen/00ES8GNHEC00000AVV0AG08LVUPGND5I"
   },
@@ -244,6 +304,8 @@
     "name": "FC Stern München",
     "street": "Feldbergstr. 65",
     "city": "81825 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Feldbergstr. 65, 81825 München",
     "url": "https://www.bfv.de/vereine/fc-stern-muenchen/00ES8GNHD400001AVV0AG08LVUPGND5I"
   },
@@ -252,6 +314,8 @@
     "name": "SV Waldeck-Obermenzing München",
     "street": "Meyerbeerstr. 115",
     "city": "81247 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Meyerbeerstr. 115, 81247 München",
     "url": "https://www.bfv.de/vereine/sv-waldeck-obermenzing-muenchen/00ES8GNHEC00000BVV0AG08LVUPGND5I"
   },
@@ -260,6 +324,8 @@
     "name": "SV Allach 1949 München",
     "street": "Saarlouiser Str. 86",
     "city": "80997 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Saarlouiser Str. 86, 80997 München",
     "url": "https://www.bfv.de/vereine/sv-allach-1949-muenchen/00ES8GNHAK00000RVV0AG08LVUPGND5I"
   },
@@ -268,6 +334,8 @@
     "name": "SV München Laim",
     "street": "Riegerhofstr. 20",
     "city": "80686 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Riegerhofstr. 20, 80686 München",
     "url": "https://www.bfv.de/vereine/sv-muenchen-laim/00ES8GNHBS00001FVV0AG08LVUPGND5I"
   },
@@ -276,6 +344,8 @@
     "name": "DJK Pasing",
     "street": "Agnes-Bernauer-Straße 239",
     "city": "81241 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Agnes-Bernauer-Straße 239, 81241 München",
     "url": "https://www.bfv.de/vereine/djk-pasing/01S7GCN73G000000VS548985VS2I2GTN"
   },
@@ -284,6 +354,8 @@
     "name": "FC Phönix Schleißheim",
     "street": "Postfach 11 35",
     "city": "85758 Oberschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Postfach 11 35, 85758 Oberschleißheim",
     "url": "https://www.bfv.de/vereine/fc-phoenix-schleissheim/00ES8GNHFK000002VV0AG08LVUPGND5I"
   },
@@ -292,6 +364,8 @@
     "name": "SV Dornach",
     "street": "Feldkirchner Weg 50",
     "city": "85609 Aschheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Feldkirchner Weg 50, 85609 Aschheim",
     "url": "https://www.bfv.de/vereine/sv-dornach/00ES8GNH1O00000FVV0AG08LVUPGND5I"
   },
@@ -300,6 +374,8 @@
     "name": "SV Helfendorf",
     "street": "Graßer Str. 10",
     "city": "85653 Aying",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Graßer Str. 10, 85653 Aying",
     "url": "https://www.bfv.de/vereine/sv-helfendorf/00ES8GNHI400001BVV0AG08LVUPGND5I"
   },
@@ -308,6 +384,8 @@
     "name": "SC Baierbrunn",
     "street": "An der Ziegelei 3",
     "city": "82065 Baierbrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "An der Ziegelei 3, 82065 Baierbrunn",
     "url": "https://www.bfv.de/vereine/sc-baierbrunn/00ES8GNHGS00000HVV0AG08LVUPGND5I"
   },
@@ -316,6 +394,8 @@
     "name": "WSV Isartal Icking",
     "street": "Spatzenloh 14",
     "city": "82057 Icking",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Spatzenloh 14, 82057 Icking",
     "url": "https://www.bfv.de/vereine/wsv-isartal-icking/01KK4R4FOO000000VV0AG811VU8477B0"
   },
@@ -324,6 +404,8 @@
     "name": "TSV Hofolding",
     "street": "Fichtenstr. 33",
     "city": "85649 Brunnthal",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Fichtenstr. 33, 85649 Brunnthal",
     "url": "https://www.bfv.de/vereine/tsv-hofolding/00ES8GNHJC000001VV0AG08LVUPGND5I"
   },
@@ -332,6 +414,8 @@
     "name": "JFG Mangfalltal-Maxlrain 06",
     "street": "Aschhofen 21a",
     "city": "83620 Feldkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Aschhofen 21a, 83620 Feldkirchen",
     "url": "https://www.bfv.de/vereine/jfg-mangfalltal-maxlrain-06/00NAQEEV14000000VTVG0001VSV6MFGI"
   },
@@ -340,6 +424,8 @@
     "name": "SC Höhenrain",
     "street": "Zellweg 2",
     "city": "83620 Feldkirchen-Westerham",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Zellweg 2, 83620 Feldkirchen-Westerham",
     "url": "https://www.bfv.de/vereine/sc-hoehenrain/00ES8GNHQS000010VV0AG08LVUPGND5I"
   },
@@ -348,6 +434,8 @@
     "name": "SV Feldkirchen-Mitterharth.",
     "street": "Am Müllerberg 5",
     "city": "94351 Feldkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Müllerberg 5, 94351 Feldkirchen",
     "url": "https://www.bfv.de/vereine/sv-feldkirchen-mitterharth/00ES8GNI3K00000FVV0AG08LVUPGND5I"
   },
@@ -356,6 +444,8 @@
     "name": "TSV Mailing-Feldkirchen",
     "street": "Am Himmelreich 15",
     "city": "85055 Ingolstadt",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Himmelreich 15, 85055 Ingolstadt",
     "url": "https://www.bfv.de/vereine/tsv-mailing-feldkirchen/00ES8GNHOC00000CVV0AG08LVUPGND5I"
   },
@@ -364,6 +454,8 @@
     "name": "TV Feldkirchen",
     "street": "Karl-Weigl-Platz 4",
     "city": "83620 Feldkirchen-Westerham",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Karl-Weigl-Platz 4, 83620 Feldkirchen-Westerham",
     "url": "https://www.bfv.de/vereine/tv-feldkirchen/00ES8GNHQS000005VV0AG08LVUPGND5I"
   },
@@ -372,6 +464,8 @@
     "name": "FC Hochbrück",
     "street": "Hochstr. 173 a",
     "city": "85757 Karlsfeld",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hochstr. 173 a, 85757 Karlsfeld",
     "url": "https://www.bfv.de/vereine/fc-hochbrueck/00ES8GNH9C00000AVV0AG08LVUPGND5I"
   },
@@ -380,6 +474,8 @@
     "name": "FC Türk Sport Garching",
     "street": "Heinz-Katzenberger-Str. 3d",
     "city": "85764 Oberschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Heinz-Katzenberger-Str. 3d, 85764 Oberschleißheim",
     "url": "https://www.bfv.de/vereine/fc-tuerk-sport-garching/00ES8GNH80000002VV0AG08LVUPGND5I"
   },
@@ -388,6 +484,8 @@
     "name": "SV Plasmaphysik Garching",
     "street": "Boltzmannstr. 2",
     "city": "85748 Garching b. München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Boltzmannstr. 2, 85748 Garching b. München",
     "url": "https://www.bfv.de/vereine/sv-plasmaphysik-garching/00ES8GNH80000003VV0AG08LVUPGND5I"
   },
@@ -396,6 +494,8 @@
     "name": "Swiss-Life-SC München",
     "street": "Zeppelinstraße 1",
     "city": "85748 Garching bei München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Zeppelinstraße 1, 85748 Garching bei München",
     "url": "https://www.bfv.de/vereine/swiss-life-sc-muenchen/00ES8GNHD400001EVV0AG08LVUPGND5I"
   },
@@ -404,6 +504,8 @@
     "name": "SpVgg Haard",
     "street": "Häusler Weg 12",
     "city": "97720 Haard",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Häusler Weg 12, 97720 Haard",
     "url": "https://www.bfv.de/vereine/spvgg-haard/00ES8GNL6G00000LVV0AG08LVUPGND5I"
   },
@@ -412,6 +514,8 @@
     "name": "SV Akgüney Spor München",
     "street": "Ludwig-Thoma-Str. 73",
     "city": "85540 Haar",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Ludwig-Thoma-Str. 73, 85540 Haar",
     "url": "https://www.bfv.de/vereine/sv-akgueney-spor-muenchen/00ES8GNHAK00000OVV0AG08LVUPGND5I"
   },
@@ -420,6 +524,8 @@
     "name": "SV Haarbach",
     "street": "Ortenburger Str. 1A",
     "city": "94542 Haarbach",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Ortenburger Str. 1A, 94542 Haarbach",
     "url": "https://www.bfv.de/vereine/sv-haarbach/00ES8GNIOS00000TVV0AG08LVUPGND5I"
   },
@@ -428,6 +534,8 @@
     "name": "SC Grüne H. Ismaning",
     "street": "Freisinger Str. 83",
     "city": "85737 Ismaning",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Freisinger Str. 83, 85737 Ismaning",
     "url": "https://www.bfv.de/vereine/sc-gruene-h-ismaning/00ES8GNH9C00000PVV0AG08LVUPGND5I"
   },
@@ -436,6 +544,8 @@
     "name": "Kirchheimer SC",
     "street": "Florianstr. 24",
     "city": "85551 Kirchheim b. München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Florianstr. 24, 85551 Kirchheim b. München",
     "url": "https://www.bfv.de/vereine/kirchheimer-sc/00ES8GNH9C00000VVV0AG08LVUPGND5I"
   },
@@ -444,6 +554,8 @@
     "name": "SpVgg Heimstetten",
     "street": "Am Sportpark 2a",
     "city": "85551 Kirchheim b. München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportpark 2a, 85551 Kirchheim b. München",
     "url": "https://www.bfv.de/vereine/spvgg-heimstetten/00ES8GNH9C000008VV0AG08LVUPGND5I"
   },
@@ -452,6 +564,8 @@
     "name": "FC Biberg",
     "street": "Zwergerstr. 28",
     "city": "85579 Neubiberg",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Zwergerstr. 28, 85579 Neubiberg",
     "url": "https://www.bfv.de/vereine/fc-biberg/00ES8GNHFK00000GVV0AG08LVUPGND5I"
   },
@@ -460,6 +574,8 @@
     "name": "Heimatkicker Futsal-Club",
     "street": "Am Floßsteig 4",
     "city": "82041 Oberhaching",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Floßsteig 4, 82041 Oberhaching",
     "url": "https://www.bfv.de/vereine/heimatkicker-futsal-club/02JOBV0KQK000000VS5489B5VSIIOV4V"
   },
@@ -468,6 +584,8 @@
     "name": "EHC 90 Taufkirchen",
     "street": "Ottostr. 61",
     "city": "85521 Ottobrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Ottostr. 61, 85521 Ottobrunn",
     "url": "https://www.bfv.de/vereine/ehc-90-taufkirchen/02I4HJPSUS000000VS5489B6VT2Q1PM9"
   },
@@ -476,6 +594,8 @@
     "name": "FC Ottobrunn",
     "street": "Schwalbenstr. 74",
     "city": "85521 Ottobrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schwalbenstr. 74, 85521 Ottobrunn",
     "url": "https://www.bfv.de/vereine/fc-ottobrunn/01DJEVHORG000000VV0AG80NVSPF297E"
   },
@@ -484,6 +604,8 @@
     "name": "Putzbrunner SV",
     "street": "Michael-Haslbeck-Straße 7b",
     "city": "85640 Putzbrunn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Michael-Haslbeck-Straße 7b, 85640 Putzbrunn",
     "url": "https://www.bfv.de/vereine/putzbrunner-sv/00ES8GNHEC00001CVV0AG08LVUPGND5I"
   },
@@ -492,6 +614,8 @@
     "name": "DJK Würmtal Planegg",
     "street": "Georgenstraße 35",
     "city": "82152 Planegg",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Georgenstraße 35, 82152 Planegg",
     "url": "https://www.bfv.de/vereine/djk-wuermtal-planegg/00ES8GNHFK00000VVV0AG08LVUPGND5I"
   },
@@ -500,6 +624,8 @@
     "name": "SVN München",
     "street": "Fritz-Erler-Straße 3",
     "city": "81737 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Fritz-Erler-Straße 3, 81737 München",
     "url": "https://www.bfv.de/vereine/svn-muenchen/00ES8GNHD400000BVV0AG08LVUPGND5I"
   },
@@ -508,6 +634,8 @@
     "name": "Münchener Sp. VG. Bajuwaren",
     "street": "Schellingstr. 117",
     "city": "80798 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schellingstr. 117, 80798 München",
     "url": "https://www.bfv.de/vereine/muenchener-sp-vg-bajuwaren/00ES8GNHD4000008VV0AG08LVUPGND5I"
   },
@@ -516,6 +644,8 @@
     "name": "SV Arget",
     "street": "Holzkirchener Str. 30 a",
     "city": "82054 Sauerlach",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Holzkirchener Str. 30 a, 82054 Sauerlach",
     "url": "https://www.bfv.de/vereine/sv-arget/00ES8GNHGS000005VV0AG08LVUPGND5I"
   },
@@ -524,6 +654,8 @@
     "name": "SpFrd Egling",
     "street": "Kleindinghartinger Straße 10a",
     "city": "82064 Straßlach-Dingharting",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Kleindinghartinger Straße 10a, 82064 Straßlach-Dingharting",
     "url": "https://www.bfv.de/vereine/spfrd-egling/00ES8GNHGS00001BVV0AG08LVUPGND5I"
   },
@@ -532,6 +664,8 @@
     "name": "SV Straßlach",
     "street": "Schulstr. 25",
     "city": "82064 Straßlach-Dingharting",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schulstr. 25, 82064 Straßlach-Dingharting",
     "url": "https://www.bfv.de/vereine/sv-strasslach/00ES8GNHLS000006VV0AG08LVUPGND5I"
   },
@@ -540,6 +674,8 @@
     "name": "BSG Taufkirchen",
     "street": "Postfach 1113",
     "city": "84412 Taufkirchen (Vils)",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Postfach 1113, 84412 Taufkirchen (Vils)",
     "url": "https://www.bfv.de/vereine/bsg-taufkirchen/00ES8GNHFK00000CVV0AG08LVUPGND5I"
   },
@@ -548,6 +684,8 @@
     "name": "FC Hörgersdorf",
     "street": "Großköchlham 13",
     "city": "84416 Taufkirchen (Vils)",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Großköchlham 13, 84416 Taufkirchen (Vils)",
     "url": "https://www.bfv.de/vereine/fc-hoergersdorf/00ES8GNH9C00000GVV0AG08LVUPGND5I"
   },
@@ -556,6 +694,8 @@
     "name": "SC Moosen/Vils",
     "street": "Eichenstr. 1",
     "city": "84416 Taufkirchen (Vils)",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Eichenstr. 1, 84416 Taufkirchen (Vils)",
     "url": "https://www.bfv.de/vereine/sc-moosen-vils/00ES8GNHAK00000IVV0AG08LVUPGND5I"
   },
@@ -564,6 +704,8 @@
     "name": "SV Internationale Taufkirchen",
     "street": "Lindenring 4",
     "city": "82024 Taufkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Lindenring 4, 82024 Taufkirchen",
     "url": "https://www.bfv.de/vereine/sv-internationale-taufkirchen/018M9C9FO4000000VV0AG811VT1ITCMC"
   },
@@ -572,6 +714,8 @@
     "name": "TSV 1968 Taufkirchen",
     "street": "Am Anger 16",
     "city": "84574 Taufkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Anger 16, 84574 Taufkirchen",
     "url": "https://www.bfv.de/vereine/tsv-1968-taufkirchen/00ES8GNHUK000000VV0AG08LVUPGND5I"
   },
@@ -580,6 +724,8 @@
     "name": "TSV Aspis Taufkirchen",
     "street": "Postfach 73 Kellerstr. 19 1/2",
     "city": "84416 Taufkirchen (Vils)",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Postfach 73 Kellerstr. 19 1/2, 84416 Taufkirchen (Vils)",
     "url": "https://www.bfv.de/vereine/tsv-aspis-taufkirchen/00ES8GNHFK00000DVV0AG08LVUPGND5I"
   },
@@ -588,6 +734,8 @@
     "name": "TSV Obertaufkirchen",
     "street": "Am Sportplatz 10",
     "city": "84419 Obertaufkirchen",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Sportplatz 10, 84419 Obertaufkirchen",
     "url": "https://www.bfv.de/vereine/tsv-obertaufkirchen/00ES8GNHS400000PVV0AG08LVUPGND5I"
   },
@@ -596,6 +744,8 @@
     "name": "Fortuna Unterhaching",
     "street": "Grünauer Allee 6",
     "city": "82008 Unterhaching",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Grünauer Allee 6, 82008 Unterhaching",
     "url": "https://www.bfv.de/vereine/fortuna-unterhaching/00ES8GNHFK00000KVV0AG08LVUPGND5I"
   },
@@ -604,6 +754,8 @@
     "name": "SV Pyramiden München",
     "street": "Bischofshofener Straße 9",
     "city": "82008 Unterhaching",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bischofshofener Straße 9, 82008 Unterhaching",
     "url": "https://www.bfv.de/vereine/sv-pyramiden-muenchen/030RDI2I5S000000VS5489C1VUPQI28P"
   },
@@ -612,14 +764,28 @@
     "name": "FC Muschetarii",
     "street": "Carl-von-Linde-Str. 11",
     "city": "85716 Unterschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Carl-von-Linde-Str. 11, 85716 Unterschleißheim",
     "url": "https://www.bfv.de/vereine/fc-muschetarii/02PNI2B89C000000VS5489B7VSIBGMOO"
+  },
+  {
+    "id": "032DIG0QA0000000VS5489C2VS0U6L6O",
+    "name": "FC Unterschleissheim",
+    "street": "Ahornstraße 7",
+    "city": "85716 Unterschleißheim",
+    "region_city": "München",
+    "association": "BFV",
+    "address": "Ahornstraße 7, 85716 Unterschleißheim",
+    "url": "https://www.bfv.de/vereine/fc-unterschleissheim/032DIG0QA0000000VS5489C2VS0U6L6O"
   },
   {
     "id": "00ES8GNHBS00000PVV0AG08LVUPGND5I",
     "name": "Gehörlosen SV 1924 München",
     "street": "Lena-Christ-Straße 4",
     "city": "85716 Unterschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Lena-Christ-Straße 4, 85716 Unterschleißheim",
     "url": "https://www.bfv.de/vereine/gehoerlosen-sv-1924-muenchen/00ES8GNHBS00000PVV0AG08LVUPGND5I"
   },
@@ -628,6 +794,8 @@
     "name": "SV Riedmoos 1959",
     "street": "Zum Hirschdamm 3",
     "city": "85716 Unterschleißheim",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Zum Hirschdamm 3, 85716 Unterschleißheim",
     "url": "https://www.bfv.de/vereine/sv-riedmoos-1959/00ES8GNHEC00001EVV0AG08LVUPGND5I"
   },
@@ -636,6 +804,8 @@
     "name": "ESV SpFrd. München-Neuaubing",
     "street": "Papinstr. 22a",
     "city": "81249 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Papinstr. 22a, 81249 München",
     "url": "https://www.bfv.de/vereine/esv-spfrd-muenchen-neuaubing/00ES8GNHD4000009VV0AG08LVUPGND5I"
   },
@@ -644,6 +814,8 @@
     "name": "FC Traubing",
     "street": "Ludwig-Thoma-Straße 3",
     "city": "82327 Tutzing",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Ludwig-Thoma-Straße 3, 82327 Tutzing",
     "url": "https://www.bfv.de/vereine/fc-traubing/00ES8GNHLS00000AVV0AG08LVUPGND5I"
   },
@@ -652,6 +824,8 @@
     "name": "FSV München",
     "street": "Weltistr. 65",
     "city": "81477 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Weltistr. 65, 81477 München",
     "url": "https://www.bfv.de/vereine/fsv-muenchen/02F3V0D7LC000000VS5489B6VUM6LQK6"
   },
@@ -660,6 +834,8 @@
     "name": "Fußball-Talente Freiham",
     "street": "Hans-Dietrich-Genscher-Str. 13",
     "city": "81248 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hans-Dietrich-Genscher-Str. 13, 81248 München",
     "url": "https://www.bfv.de/vereine/fussball-talente-freiham/027K5LGVGG000000VS5489B5VUQ74E5T"
   },
@@ -668,6 +844,8 @@
     "name": "spiel raum e.V.",
     "street": "Trimburgstraße 2",
     "city": "81249 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Trimburgstraße 2, 81249 München",
     "url": "https://www.bfv.de/vereine/spiel-raum-ev/02PU8H0L14000000VS5489B7VTSSNBEC"
   },
@@ -676,6 +854,8 @@
     "name": "SV 1925 München-Untermenzing",
     "street": "Prof.-Eichmann-Str. 11",
     "city": "80999 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Prof.-Eichmann-Str. 11, 80999 München",
     "url": "https://www.bfv.de/vereine/sv-1925-muenchen-untermenzing/00ES8GNHEC000005VV0AG08LVUPGND5I"
   },
@@ -684,6 +864,8 @@
     "name": "SV Türkspor Allach/U'men.",
     "street": "Schönleutnerstr. 2",
     "city": "80997 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schönleutnerstr. 2, 80997 München",
     "url": "https://www.bfv.de/vereine/sv-tuerkspor-allach-umen/00ES8GNHAK00000SVV0AG08LVUPGND5I"
   },
@@ -692,6 +874,8 @@
     "name": "TSV Allach 09 München",
     "street": "Enterstr. 55",
     "city": "80999 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Enterstr. 55, 80999 München",
     "url": "https://www.bfv.de/vereine/tsv-allach-09-muenchen/00ES8GNHAK00000QVV0AG08LVUPGND5I"
   },
@@ -700,6 +884,8 @@
     "name": "FC Posavina München",
     "street": "Agnes-Bernauer-Str. 239",
     "city": "81241 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Agnes-Bernauer-Str. 239, 81241 München",
     "url": "https://www.bfv.de/vereine/fc-posavina-muenchen/0201QKUO60000000VS54898GVVORTB5G"
   },
@@ -708,6 +894,8 @@
     "name": "SV Nord München-Lerchenau",
     "street": "Ebereschenstraße 17",
     "city": "80935 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Ebereschenstraße 17, 80935 München",
     "url": "https://www.bfv.de/vereine/sv-nord-muenchen-lerchenau/00ES8GNHD400000DVV0AG08LVUPGND5I"
   },
@@ -716,6 +904,8 @@
     "name": "TSV 54 - DJK München",
     "street": "Grohmannstraße 63",
     "city": "80933 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Grohmannstraße 63, 80933 München",
     "url": "https://www.bfv.de/vereine/tsv-54-djk-muenchen/00ES8GNHEC000002VV0AG08LVUPGND5I"
   },
@@ -724,6 +914,8 @@
     "name": "FC Anadolu Bayern München",
     "street": "Hans-Dietrich-Genscher-Straße 13",
     "city": "81248 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hans-Dietrich-Genscher-Straße 13, 81248 München",
     "url": "https://www.bfv.de/vereine/fc-anadolu-bayern-muenchen/00ES8GNHAK000010VV0AG08LVUPGND5I"
   },
@@ -732,6 +924,8 @@
     "name": "SpFrd. 03 Pasing München",
     "street": "Agnes-Bernauer-Str. 239",
     "city": "81241 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Agnes-Bernauer-Str. 239, 81241 München",
     "url": "https://www.bfv.de/vereine/spfrd-03-pasing-muenchen/00ES8GNHD400000JVV0AG08LVUPGND5I"
   },
@@ -740,6 +934,8 @@
     "name": "TSG 1888 Pasing München",
     "street": "Aubinger Str. 12",
     "city": "81243 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Aubinger Str. 12, 81243 München",
     "url": "https://www.bfv.de/vereine/tsg-1888-pasing-muenchen/00ES8GNHD400000KVV0AG08LVUPGND5I"
   },
@@ -748,6 +944,8 @@
     "name": "Beton Boys München",
     "street": "Pollinger Str. 1",
     "city": "81377 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Pollinger Str. 1, 81377 München",
     "url": "https://www.bfv.de/vereine/beton-boys-muenchen/0278T285B0000000VS5489B5VTIAHD16"
   },
@@ -756,6 +954,8 @@
     "name": "FC Mainaustrasse",
     "street": "Wiesentfelser Str. 39",
     "city": "81249 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wiesentfelser Str. 39, 81249 München",
     "url": "https://www.bfv.de/vereine/fc-mainaustrasse/029OEGQAF4000000VS5489B6VVQHE8TR"
   },
@@ -764,6 +964,8 @@
     "name": "FC Neuhadern München",
     "street": "Wolkerweg 17",
     "city": "81375 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wolkerweg 17, 81375 München",
     "url": "https://www.bfv.de/vereine/fc-neuhadern-muenchen/00ES8GNHD400000AVV0AG08LVUPGND5I"
   },
@@ -772,6 +974,8 @@
     "name": "FC Fürstenried München",
     "street": "Herterichstr. 141",
     "city": "81476 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Herterichstr. 141, 81476 München",
     "url": "https://www.bfv.de/vereine/fc-fuerstenried-muenchen/00ES8GNHBS00000OVV0AG08LVUPGND5I"
   },
@@ -780,6 +984,8 @@
     "name": "SpVgg Thalkirchen",
     "street": "Arndtstr. 8",
     "city": "80469 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Arndtstr. 8, 80469 München",
     "url": "https://www.bfv.de/vereine/spvgg-thalkirchen/00ES8GNHD400001IVV0AG08LVUPGND5I"
   },
@@ -788,6 +994,8 @@
     "name": "TSV München-Solln",
     "street": "Herterichstr. 141",
     "city": "81476 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Herterichstr. 141, 81476 München",
     "url": "https://www.bfv.de/vereine/tsv-muenchen-solln/00ES8GNHD4000015VV0AG08LVUPGND5I"
   },
@@ -796,6 +1004,8 @@
     "name": "ATSV Kirchseeon",
     "street": "Rodelbahn 16",
     "city": "85614 Kirchseeon",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Rodelbahn 16, 85614 Kirchseeon",
     "url": "https://www.bfv.de/vereine/atsv-kirchseeon/00ES8GNH9C000010VV0AG08LVUPGND5I"
   },
@@ -804,6 +1014,8 @@
     "name": "FC Olympia Moosach München",
     "street": "Saarlouiser Str. 86",
     "city": "80997 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Saarlouiser Str. 86, 80997 München",
     "url": "https://www.bfv.de/vereine/fc-olympia-moosach-muenchen/00ES8GNHD4000005VV0AG08LVUPGND5I"
   },
@@ -812,6 +1024,8 @@
     "name": "SV Olympiadorf München",
     "street": "Moosacher Str. 99",
     "city": "80809 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Moosacher Str. 99, 80809 München",
     "url": "https://www.bfv.de/vereine/sv-olympiadorf-muenchen/00ES8GNHD400000FVV0AG08LVUPGND5I"
   },
@@ -820,6 +1034,8 @@
     "name": "TSV Moosach b. Grafing",
     "street": "Pfarrer-Kreutmeier-Weg 4",
     "city": "85665 Moosach",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Pfarrer-Kreutmeier-Weg 4, 85665 Moosach",
     "url": "https://www.bfv.de/vereine/tsv-moosach-b-grafing/00ES8GNHAK00000BVV0AG08LVUPGND5I"
   },
@@ -828,6 +1044,8 @@
     "name": "TSV Moosach-Hartmhfn. München",
     "street": "Lechelstr. 35",
     "city": "80997 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Lechelstr. 35, 80997 München",
     "url": "https://www.bfv.de/vereine/tsv-moosach-hartmhfn-muenchen/00ES8GNHD4000006VV0AG08LVUPGND5I"
   },
@@ -836,6 +1054,8 @@
     "name": "Afghanistan Motahed",
     "street": "Grohmannstraße 63",
     "city": "80933 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Grohmannstraße 63, 80933 München",
     "url": "https://www.bfv.de/vereine/afghanistan-motahed/02L7TQ3B1C000000VS5489B5VUQVNKF9"
   },
@@ -844,22 +1064,18 @@
     "name": "FC München City",
     "street": "Karlsteinstr. 2",
     "city": "80937 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Karlsteinstr. 2, 80937 München",
     "url": "https://www.bfv.de/vereine/fc-muenchen-city/02QG9QOE20000000VS5489B8VT7SR0C6"
-  },
-  {
-    "id": "032DIG0QA0000000VS5489C2VS0U6L6O",
-    "name": "FC Unterschleissheim",
-    "street": "Bad-Soden-Straße 19",
-    "city": "80807 München",
-    "address": "Bad-Soden-Straße 19, 80807 München",
-    "url": "https://www.bfv.de/vereine/fc-unterschleissheim/032DIG0QA0000000VS5489C2VS0U6L6O"
   },
   {
     "id": "00ES8GNHBS000019VV0AG08LVUPGND5I",
     "name": "SV Istiklal München",
     "street": "Am Oberwiesenfeld 17",
     "city": "80809 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Am Oberwiesenfeld 17, 80809 München",
     "url": "https://www.bfv.de/vereine/sv-istiklal-muenchen/00ES8GNHBS000019VV0AG08LVUPGND5I"
   },
@@ -868,6 +1084,8 @@
     "name": "TSV München-Milbertshofen",
     "street": "Hans-Denzinger-Str. 2",
     "city": "80807 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hans-Denzinger-Str. 2, 80807 München",
     "url": "https://www.bfv.de/vereine/tsv-muenchen-milbertshofen/00ES8GNHD4000003VV0AG08LVUPGND5I"
   },
@@ -876,6 +1094,8 @@
     "name": "ESV München-Freimann",
     "street": "Frankplatz 15",
     "city": "80939 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Frankplatz 15, 80939 München",
     "url": "https://www.bfv.de/vereine/esv-muenchen-freimann/00ES8GNHBS00000LVV0AG08LVUPGND5I"
   },
@@ -884,6 +1104,8 @@
     "name": "SC München-Freimann",
     "street": "Rainfarnstr. 25",
     "city": "80935 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Rainfarnstr. 25, 80935 München",
     "url": "https://www.bfv.de/vereine/sc-muenchen-freimann/00ES8GNHBS00000MVV0AG08LVUPGND5I"
   },
@@ -892,6 +1114,8 @@
     "name": "SV WB-Allianz München",
     "street": "Osterwaldstr. 144",
     "city": "80805 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Osterwaldstr. 144, 80805 München",
     "url": "https://www.bfv.de/vereine/sv-wb-allianz-muenchen/00ES8GNHEC00000EVV0AG08LVUPGND5I"
   },
@@ -900,6 +1124,8 @@
     "name": "VfB Sparta München",
     "street": "Josef-Wirth-Weg 40",
     "city": "80939 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Josef-Wirth-Weg 40, 80939 München",
     "url": "https://www.bfv.de/vereine/vfb-sparta-muenchen/00ES8GNHEC000007VV0AG08LVUPGND5I"
   },
@@ -908,6 +1134,8 @@
     "name": "FC Dreistern Neutrudering",
     "street": "Feldbergstr. 65",
     "city": "81825 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Feldbergstr. 65, 81825 München",
     "url": "https://www.bfv.de/vereine/fc-dreistern-neutrudering/00ES8GNHBS00000AVV0AG08LVUPGND5I"
   },
@@ -916,6 +1144,8 @@
     "name": "SV Bav. Giesing 1948 München",
     "street": "Tsingtauer Str. 90",
     "city": "81827 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Tsingtauer Str. 90, 81827 München",
     "url": "https://www.bfv.de/vereine/sv-bav-giesing-1948-muenchen/00ES8GNHAK000017VV0AG08LVUPGND5I"
   },
@@ -924,6 +1154,8 @@
     "name": "SV Gartenstadt Trudering",
     "street": "Heinrich-Wieland-Str. 102",
     "city": "81735 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Heinrich-Wieland-Str. 102, 81735 München",
     "url": "https://www.bfv.de/vereine/sv-gartenstadt-trudering/00ES8GNHD400001JVV0AG08LVUPGND5I"
   },
@@ -932,6 +1164,8 @@
     "name": "TSV Maccabi München",
     "street": "Riemer Straße 300",
     "city": "81829 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Riemer Straße 300, 81829 München",
     "url": "https://www.bfv.de/vereine/tsv-maccabi-muenchen/00ES8GNHD4000001VV0AG08LVUPGND5I"
   },
@@ -940,6 +1174,8 @@
     "name": "TSV Trudering München",
     "street": "Feldbergstr. 65",
     "city": "81825 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Feldbergstr. 65, 81825 München",
     "url": "https://www.bfv.de/vereine/tsv-trudering-muenchen/00ES8GNHEC000000VV0AG08LVUPGND5I"
   },
@@ -948,6 +1184,8 @@
     "name": "TSV Waldtrudering München",
     "street": "Rotkehlchenweg 2",
     "city": "81827 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Rotkehlchenweg 2, 81827 München",
     "url": "https://www.bfv.de/vereine/tsv-waldtrudering-muenchen/00ES8GNHEC00000DVV0AG08LVUPGND5I"
   },
@@ -956,6 +1194,8 @@
     "name": "FC Husaria München",
     "street": "Görzer Str. 54",
     "city": "81549 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Görzer Str. 54, 81549 München",
     "url": "https://www.bfv.de/vereine/fc-husaria-muenchen/02P81A5M68000000VS5489B7VVA4BVNN"
   },
@@ -964,6 +1204,8 @@
     "name": "FC Minicar München",
     "street": "Max-Reinhardt-Weg 28",
     "city": "81739 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Max-Reinhardt-Weg 28, 81739 München",
     "url": "https://www.bfv.de/vereine/fc-minicar-muenchen/00ES8GNHD4000004VV0AG08LVUPGND5I"
   },
@@ -972,6 +1214,8 @@
     "name": "FC Perlach 1925 München",
     "street": "Krehlebogen 15",
     "city": "81737 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Krehlebogen 15, 81737 München",
     "url": "https://www.bfv.de/vereine/fc-perlach-1925-muenchen/00ES8GNHD400000MVV0AG08LVUPGND5I"
   },
@@ -980,6 +1224,8 @@
     "name": "FC Ukraine München",
     "street": "Schönstr. 55",
     "city": "81543 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Schönstr. 55, 81543 München",
     "url": "https://www.bfv.de/vereine/fc-ukraine-muenchen/02PU8A0AR0000000VS5489B8VS8PL525"
   },
@@ -988,6 +1234,8 @@
     "name": "Münchner Kickers 2015",
     "street": "Wolkerweg 17",
     "city": "81375 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wolkerweg 17, 81375 München",
     "url": "https://www.bfv.de/vereine/muenchner-kickers-2015/01S7GB0JV4000000VS548984VTJ68QLL"
   },
@@ -996,6 +1244,8 @@
     "name": "SK Srbija München",
     "street": "Bert-Brecht-Allee 17",
     "city": "81737 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bert-Brecht-Allee 17, 81737 München",
     "url": "https://www.bfv.de/vereine/sk-srbija-muenchen/00ES8GNHD4000017VV0AG08LVUPGND5I"
   },
@@ -1004,6 +1254,8 @@
     "name": "SV K.Kermelikspor München",
     "street": "Krehlebogen 15",
     "city": "81737 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Krehlebogen 15, 81737 München",
     "url": "https://www.bfv.de/vereine/sv-kkermelikspor-muenchen/01D6F6Q870000000VV0AG811VTEBPQKJ"
   },
@@ -1012,6 +1264,8 @@
     "name": "SV Waldperlach München",
     "street": "Putzbrunner Str. 253",
     "city": "81739 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Putzbrunner Str. 253, 81739 München",
     "url": "https://www.bfv.de/vereine/sv-waldperlach-muenchen/00ES8GNHEC00000CVV0AG08LVUPGND5I"
   },
@@ -1020,6 +1274,8 @@
     "name": "Türkgücü München",
     "street": "Heinrich-Wieland-Straße  100",
     "city": "81737 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Heinrich-Wieland-Straße  100, 81737 München",
     "url": "https://www.bfv.de/vereine/tuerkguecue-muenchen/012PVKEHH8000000VV0AG811VT9N141T"
   },
@@ -1028,6 +1284,8 @@
     "name": "Centro Argentino de Munich",
     "street": "Margarethe-Danzi-Str. 7",
     "city": "80639 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Margarethe-Danzi-Str. 7, 80639 München",
     "url": "https://www.bfv.de/vereine/centro-argentino-de-munich/00ES8GNHBS000003VV0AG08LVUPGND5I"
   },
@@ -1036,6 +1294,8 @@
     "name": "FC Bayern München",
     "street": "Säbener Straße 51-57",
     "city": "81547 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Säbener Straße 51-57, 81547 München",
     "url": "https://www.bfv.de/vereine/fc-bayern-muenchen/00ES8GNHAK00001AVV0AG08LVUPGND5I"
   },
@@ -1044,6 +1304,8 @@
     "name": "FC Wölfe München",
     "street": "Wieskirchstraße 1a",
     "city": "81539 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Wieskirchstraße 1a, 81539 München",
     "url": "https://www.bfv.de/vereine/fc-woelfe-muenchen/02T931P44K000000VS5489C1VVPJFB41"
   },
@@ -1052,6 +1314,8 @@
     "name": "TSV 1860 München",
     "street": "Grünwalder Str. 114",
     "city": "81547 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Grünwalder Str. 114, 81547 München",
     "url": "https://www.bfv.de/vereine/tsv-1860-muenchen/00ES8GNHAK00000KVV0AG08LVUPGND5I"
   },
@@ -1060,6 +1324,8 @@
     "name": "BSC Sendling 1918 München",
     "street": "Siegenburger Str. 49",
     "city": "81373 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Siegenburger Str. 49, 81373 München",
     "url": "https://www.bfv.de/vereine/bsc-sendling-1918-muenchen/00ES8GNHD4000011VV0AG08LVUPGND5I"
   },
@@ -1068,6 +1334,8 @@
     "name": "FC Croatia München",
     "street": "Surheimer Weg 3",
     "city": "81379 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Surheimer Weg 3, 81379 München",
     "url": "https://www.bfv.de/vereine/fc-croatia-muenchen/00ES8GNHBS000005VV0AG08LVUPGND5I"
   },
@@ -1076,6 +1344,8 @@
     "name": "FC Hellas Monachou München",
     "street": "Demleitnerstraße 2",
     "city": "81371 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Demleitnerstraße 2, 81371 München",
     "url": "https://www.bfv.de/vereine/fc-hellas-monachou-muenchen/00ES8GNHBS000014VV0AG08LVUPGND5I"
   },
@@ -1084,6 +1354,8 @@
     "name": "JR Mirool",
     "street": "Gotzinger Str. 8",
     "city": "81371 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Gotzinger Str. 8, 81371 München",
     "url": "https://www.bfv.de/vereine/jr-mirool/02IT0FAACK000000VS5489B6VUDLU3RQ"
   },
@@ -1092,6 +1364,8 @@
     "name": "Latino Munich SV München",
     "street": "Bannwaldseestr. 35",
     "city": "81379 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bannwaldseestr. 35, 81379 München",
     "url": "https://www.bfv.de/vereine/latino-munich-sv-muenchen/00ES8GNHBS00001GVV0AG08LVUPGND5I"
   },
@@ -1100,6 +1374,8 @@
     "name": "MTV München von 1879",
     "street": "Werdenfelsstraße 70",
     "city": "81377 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Werdenfelsstraße 70, 81377 München",
     "url": "https://www.bfv.de/vereine/mtv-muenchen-von-1879/00ES8GNHD4000007VV0AG08LVUPGND5I"
   },
@@ -1108,6 +1384,8 @@
     "name": "Münchner Futsal Club",
     "street": "Grünstraße 3",
     "city": "81369 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Grünstraße 3, 81369 München",
     "url": "https://www.bfv.de/vereine/muenchner-futsal-club/0321NHLI5C000000VS5489C2VV9QABGJ"
   },
@@ -1116,6 +1394,8 @@
     "name": "SC 1893 Armin München",
     "street": "Mühlthaler Straße 83",
     "city": "81475 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Mühlthaler Straße 83, 81475 München",
     "url": "https://www.bfv.de/vereine/sc-1893-armin-muenchen/00ES8GNHAK000012VV0AG08LVUPGND5I"
   },
@@ -1124,6 +1404,8 @@
     "name": "SV München West",
     "street": "Hans-Fischer-Str. 20 / bei Schorpp",
     "city": "80339 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Hans-Fischer-Str. 20 / bei Schorpp, 80339 München",
     "url": "https://www.bfv.de/vereine/sv-muenchen-west/00ES8GNHBS00001KVV0AG08LVUPGND5I"
   },
@@ -1132,6 +1414,8 @@
     "name": "FC Schwabing 1956 München",
     "street": "Guerickestraße 6",
     "city": "80805 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Guerickestraße 6, 80805 München",
     "url": "https://www.bfv.de/vereine/fc-schwabing-1956-muenchen/00ES8GNHD400000UVV0AG08LVUPGND5I"
   },
@@ -1140,6 +1424,8 @@
     "name": "FC Maroc München",
     "street": "Landshuter Allee 83",
     "city": "80637 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Landshuter Allee 83, 80637 München",
     "url": "https://www.bfv.de/vereine/fc-maroc-muenchen/00ES8GNHBS000009VV0AG08LVUPGND5I"
   },
@@ -1148,6 +1434,8 @@
     "name": "Fußball-Talente München",
     "street": "Purfinger Str. 3",
     "city": "85646 Neufarn",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Purfinger Str. 3, 85646 Neufarn",
     "url": "https://www.bfv.de/vereine/fussball-talente-muenchen/02LU4G3I34000000VS5489B5VVD8CML6"
   },
@@ -1156,6 +1444,8 @@
     "name": "FV Hansa Neuhausen München",
     "street": "Menzinger Str. 54d",
     "city": "80638 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Menzinger Str. 54d, 80638 München",
     "url": "https://www.bfv.de/vereine/fv-hansa-neuhausen-muenchen/00ES8GNHBS00000VVV0AG08LVUPGND5I"
   },
@@ -1164,6 +1454,8 @@
     "name": "SV Lochhausen München",
     "street": "Bienenheimstr. 7",
     "city": "81249 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Bienenheimstr. 7, 81249 München",
     "url": "https://www.bfv.de/vereine/sv-lochhausen-muenchen/00ES8GNHBS00001IVV0AG08LVUPGND5I"
   },
@@ -1172,7 +1464,2949 @@
     "name": "FC Georgia München",
     "street": "Nanette-Bald-Straße 37",
     "city": "81245 München",
+    "region_city": "München",
+    "association": "BFV",
     "address": "Nanette-Bald-Straße 37, 81245 München",
     "url": "https://www.bfv.de/vereine/fc-georgia-muenchen/02M93DO66S000000VS5489B6VUITS620"
+  },
+  {
+    "address": "Valznerweiherstraße 200, 90480 Nürnberg",
+    "association": "BFV",
+    "city": "90480 Nürnberg",
+    "id": "00ES8GNKEO00001HVV0AG08LVUPGND5I",
+    "name": "1. FC Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Valznerweiherstraße 200",
+    "url": "https://www.bfv.de/vereine/1-fc-nuernberg/00ES8GNKEO00001HVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Am Wegfeld 41, 90427 Nürnberg",
+    "association": "BFV",
+    "city": "90427 Nürnberg",
+    "id": "00ES8GNKEO00000LVV0AG08LVUPGND5I",
+    "name": "TSV Buch Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Am Wegfeld 41",
+    "url": "https://www.bfv.de/vereine/tsv-buch-nuernberg/00ES8GNKEO00000LVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Rudenzstr. 8, 90409 Nürnberg",
+    "association": "BFV",
+    "city": "90409 Nürnberg",
+    "id": "00ES8GNKEO000012VV0AG08LVUPGND5I",
+    "name": "ASV Nürnberg Pfeil Phönix",
+    "region_city": "Nürnberg",
+    "street": "Rudenzstr. 8",
+    "url": "https://www.bfv.de/vereine/asv-nuernberg-pfeil-phoenix/00ES8GNKEO000012VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Willstätterstr. 4, 90449 Nürnberg",
+    "association": "BFV",
+    "city": "90449 Nürnberg",
+    "id": "00ES8GNKEO00000HVV0AG08LVUPGND5I",
+    "name": "ATV 1873 Frankonia Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Willstätterstr. 4",
+    "url": "https://www.bfv.de/vereine/atv-1873-frankonia-nuernberg/00ES8GNKEO00000HVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Pommernstr. 12, 90451 Nürnberg",
+    "association": "BFV",
+    "city": "90451 Nürnberg",
+    "id": "00ES8GNKEO00000OVV0AG08LVUPGND5I",
+    "name": "DJK Nürnberg-Eibach",
+    "region_city": "Nürnberg",
+    "street": "Pommernstr. 12",
+    "url": "https://www.bfv.de/vereine/djk-nuernberg-eibach/00ES8GNKEO00000OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Obere Bergstr. 35, 90562 Heroldsberg",
+    "association": "BFV",
+    "city": "90562 Heroldsberg",
+    "id": "00ES8GNKG000000JVV0AG08LVUPGND5I",
+    "name": "Post SV Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Obere Bergstr. 35",
+    "url": "https://www.bfv.de/vereine/post-sv-nuernberg/00ES8GNKG000000JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Kurfürstenstr. 16, 90459 Nürnberg",
+    "association": "BFV",
+    "city": "90459 Nürnberg",
+    "id": "00ES8GNKEO00001FVV0AG08LVUPGND5I",
+    "name": "SV Eyüp Sultan Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Kurfürstenstr. 16",
+    "url": "https://www.bfv.de/vereine/sv-eyuep-sultan-nuernberg/00ES8GNKEO00001FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Dientzenhoferstr. 26, 90480 Nürnberg",
+    "association": "BFV",
+    "city": "90480 Nürnberg",
+    "id": "00ES8GNKG000000EVV0AG08LVUPGND5I",
+    "name": "SpVgg Mögeldorf 2000 Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Dientzenhoferstr. 26",
+    "url": "https://www.bfv.de/vereine/spvgg-moegeldorf-2000-nuernberg/00ES8GNKG000000EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Kellermannstr. 24, 90455 Nürnberg",
+    "association": "BFV",
+    "city": "90455 Nürnberg",
+    "id": "00ES8GNKM8000007VV0AG08LVUPGND5I",
+    "name": "TSV Kornburg",
+    "region_city": "Nürnberg",
+    "street": "Kellermannstr. 24",
+    "url": "https://www.bfv.de/vereine/tsv-kornburg/00ES8GNKM8000007VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Regelsbacher Str. 56, 90431 Nürnberg",
+    "association": "BFV",
+    "city": "90431 Nürnberg",
+    "id": "00ES8GNKG0000011VV0AG08LVUPGND5I",
+    "name": "SGV Nürnberg-Fürth 1883",
+    "region_city": "Nürnberg",
+    "street": "Regelsbacher Str. 56",
+    "url": "https://www.bfv.de/vereine/sgv-nuernberg-fuerth-1883/00ES8GNKG0000011VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Postfach 310123, 90201 Nürnberg",
+    "association": "BFV",
+    "city": "90201 Nürnberg",
+    "id": "00ES8GNKG000000AVV0AG08LVUPGND5I",
+    "name": "SV Laufamholz Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Postfach 310123",
+    "url": "https://www.bfv.de/vereine/sv-laufamholz-nuernberg/00ES8GNKG000000AVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Wohlauer Straße 16, 90475 Nürnberg",
+    "association": "BFV",
+    "city": "90475 Nürnberg",
+    "id": "00ES8GNKEO00000GVV0AG08LVUPGND5I",
+    "name": "TSV Altenfurt Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Wohlauer Straße 16",
+    "url": "https://www.bfv.de/vereine/tsv-altenfurt-nuernberg/00ES8GNKEO00000GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Fischbacher Hauptstr. 250, 90475 Nürnberg",
+    "association": "BFV",
+    "city": "90475 Nürnberg",
+    "id": "00ES8GNKEO00000QVV0AG08LVUPGND5I",
+    "name": "TSV Fischbach Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Fischbacher Hauptstr. 250",
+    "url": "https://www.bfv.de/vereine/tsv-fischbach-nuernberg/00ES8GNKEO00000QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Sudetendeutsche Str. 60, 90480 Nürnberg",
+    "association": "BFV",
+    "city": "90480 Nürnberg",
+    "id": "00ES8GNKEO00001BVV0AG08LVUPGND5I",
+    "name": "DJK Falke Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Sudetendeutsche Str. 60",
+    "url": "https://www.bfv.de/vereine/djk-falke-nuernberg/00ES8GNKEO00001BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Weihergartenstr. 16, 90427 Nürnberg",
+    "association": "BFV",
+    "city": "90427 Nürnberg",
+    "id": "00ES8GNKG0000003VV0AG08LVUPGND5I",
+    "name": "SC Germania Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Weihergartenstr. 16",
+    "url": "https://www.bfv.de/vereine/sc-germania-nuernberg/00ES8GNKG0000003VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Herrnhüttestr. 75, 90411 Nürnberg",
+    "association": "BFV",
+    "city": "90411 Nürnberg",
+    "id": "00ES8GNKEO000010VV0AG08LVUPGND5I",
+    "name": "Tuspo Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Herrnhüttestr. 75",
+    "url": "https://www.bfv.de/vereine/tuspo-nuernberg/00ES8GNKEO000010VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Boxdorfer Hauptstr. 37a, 90427 Nürnberg",
+    "association": "BFV",
+    "city": "90427 Nürnberg",
+    "id": "00ES8GNKDG000014VV0AG08LVUPGND5I",
+    "name": "ASC Boxdorf",
+    "region_city": "Nürnberg",
+    "street": "Boxdorfer Hauptstr. 37a",
+    "url": "https://www.bfv.de/vereine/asc-boxdorf/00ES8GNKDG000014VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Wildenfelsweg 9, 90411 Nürnberg",
+    "association": "BFV",
+    "city": "90411 Nürnberg",
+    "id": "00ES8GNKEO00000KVV0AG08LVUPGND5I",
+    "name": "ASV Buchenbühl Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Wildenfelsweg 9",
+    "url": "https://www.bfv.de/vereine/asv-buchenbuehl-nuernberg/00ES8GNKEO00000KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Neusorgstraße 23, 90425 Nürnberg",
+    "association": "BFV",
+    "city": "90425 Nürnberg",
+    "id": "00ES8GNKEO000014VV0AG08LVUPGND5I",
+    "name": "FC Bayern Kickers Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Neusorgstraße 23",
+    "url": "https://www.bfv.de/vereine/fc-bayern-kickers-nuernberg/00ES8GNKEO000014VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Weidentalstr. 10, 90518 Altdorf b. Nürnberg",
+    "association": "BFV",
+    "city": "90518 Altdorf b. Nürnberg",
+    "id": "00ES8GNKIG000010VV0AG08LVUPGND5I",
+    "name": "1. FC Altdorf",
+    "region_city": "Nürnberg",
+    "street": "Weidentalstr. 10",
+    "url": "https://www.bfv.de/vereine/1-fc-altdorf/00ES8GNKIG000010VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Am Bruckweg 8 a, 90455 Nürnberg",
+    "association": "BFV",
+    "city": "90455 Nürnberg",
+    "id": "00ES8GNKG000000OVV0AG08LVUPGND5I",
+    "name": "1. FC Trafowerk Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Am Bruckweg 8 a",
+    "url": "https://www.bfv.de/vereine/1-fc-trafowerk-nuernberg/00ES8GNKG000000OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Herzogenauracher Straße 92, 90431 Nürnberg",
+    "association": "BFV",
+    "city": "90431 Nürnberg",
+    "id": "02MREBKLNK000000VS5489B5VV6AJTBP",
+    "name": "Bati Trakya Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Herzogenauracher Straße 92",
+    "url": "https://www.bfv.de/vereine/bati-trakya-nuernberg/02MREBKLNK000000VS5489B5VV6AJTBP"
+  },
+  {
+    "address": "Schwabacher Str. 79, 90439 Nürnberg",
+    "association": "BFV",
+    "city": "90439 Nürnberg",
+    "id": "00ES8GNKEO000017VV0AG08LVUPGND5I",
+    "name": "Dergah Spor Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Schwabacher Str. 79",
+    "url": "https://www.bfv.de/vereine/dergah-spor-nuernberg/00ES8GNKEO000017VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Hofer Str. 30, 90411 Nürnberg",
+    "association": "BFV",
+    "city": "90411 Nürnberg",
+    "id": "00ES8GNKDG000018VV0AG08LVUPGND5I",
+    "name": "DJK BF Fr. Concordia Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Hofer Str. 30",
+    "url": "https://www.bfv.de/vereine/djk-bf-fr-concordia-nuernberg/00ES8GNKDG000018VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Wacholderweg 60, 90441 Nürnberg",
+    "association": "BFV",
+    "city": "90441 Nürnberg",
+    "id": "00ES8GNKEO00001DVV0AG08LVUPGND5I",
+    "name": "DJK Sparta Noris Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Wacholderweg 60",
+    "url": "https://www.bfv.de/vereine/djk-sparta-noris-nuernberg/00ES8GNKEO00001DVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Germersheimer Str. 86, 90469 Nürnberg",
+    "association": "BFV",
+    "city": "90469 Nürnberg",
+    "id": "00ES8GNKEO00001GVV0AG08LVUPGND5I",
+    "name": "Eintracht Falkenheim Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Germersheimer Str. 86",
+    "url": "https://www.bfv.de/vereine/eintracht-falkenheim-nuernberg/00ES8GNKEO00001GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Finkenbrunn 145, 90469 Nürnberg",
+    "association": "BFV",
+    "city": "90469 Nürnberg",
+    "id": "00ES8GNKG0000000VV0AG08LVUPGND5I",
+    "name": "ESV Flügelrad Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Finkenbrunn 145",
+    "url": "https://www.bfv.de/vereine/esv-fluegelrad-nuernberg/00ES8GNKG0000000VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Friedrich-List-Weg 10, 90471 Nürnberg",
+    "association": "BFV",
+    "city": "90471 Nürnberg",
+    "id": "00ES8GNKG000000KVV0AG08LVUPGND5I",
+    "name": "ESV Rangierbhf. Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Friedrich-List-Weg 10",
+    "url": "https://www.bfv.de/vereine/esv-rangierbhf-nuernberg/00ES8GNKG000000KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Turnerheimstr. 48, 90441 Nürnberg",
+    "association": "BFV",
+    "city": "90441 Nürnberg",
+    "id": "00ES8GNKEO000015VV0AG08LVUPGND5I",
+    "name": "FC Bosna Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Turnerheimstr. 48",
+    "url": "https://www.bfv.de/vereine/fc-bosna-nuernberg/00ES8GNKEO000015VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Bertha-von-Suttner-Str. 30, 90439 Nürnberg",
+    "association": "BFV",
+    "city": "90439 Nürnberg",
+    "id": "019PBKFRGK000000VV0AG811VTFSSTU3",
+    "name": "FC Serbia Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Bertha-von-Suttner-Str. 30",
+    "url": "https://www.bfv.de/vereine/fc-serbia-nuernberg/019PBKFRGK000000VV0AG811VTFSSTU3"
+  },
+  {
+    "address": "Fröbelstr. 20A, 90513 Zirndorf",
+    "association": "BFV",
+    "city": "90513 Zirndorf",
+    "id": "00ES8GNKG000001CVV0AG08LVUPGND5I",
+    "name": "FC Stein bei Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Fröbelstr. 20A",
+    "url": "https://www.bfv.de/vereine/fc-stein-bei-nuernberg/00ES8GNKG000001CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Ferdinandstraße 21-23, 90429 Nürnberg",
+    "association": "BFV",
+    "city": "90429 Nürnberg",
+    "id": "027NL7R8H4000000VS5489B5VU9EHTFE",
+    "name": "Fußball Sportclub Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Ferdinandstraße 21-23",
+    "url": "https://www.bfv.de/vereine/fussball-sportclub-nuernberg/027NL7R8H4000000VS5489B5VU9EHTFE"
+  },
+  {
+    "address": "Röthenbacher Str. 28, 90518 Altdorf b. Nürnberg",
+    "association": "BFV",
+    "city": "90518 Altdorf b. Nürnberg",
+    "id": "00ES8GNKJO000019VV0AG08LVUPGND5I",
+    "name": "FV Röthenbach bei Altdorf",
+    "region_city": "Nürnberg",
+    "street": "Röthenbacher Str. 28",
+    "url": "https://www.bfv.de/vereine/fv-roethenbach-bei-altdorf/00ES8GNKJO000019VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Martinstraße 2, 92283 Lauterhofen",
+    "association": "BFV",
+    "city": "92283 Lauterhofen",
+    "id": "03142AJU0G000000VS5489C2VSRVARN3",
+    "name": "GCR Nürnberg 2023",
+    "region_city": "Nürnberg",
+    "street": "Martinstraße 2",
+    "url": "https://www.bfv.de/vereine/gcr-nuernberg-2023/03142AJU0G000000VS5489C2VSRVARN3"
+  },
+  {
+    "address": "Pommernstr. 1, 90451 Nürnberg",
+    "association": "BFV",
+    "city": "90451 Nürnberg",
+    "id": "00ES8GNKG0000002VV0AG08LVUPGND5I",
+    "name": "Gehörlosen SC Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Pommernstr. 1",
+    "url": "https://www.bfv.de/vereine/gehoerlosen-sc-nuernberg/00ES8GNKG0000002VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Thalmässinger Str. 29, 90451 Nürnberg",
+    "association": "BFV",
+    "city": "90451 Nürnberg",
+    "id": "01O9TV732S000000VV0AG80NVV4368R7",
+    "name": "Griech.SVM.Alexandros Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Thalmässinger Str. 29",
+    "url": "https://www.bfv.de/vereine/griechsvmalexandros-nuernberg/01O9TV732S000000VV0AG80NVV4368R7"
+  },
+  {
+    "address": "Postfach 2612, 90012 Nürnberg",
+    "association": "BFV",
+    "city": "90012 Nürnberg",
+    "id": "00ES8GNKG0000006VV0AG08LVUPGND5I",
+    "name": "KSD 'Hajduk' Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Postfach 2612",
+    "url": "https://www.bfv.de/vereine/ksd-hajduk-nuernberg/00ES8GNKG0000006VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Wirthstr. 46, 90459 Nürnberg",
+    "association": "BFV",
+    "city": "90459 Nürnberg",
+    "id": "00ES8GNKEO00000NVV0AG08LVUPGND5I",
+    "name": "KSD Croatia Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Wirthstr. 46",
+    "url": "https://www.bfv.de/vereine/ksd-croatia-nuernberg/00ES8GNKEO00000NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Gugelstr. 92, 90459 Nürnberg",
+    "association": "BFV",
+    "city": "90459 Nürnberg",
+    "id": "00ES8GNKG000000DVV0AG08LVUPGND5I",
+    "name": "Medina 2000 Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Gugelstr. 92",
+    "url": "https://www.bfv.de/vereine/medina-2000-nuernberg/00ES8GNKG000000DVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Muldenweg 19, 90469 Nürnberg",
+    "association": "BFV",
+    "city": "90469 Nürnberg",
+    "id": "00ES8GNKEO00000TVV0AG08LVUPGND5I",
+    "name": "Pegnitz Kicker Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Muldenweg 19",
+    "url": "https://www.bfv.de/vereine/pegnitz-kicker-nuernberg/00ES8GNKEO00000TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Kantstraße 3, 91074 Herzogenaurach",
+    "association": "BFV",
+    "city": "91074 Herzogenaurach",
+    "id": "03179A986C000000VS5489C2VSRVARN3",
+    "name": "Rot-Weiss Nürnberg 2025",
+    "region_city": "Nürnberg",
+    "street": "Kantstraße 3",
+    "url": "https://www.bfv.de/vereine/rot-weiss-nuernberg-2025/03179A986C000000VS5489C2VSRVARN3"
+  },
+  {
+    "address": "Meisterweg 1, 90518 Altdorf b. Nürnberg",
+    "association": "BFV",
+    "city": "90518 Altdorf b. Nürnberg",
+    "id": "00ES8GNKIG000018VV0AG08LVUPGND5I",
+    "name": "SC Eismannsberg",
+    "region_city": "Nürnberg",
+    "street": "Meisterweg 1",
+    "url": "https://www.bfv.de/vereine/sc-eismannsberg/00ES8GNKIG000018VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Leonhardstr. 3, 90443 Nürnberg",
+    "association": "BFV",
+    "city": "90443 Nürnberg",
+    "id": "00ES8GNKG000000QVV0AG08LVUPGND5I",
+    "name": "SC Türk Genc Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Leonhardstr. 3",
+    "url": "https://www.bfv.de/vereine/sc-tuerk-genc-nuernberg/00ES8GNKG000000QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Friedrich-Overbeck-Str. 25, 90455 Nürnberg",
+    "association": "BFV",
+    "city": "90455 Nürnberg",
+    "id": "00ES8GNKH8000001VV0AG08LVUPGND5I",
+    "name": "SC Worzeldorf",
+    "region_city": "Nürnberg",
+    "street": "Friedrich-Overbeck-Str. 25",
+    "url": "https://www.bfv.de/vereine/sc-worzeldorf/00ES8GNKH8000001VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Bad Brückenauer Str. 35, 90427 Nürnberg",
+    "association": "BFV",
+    "city": "90427 Nürnberg",
+    "id": "00ES8GNKEO000009VV0AG08LVUPGND5I",
+    "name": "SpFrd. Großgründlach",
+    "region_city": "Nürnberg",
+    "street": "Bad Brückenauer Str. 35",
+    "url": "https://www.bfv.de/vereine/spfrd-grossgruendlach/00ES8GNKEO000009VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Neumühlweg 160, 90449 Nürnberg",
+    "association": "BFV",
+    "city": "90449 Nürnberg",
+    "id": "00ES8GNKG000000MVV0AG08LVUPGND5I",
+    "name": "SpVgg Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Neumühlweg 160",
+    "url": "https://www.bfv.de/vereine/spvgg-nuernberg/00ES8GNKG000000MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Fallrohrstr. 165, 90480 Nürnberg",
+    "association": "BFV",
+    "city": "90480 Nürnberg",
+    "id": "00ES8GNKG0000010VV0AG08LVUPGND5I",
+    "name": "SpVgg Zabo Eintracht Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Fallrohrstr. 165",
+    "url": "https://www.bfv.de/vereine/spvgg-zabo-eintracht-nuernberg/00ES8GNKG0000010VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Beckstr. 25, 90429 Nürnberg",
+    "association": "BFV",
+    "city": "90429 Nürnberg",
+    "id": "00ES8GNKEO00001EVV0AG08LVUPGND5I",
+    "name": "SSV Elektra Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Beckstr. 25",
+    "url": "https://www.bfv.de/vereine/ssv-elektra-nuernberg/00ES8GNKEO00001EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Maiacher Str. 4, 90441 Nürnberg",
+    "association": "BFV",
+    "city": "90441 Nürnberg",
+    "id": "00ES8GNKEO00000UVV0AG08LVUPGND5I",
+    "name": "SV 1873 Süd Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Maiacher Str. 4",
+    "url": "https://www.bfv.de/vereine/sv-1873-sued-nuernberg/00ES8GNKEO00000UVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Postfach 44 02 13, 90207 Nürnberg",
+    "association": "BFV",
+    "city": "90207 Nürnberg",
+    "id": "00ES8GNKL0000005VV0AG08LVUPGND5I",
+    "name": "SV Blaue Jungs Weinhof",
+    "region_city": "Nürnberg",
+    "street": "Postfach 44 02 13",
+    "url": "https://www.bfv.de/vereine/sv-blaue-jungs-weinhof/00ES8GNKL0000005VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Pfalzhausweg 2b, 90556 Cadolzburg",
+    "association": "BFV",
+    "city": "90556 Cadolzburg",
+    "id": "00ES8GNKG000000BVV0AG08LVUPGND5I",
+    "name": "SV Maiach-Hinterhof Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Pfalzhausweg 2b",
+    "url": "https://www.bfv.de/vereine/sv-maiach-hinterhof-nuernberg/00ES8GNKG000000BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Am Sommerkeller 5, 91757 Treuchtlingen",
+    "association": "BFV",
+    "city": "91757 Treuchtlingen",
+    "id": "00ES8GNKM800000FVV0AG08LVUPGND5I",
+    "name": "SV Möhren",
+    "region_city": "Nürnberg",
+    "street": "Am Sommerkeller 5",
+    "url": "https://www.bfv.de/vereine/sv-moehren/00ES8GNKM800000FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Schleifmühlstr. 4, 90518 Altdorf b. Nürnberg",
+    "association": "BFV",
+    "city": "90518 Altdorf b. Nürnberg",
+    "id": "00ES8GNKJO000015VV0AG08LVUPGND5I",
+    "name": "SV Rasch",
+    "region_city": "Nürnberg",
+    "street": "Schleifmühlstr. 4",
+    "url": "https://www.bfv.de/vereine/sv-rasch/00ES8GNKJO000015VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Schlößleinsgasse 9, 90453 Nürnberg",
+    "association": "BFV",
+    "city": "90453 Nürnberg",
+    "id": "00ES8GNKG0000017VV0AG08LVUPGND5I",
+    "name": "SV Reichelsdorf",
+    "region_city": "Nürnberg",
+    "street": "Schlößleinsgasse 9",
+    "url": "https://www.bfv.de/vereine/sv-reichelsdorf/00ES8GNKG0000017VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Mittelbügweg 11, 90571 Schwaig b. Nürnberg",
+    "association": "BFV",
+    "city": "90571 Schwaig b. Nürnberg",
+    "id": "00ES8GNKIG00000JVV0AG08LVUPGND5I",
+    "name": "SV Schwaig bei Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Mittelbügweg 11",
+    "url": "https://www.bfv.de/vereine/sv-schwaig-bei-nuernberg/00ES8GNKIG00000JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Zum Sportpark 1, 90602 Pyrbaum",
+    "association": "BFV",
+    "city": "90602 Pyrbaum",
+    "id": "00ES8GNKJO00001BVV0AG08LVUPGND5I",
+    "name": "SV Seligenporten",
+    "region_city": "Nürnberg",
+    "street": "Zum Sportpark 1",
+    "url": "https://www.bfv.de/vereine/sv-seligenporten/00ES8GNKJO00001BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Kuhweiherweg 95, 90451 Nürnberg",
+    "association": "BFV",
+    "city": "90451 Nürnberg",
+    "id": "00ES8GNKEO000011VV0AG08LVUPGND5I",
+    "name": "SV Wacker Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Kuhweiherweg 95",
+    "url": "https://www.bfv.de/vereine/sv-wacker-nuernberg/00ES8GNKEO000011VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Schnepfenreuther Hauptstr. 19, 90425 Nürnberg",
+    "association": "BFV",
+    "city": "90425 Nürnberg",
+    "id": "00ES8GNKG0000008VV0AG08LVUPGND5I",
+    "name": "TBD St. Johannis 1888 Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Schnepfenreuther Hauptstr. 19",
+    "url": "https://www.bfv.de/vereine/tbd-st-johannis-1888-nuernberg/00ES8GNKG0000008VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Fuggerstr. 9, 90439 Nürnberg",
+    "association": "BFV",
+    "city": "90439 Nürnberg",
+    "id": "00ES8GNKEO00000VVV0AG08LVUPGND5I",
+    "name": "TSV 1846 Nürnberg",
+    "region_city": "Nürnberg",
+    "street": "Fuggerstr. 9",
+    "url": "https://www.bfv.de/vereine/tsv-1846-nuernberg/00ES8GNKEO00000VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "Günthersbühler Str. 75, 90571 Schwaig b. Nürnberg",
+    "association": "BFV",
+    "city": "90571 Schwaig b. Nürnberg",
+    "id": "00ES8GNKH800000CVV0AG08LVUPGND5I",
+    "name": "TSV 1906 Behringersdorf",
+    "region_city": "Nürnberg",
+    "street": "Günthersbühler Str. 75",
+    "url": "https://www.bfv.de/vereine/tsv-1906-behringersdorf/00ES8GNKH800000CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13439 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13439 Berlin",
+    "id": "020321S8R4000000VS54898FVUEK3NNP",
+    "name": "1. FC PV Nord e.V.",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1-fc-pv-nord-ev-berlin/-/id/020321S8R4000000VS54898FVUEK3NNP"
+  },
+  {
+    "address": "12157 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12157 Berlin",
+    "id": "00ES8GNCAC000054VV0AG08LVUPGND5I",
+    "name": "1. FC Schöneberg",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1-fc-schoeneberg-berlin/-/id/00ES8GNCAC000054VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13597 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13597 Berlin",
+    "id": "00IT28G1P4000000VTVG0001VV2Q3I0A",
+    "name": "1.FC Besiktas",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-besiktas-berlin/-/id/00IT28G1P4000000VTVG0001VV2Q3I0A"
+  },
+  {
+    "address": "13469 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13469 Berlin",
+    "id": "00ES8GNCAC00006BVV0AG08LVUPGND5I",
+    "name": "1.FC Lübars",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-luebars-berlin/-/id/00ES8GNCAC00006BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12689 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12689 Berlin",
+    "id": "00ES8GNCAC00006TVV0AG08LVUPGND5I",
+    "name": "1.FC Marzahn 94",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-marzahn-94-berlin/-/id/00ES8GNCAC00006TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12163 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12163 Berlin",
+    "id": "00ES8GNCAC00005RVV0AG08LVUPGND5I",
+    "name": "1.FC Novi Pazar 1895",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-novi-pazar-1895-berlin/-/id/00ES8GNCAC00005RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12555 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12555 Berlin",
+    "id": "00ES8GNCAC0000ABVV0AG08LVUPGND5I",
+    "name": "1.FC Union Berlin",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-union-berlin-berlin/-/id/00ES8GNCAC0000ABVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12249 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12249 Berlin",
+    "id": "00ES8GNCAC00005EVV0AG08LVUPGND5I",
+    "name": "1.FC Wacker Lankwitz",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-wacker-lankwitz-berlin/-/id/00ES8GNCAC00005EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10715 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10715 Berlin",
+    "id": "00ES8GNCAC000069VV0AG08LVUPGND5I",
+    "name": "1.FC Wilmersdorf",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1fc-wilmersdorf-berlin/-/id/00ES8GNCAC000069VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13585 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13585 Berlin",
+    "id": "00ES8GNCAC00007CVV0AG08LVUPGND5I",
+    "name": "1.FFV Spandau",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1ffv-spandau-berlin/-/id/00ES8GNCAC00007CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12167 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12167 Berlin",
+    "id": "00ES8GNCAC00006AVV0AG08LVUPGND5I",
+    "name": "1.Traber FC Mariendorf",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/1traber-fc-mariendorf-berlin/-/id/00ES8GNCAC00006AVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12489 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12489 Berlin",
+    "id": "00ES8GNCAC00008EVV0AG08LVUPGND5I",
+    "name": "Adlershofer BC",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/adlershofer-bc-berlin/-/id/00ES8GNCAC00008EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10178 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10178 Berlin",
+    "id": "02RJ12VDSC000000VS5489B8VUUVBGMS",
+    "name": "Aimnation",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/aimnation-berlin/-/id/02RJ12VDSC000000VS5489B8VUUVBGMS"
+  },
+  {
+    "address": "13599 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13599 Berlin",
+    "id": "00ES8GNCAC000039VV0AG08LVUPGND5I",
+    "name": "Alemannia 06 Haselhorst",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/alemannia-06-haselhorst-berlin/-/id/00ES8GNCAC000039VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10997 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10997 Berlin",
+    "id": "00ES8GNCAC00006HVV0AG08LVUPGND5I",
+    "name": "Anadoluspor",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/anadoluspor-berlin/-/id/00ES8GNCAC00006HVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12459 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12459 Berlin",
+    "id": "00ES8GNCAC000075VV0AG08LVUPGND5I",
+    "name": "Askania Coepenick",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/askania-coepenick-berlin/-/id/00ES8GNCAC000075VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10557 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10557 Berlin",
+    "id": "00ES8GNCAC00003AVV0AG08LVUPGND5I",
+    "name": "ASV Berlin",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/asv-berlin-berlin/-/id/00ES8GNCAC00003AVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13407 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13407 Berlin",
+    "id": "00ES8GNCAC00005KVV0AG08LVUPGND5I",
+    "name": "B.S.C. Reinickendorf",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-reinickendorf-berlin/-/id/00ES8GNCAC00005KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10115 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10115 Berlin",
+    "id": "00ES8GNCAC00008OVV0AG08LVUPGND5I",
+    "name": "B.W. Berolina Mitte",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bw-berolina-mitte-berlin/-/id/00ES8GNCAC00008OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12205 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12205 Berlin",
+    "id": "00ES8GNCBK00000QVV0AG08LVUPGND5I",
+    "name": "BCC",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bcc-berlin/-/id/00ES8GNCBK00000QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10179 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10179 Berlin",
+    "id": "02HGGK8Q6K000000VS5489B5VVHLU8ON",
+    "name": "Berlin Cricket Academy",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-cricket-academy-berlin/-/id/02HGGK8Q6K000000VS5489B5VVHLU8ON"
+  },
+  {
+    "address": "10119 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10119 Berlin",
+    "id": "02HGGND47C000000VS5489B5VVHLU8ON",
+    "name": "Berlin Eagles Cricket Club",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-eagles-cricket-club-berlin/-/id/02HGGND47C000000VS5489B5VVHLU8ON"
+  },
+  {
+    "address": "10969 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10969 Berlin",
+    "id": "00ES8GNCAC00004BVV0AG08LVUPGND5I",
+    "name": "Berlin Hilalspor",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-hilalspor-berlin/-/id/00ES8GNCAC00004BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13125 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13125 Berlin",
+    "id": "02TTCL8TJS000000VS5489C1VU6JD80M",
+    "name": "Berlin Pandas",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-pandas-berlin/-/id/02TTCL8TJS000000VS5489C1VU6JD80M"
+  },
+  {
+    "address": "13355 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13355 Berlin",
+    "id": "00ES8GNCAC000042VV0AG08LVUPGND5I",
+    "name": "Berlin Türkspor",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-tuerkspor-berlin/-/id/00ES8GNCAC000042VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "14197 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "14197 Berlin",
+    "id": "031AQTQKDG000000VS5489C2VSFJL2CB",
+    "name": "Berlin Underdogs",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berlin-underdogs-berlin/-/id/031AQTQKDG000000VS5489C2VSFJL2CB"
+  },
+  {
+    "address": "10557 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10557 Berlin",
+    "id": "00ES8GNCAC00005NVV0AG08LVUPGND5I",
+    "name": "Berliner AK 07",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-ak-07-berlin/-/id/00ES8GNCAC00005NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12047 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12047 Berlin",
+    "id": "00ES8GNCAC00003BVV0AG08LVUPGND5I",
+    "name": "Berliner Amateure",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-amateure-berlin/-/id/00ES8GNCAC00003BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10969 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10969 Berlin",
+    "id": "00ES8GNCAC00003NVV0AG08LVUPGND5I",
+    "name": "Berliner Gehörlosen SV",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-gehoerlosen-sv-berlin/-/id/00ES8GNCAC00003NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "14193 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "14193 Berlin",
+    "id": "00ES8GNCAC00003DVV0AG08LVUPGND5I",
+    "name": "Berliner SC",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-sc-berlin/-/id/00ES8GNCAC00003DVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10407 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10407 Berlin",
+    "id": "00ES8GNCBK000007VV0AG08LVUPGND5I",
+    "name": "Berliner TSC",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-tsc-berlin/-/id/00ES8GNCBK000007VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10365 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10365 Berlin",
+    "id": "00ES8GNCAC00008NVV0AG08LVUPGND5I",
+    "name": "Berliner Verkehrsbetriebe",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/berliner-verkehrsbetriebe-berlin/-/id/00ES8GNCAC00008NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13409 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13409 Berlin",
+    "id": "00VTDJT5E8000000VV0AG811VSH77U83",
+    "name": "Besiktas JK Berlin",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/besiktas-jk-berlin-berlin/-/id/00VTDJT5E8000000VV0AG811VSH77U83"
+  },
+  {
+    "address": "13403 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13403 Berlin",
+    "id": "00ES8GNCAC000038VV0AG08LVUPGND5I",
+    "name": "BFC Alemannia 90",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfc-alemannia-90-berlin/-/id/00ES8GNCAC000038VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13053 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13053 Berlin",
+    "id": "00ES8GNCAC00008KVV0AG08LVUPGND5I",
+    "name": "BFC Dynamo",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfc-dynamo-berlin/-/id/00ES8GNCAC00008KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12099 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12099 Berlin",
+    "id": "00ES8GNCAC00003UVV0AG08LVUPGND5I",
+    "name": "BFC Germania 88",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfc-germania-88-berlin/-/id/00ES8GNCAC00003UVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12249 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12249 Berlin",
+    "id": "00ES8GNCAC00004RVV0AG08LVUPGND5I",
+    "name": "BFC Preussen",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfc-preussen-berlin/-/id/00ES8GNCAC00004RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10969 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10969 Berlin",
+    "id": "00ES8GNCAC000052VV0AG08LVUPGND5I",
+    "name": "BFC Südring Amed",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfc-suedring-amed-berlin/-/id/00ES8GNCAC000052VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "14193 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "14193 Berlin",
+    "id": "016V3HO3D4000000VV0AG811VUUR7CAK",
+    "name": "BFV",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfv-berlin/-/id/016V3HO3D4000000VV0AG811VUUR7CAK"
+  },
+  {
+    "address": "10719 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10719 Berlin",
+    "id": "01BK4EGG30000000VV0AG80NVT2H0NLG",
+    "name": "BFV Vikoria 89 CCB",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bfv-vikoria-89-ccb-berlin/-/id/01BK4EGG30000000VV0AG80NVT2H0NLG"
+  },
+  {
+    "address": "13589 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13589 Berlin",
+    "id": "00U0IMBA9S000000VV0AG80NVVU2FB9G",
+    "name": "Biber Sport Club Spandau",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/biber-sport-club-spandau-berlin/-/id/00U0IMBA9S000000VV0AG80NVVU2FB9G"
+  },
+  {
+    "address": "10179 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10179 Berlin",
+    "id": "00ES8GNCAC00008SVV0AG08LVUPGND5I",
+    "name": "Blau-Weiss Friedrichshain",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/blau-weiss-friedrichshain-berlin/-/id/00ES8GNCAC00008SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13053 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13053 Berlin",
+    "id": "00ES8GNCAC00008TVV0AG08LVUPGND5I",
+    "name": "Blau-Weiss Hohenschönhausen",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/blau-weiss-hohenschoenhausen-berlin/-/id/00ES8GNCAC00008TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12105 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12105 Berlin",
+    "id": "00ES8GNCAC00006CVV0AG08LVUPGND5I",
+    "name": "Blau-Weiß 1890",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/blau-weiss-1890-berlin/-/id/00ES8GNCAC00006CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13599 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13599 Berlin",
+    "id": "01L3TVD414000000VV0AG811VTSPSUQH",
+    "name": "BMW Motorrad",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bmw-motorrad-berlin/-/id/01L3TVD414000000VV0AG811VTSPSUQH"
+  },
+  {
+    "address": "10585 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10585 Berlin",
+    "id": "02MA26HS3C000000VS5489B5VUQOK8NJ",
+    "name": "Borussia 19",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/borussia-19-berlin/-/id/02MA26HS3C000000VS5489B5VUQOK8NJ"
+  },
+  {
+    "address": "13187 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13187 Berlin",
+    "id": "00ES8GNCAC0000A1VV0AG08LVUPGND5I",
+    "name": "Borussia Pankow",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/borussia-pankow-berlin/-/id/00ES8GNCAC0000A1VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10589 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10589 Berlin",
+    "id": "00ES8GNCAC00003HVV0AG08LVUPGND5I",
+    "name": "Brandenburg 03",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/brandenburg-03-berlin/-/id/00ES8GNCAC00003HVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10000 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10000 Berlin",
+    "id": "027P11OADK000000VS5489B6VS0DI89D",
+    "name": "BS Steglitz",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bs-steglitz-berlin/-/id/027P11OADK000000VS5489B6VS0DI89D"
+  },
+  {
+    "address": "10969 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10969 Berlin",
+    "id": "00ES8GNCBK000004VV0AG08LVUPGND5I",
+    "name": "BSC Comet e.V",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-comet-ev-berlin/-/id/00ES8GNCBK000004VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10961 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10961 Berlin",
+    "id": "00ES8GNCAC00003QVV0AG08LVUPGND5I",
+    "name": "BSC Eintracht Südring",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-eintracht-suedring-berlin/-/id/00ES8GNCAC00003QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "10967 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10967 Berlin",
+    "id": "00ES8GNCAC00006OVV0AG08LVUPGND5I",
+    "name": "BSC Göktürkspor",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-goektuerkspor-berlin/-/id/00ES8GNCAC00006OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13189 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13189 Berlin",
+    "id": "016QIJJ3E0000000VV0AG811VSHKO3EJ",
+    "name": "BSC Humania 07",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-humania-07-berlin/-/id/016QIJJ3E0000000VV0AG811VSHKO3EJ"
+  },
+  {
+    "address": "12207 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12207 Berlin",
+    "id": "00ES8GNCAC000048VV0AG08LVUPGND5I",
+    "name": "BSC Kickers 1900",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-kickers-1900-berlin/-/id/00ES8GNCAC000048VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12685 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12685 Berlin",
+    "id": "00ES8GNCAC00009JVV0AG08LVUPGND5I",
+    "name": "BSC Marzahn",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-marzahn-berlin/-/id/00ES8GNCAC00009JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "13351 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13351 Berlin",
+    "id": "00ES8GNCAC00004SVV0AG08LVUPGND5I",
+    "name": "BSC Rehberge 1945",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsc-rehberge-1945-berlin/-/id/00ES8GNCAC00004SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "12169 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12169 Berlin",
+    "id": "01B4J4A48G000000VV0AG80NVS2OG7MA",
+    "name": "BSG ADC Krone",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-adc-krone-berlin/-/id/01B4J4A48G000000VV0AG80NVS2OG7MA"
+  },
+  {
+    "address": "12099 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12099 Berlin",
+    "id": "01B4J625UK000000VV0AG811VTNMR8BE",
+    "name": "BSG AOK Nordost",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-aok-nordost-berlin/-/id/01B4J625UK000000VV0AG811VTNMR8BE"
+  },
+  {
+    "address": "10553 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10553 Berlin",
+    "id": "01OMRB7IJ8000000VV0AG80NVSUJVUDV",
+    "name": "BSG Atotech",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-atotech-berlin/-/id/01OMRB7IJ8000000VV0AG80NVSUJVUDV"
+  },
+  {
+    "address": "10117 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10117 Berlin",
+    "id": "01B4J6G1FG000000VV0AG80NVS2OG7MA",
+    "name": "BSG Auswärtiges Amt",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-auswaertiges-amt-berlin/-/id/01B4J6G1FG000000VV0AG80NVS2OG7MA"
+  },
+  {
+    "address": "13403 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13403 Berlin",
+    "id": "01B4JACD40000000VV0AG811VTNMR8BE",
+    "name": "BSG BA Reinickendorf",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-ba-reinickendorf-berlin/-/id/01B4JACD40000000VV0AG811VTNMR8BE"
+  },
+  {
+    "address": "14163 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "14163 Berlin",
+    "id": "01B4J3E180000000VV0AG80NVS2OG7MA",
+    "name": "BSG BA Zehlendorf",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-ba-zehlendorf-berlin/-/id/01B4J3E180000000VV0AG80NVS2OG7MA"
+  },
+  {
+    "address": "12487 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "12487 Berlin",
+    "id": "01B4J5AQB4000000VV0AG811VTNMR8BE",
+    "name": "BSG Bahntechnik Berlin",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-bahntechnik-berlin-berlin/-/id/01B4J5AQB4000000VV0AG811VTNMR8BE"
+  },
+  {
+    "address": "10969 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "10969 Berlin",
+    "id": "030HOECOM4000000VS5489C2VUVIAT6D",
+    "name": "BSG Ballteam Schuhmann",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-ballteam-schuhmann-berlin/-/id/030HOECOM4000000VS5489C2VUVIAT6D"
+  },
+  {
+    "address": "13353 Berlin",
+    "association": "BFV_BERLIN",
+    "city": "13353 Berlin",
+    "id": "01B4ACS17O000000VV0AG811VTNMR8BE",
+    "name": "BSG Bayer Berlin",
+    "region_city": "Berlin",
+    "url": "https://www.fussball.de/verein/bsg-bayer-berlin-berlin/-/id/01B4ACS17O000000VV0AG811VTNMR8BE"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01AM3VTNVO000000VV0AG80NVS95GITI",
+    "name": "1. FC Turbohorn",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/1-fc-turbohorn-hamburg/-/id/01AM3VTNVO000000VV0AG80NVS95GITI"
+  },
+  {
+    "address": "21079 Hamburg",
+    "association": "HFV",
+    "city": "21079 Hamburg",
+    "id": "00QRPRD2IG000000VV0AG83KVUE21VIT",
+    "name": "1. FFC Elbinsel",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/1-ffc-elbinsel-hamburg/-/id/00QRPRD2IG000000VV0AG83KVUE21VIT"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01E0CKI4NG000000VV0AG811VU9K6TRG",
+    "name": "1.FC Turbo United",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/1fc-turbo-united-hamburg/-/id/01E0CKI4NG000000VV0AG811VU9K6TRG"
+  },
+  {
+    "address": "22119 Hamburg",
+    "association": "HFV",
+    "city": "22119 Hamburg",
+    "id": "02Q59SUVTC000000VS5489B8VSMHOE6K",
+    "name": "AGAGBHH",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/agagbhh-hamburg/-/id/02Q59SUVTC000000VS5489B8VSMHOE6K"
+  },
+  {
+    "address": "20144 Hamburg",
+    "association": "HFV",
+    "city": "20144 Hamburg",
+    "id": "00ES8GN8I400003PVV0AG08LVUPGND5I",
+    "name": "Alsterbrüder",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/alsterbrueder-hamburg/-/id/00ES8GN8I400003PVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22335 Hamburg",
+    "association": "HFV",
+    "city": "22335 Hamburg",
+    "id": "00ES8GN8I400003RVV0AG08LVUPGND5I",
+    "name": "Alstertal-Langenhorn",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/alstertal-langenhorn-hamburg/-/id/00ES8GN8I400003RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSU9T5PG000000VTVG0001VV4PSBJF",
+    "name": "Alt Nettelnburger SC",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/alt-nettelnburger-sc-hamburg/-/id/00NSU9T5PG000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "21039 Hamburg",
+    "association": "HFV",
+    "city": "21039 Hamburg",
+    "id": "00ES8GN8I400003QVV0AG08LVUPGND5I",
+    "name": "Altengamme",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/altengamme-hamburg/-/id/00ES8GN8I400003QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21132 Hamburg",
+    "association": "HFV",
+    "city": "21132 Hamburg",
+    "id": "00ES8GN8I400003SVV0AG08LVUPGND5I",
+    "name": "Altenwerder",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/altenwerder-hamburg/-/id/00ES8GN8I400003SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22605 Hamburg",
+    "association": "HFV",
+    "city": "22605 Hamburg",
+    "id": "00ES8GN8I400003TVV0AG08LVUPGND5I",
+    "name": "Altona 93",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/altona-93-hamburg/-/id/00ES8GN8I400003TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22045 Hamburg",
+    "association": "HFV",
+    "city": "22045 Hamburg",
+    "id": "02SBQMNTU0000000VS5489B8VU5131GP",
+    "name": "AS United",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/as-united-hamburg/-/id/02SBQMNTU0000000VS5489B8VU5131GP"
+  },
+  {
+    "address": "21033 Hamburg",
+    "association": "HFV",
+    "city": "21033 Hamburg",
+    "id": "00ES8GN8I4000041VV0AG08LVUPGND5I",
+    "name": "ASV Bergedorf",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/asv-bergedorf-hamburg/-/id/00ES8GN8I4000041VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21035 Hamburg",
+    "association": "HFV",
+    "city": "21035 Hamburg",
+    "id": "00ES8GN8JC00003IVV0AG08LVUPGND5I",
+    "name": "Atlantik-97",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/atlantik-97-hamburg/-/id/00ES8GN8JC00003IVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01HL7KSQ84000000VV0AG811VVOIBTIB",
+    "name": "Atletico Hamburg",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/atletico-hamburg-hamburg/-/id/01HL7KSQ84000000VV0AG811VVOIBTIB"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSUAI4US000000VTVG0001VV4PSBJF",
+    "name": "BB U",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bb-u-hamburg/-/id/00NSUAI4US000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00RM865NSK000000VV0AG811VV7TUR73",
+    "name": "BCM Moorweide",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bcm-moorweide-hamburg/-/id/00RM865NSK000000VV0AG811VV7TUR73"
+  },
+  {
+    "address": "21033 Hamburg",
+    "association": "HFV",
+    "city": "21033 Hamburg",
+    "id": "00ES8GN8I4000042VV0AG08LVUPGND5I",
+    "name": "Bergedorf-West",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bergedorf-west-hamburg/-/id/00ES8GN8I4000042VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22395 Hamburg",
+    "association": "HFV",
+    "city": "22395 Hamburg",
+    "id": "00ES8GN8I4000043VV0AG08LVUPGND5I",
+    "name": "Bergstedt",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bergstedt-hamburg/-/id/00ES8GN8I4000043VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22589 Hamburg",
+    "association": "HFV",
+    "city": "22589 Hamburg",
+    "id": "00ES8GN8I4000045VV0AG08LVUPGND5I",
+    "name": "Blankenese",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/blankenese-hamburg/-/id/00ES8GN8I4000045VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22525 Hamburg",
+    "association": "HFV",
+    "city": "22525 Hamburg",
+    "id": "00ES8GN8JC00002OVV0AG08LVUPGND5I",
+    "name": "Blau-Weiss Ellas",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/blau-weiss-ellas-hamburg/-/id/00ES8GN8JC00002OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "20355 Hamburg",
+    "association": "HFV",
+    "city": "20355 Hamburg",
+    "id": "02PJ04KB84000000VS5489B8VTD1NPBM",
+    "name": "BLS Hamburg 01",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bls-hamburg-01-hamburg/-/id/02PJ04KB84000000VS5489B8VTD1NPBM"
+  },
+  {
+    "address": "21079 Hamburg",
+    "association": "HFV",
+    "city": "21079 Hamburg",
+    "id": "00ES8GN8I4000049VV0AG08LVUPGND5I",
+    "name": "Bostelbek",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bostelbek-hamburg/-/id/00ES8GN8I4000049VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22179 Hamburg",
+    "association": "HFV",
+    "city": "22179 Hamburg",
+    "id": "00ES8GN8I400004AVV0AG08LVUPGND5I",
+    "name": "Bramfeld",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bramfeld-hamburg/-/id/00ES8GN8I400004AVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01NIH7B2SC000000VV0AG811VV0N4D1F",
+    "name": "Brecht United",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/brecht-united-hamburg/-/id/01NIH7B2SC000000VV0AG811VV0N4D1F"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSU6SE4C000000VTVG0001VV4PSBJF",
+    "name": "BSK Satan",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bsk-satan-hamburg/-/id/00NSU6SE4C000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22605 Hamburg",
+    "association": "HFV",
+    "city": "22605 Hamburg",
+    "id": "00ES8GN8I400004BVV0AG08LVUPGND5I",
+    "name": "BSV 19",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bsv-19-hamburg/-/id/00ES8GN8I400004BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22307 Hamburg",
+    "association": "HFV",
+    "city": "22307 Hamburg",
+    "id": "00ES8GN8I400004CVV0AG08LVUPGND5I",
+    "name": "BU",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/bu-hamburg/-/id/00ES8GN8I400004CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSTVD5N4000000VTVG0001VV4PSBJF",
+    "name": "Chile Hamburg",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/chile-hamburg-hamburg/-/id/00NSTVD5N4000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22045 Hamburg",
+    "association": "HFV",
+    "city": "22045 Hamburg",
+    "id": "00ES8GN8I400004FVV0AG08LVUPGND5I",
+    "name": "Concordia",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/concordia-hamburg/-/id/00ES8GN8I400004FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22159 Hamburg",
+    "association": "HFV",
+    "city": "22159 Hamburg",
+    "id": "00ES8GN8I400004GVV0AG08LVUPGND5I",
+    "name": "Condor",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/condor-hamburg/-/id/00ES8GN8I400004GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "20535 Hamburg",
+    "association": "HFV",
+    "city": "20535 Hamburg",
+    "id": "00ES8GN8JC000037VV0AG08LVUPGND5I",
+    "name": "Croatia",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/croatia-hamburg/-/id/00ES8GN8JC000037VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21039 Hamburg",
+    "association": "HFV",
+    "city": "21039 Hamburg",
+    "id": "00ES8GN8I400004HVV0AG08LVUPGND5I",
+    "name": "Curslack-Neuengamme",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/curslack-neuengamme-hamburg/-/id/00ES8GN8I400004HVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01E0CJHKHG000000VV0AG80NVUEFUVQ5",
+    "name": "DBK",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/dbk-hamburg/-/id/01E0CJHKHG000000VV0AG80NVUEFUVQ5"
+  },
+  {
+    "address": "21035 Hamburg",
+    "association": "HFV",
+    "city": "21035 Hamburg",
+    "id": "02L6UUTD20000000VS5489B5VUJ4GJ0C",
+    "name": "DCFF",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/dcff-hamburg/-/id/02L6UUTD20000000VS5489B5VUJ4GJ0C"
+  },
+  {
+    "address": "21073 Hamburg",
+    "association": "HFV",
+    "city": "21073 Hamburg",
+    "id": "00NKQOCKK4000000VTVG0001VTSF20D0",
+    "name": "Dersimspor",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/dersimspor-hamburg/-/id/00NKQOCKK4000000VTVG0001VTSF20D0"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSUB1JKS000000VTVG0001VV4PSBJF",
+    "name": "Die Kickers",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/die-kickers-hamburg/-/id/00NSUB1JKS000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSTTBPJC000000VTVG0001VV4PSBJF",
+    "name": "Die Kickers 13",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/die-kickers-13-hamburg/-/id/00NSTTBPJC000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01ARBECC70000000VV0AG811VSBNHOBH",
+    "name": "Die Lokomotive Waldbrand",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/die-lokomotive-waldbrand-hamburg/-/id/01ARBECC70000000VV0AG811VSBNHOBH"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00ES8GN8I400004JVV0AG08LVUPGND5I",
+    "name": "DJK Hamburg",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/djk-hamburg-hamburg/-/id/00ES8GN8I400004JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22049 Hamburg",
+    "association": "HFV",
+    "city": "22049 Hamburg",
+    "id": "00ES8GN8I4000053VV0AG08LVUPGND5I",
+    "name": "DSC Hanseat",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/dsc-hanseat-hamburg/-/id/00ES8GN8I4000053VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22397 Hamburg",
+    "association": "HFV",
+    "city": "22397 Hamburg",
+    "id": "00ES8GN8I400004MVV0AG08LVUPGND5I",
+    "name": "Duvenstedt",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/duvenstedt-hamburg/-/id/00ES8GN8I400004MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22397 Hamburg",
+    "association": "HFV",
+    "city": "22397 Hamburg",
+    "id": "00ES8GN8I400004NVV0AG08LVUPGND5I",
+    "name": "Duwo 08",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/duwo-08-hamburg/-/id/00ES8GN8I400004NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "01SLL8QVO8000000VS548984VUF3HKF9",
+    "name": "Eastside Kicker",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eastside-kicker-hamburg/-/id/01SLL8QVO8000000VS548984VUF3HKF9"
+  },
+  {
+    "address": "22089 Hamburg",
+    "association": "HFV",
+    "city": "22089 Hamburg",
+    "id": "00ES8GN8I400004QVV0AG08LVUPGND5I",
+    "name": "Eilbek",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eilbek-hamburg/-/id/00ES8GN8I400004QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "20144 Hamburg",
+    "association": "HFV",
+    "city": "20144 Hamburg",
+    "id": "00ES8GN8I4000050VV0AG08LVUPGND5I",
+    "name": "Eimsbüttel",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eimsbuettel-hamburg/-/id/00ES8GN8I4000050VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21109 Hamburg",
+    "association": "HFV",
+    "city": "21109 Hamburg",
+    "id": "00ES8GN8I4000051VV0AG08LVUPGND5I",
+    "name": "Einigkeit",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/einigkeit-hamburg/-/id/00ES8GN8I4000051VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "016QRV80SS000000VV0AG80NVVV82QSP",
+    "name": "Eintracht Altona",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eintracht-altona-hamburg/-/id/016QRV80SS000000VV0AG80NVVV82QSP"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSTU8U3K000000VTVG0001VV4PSBJF",
+    "name": "Eintracht Bergedorf 85",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eintracht-bergedorf-85-hamburg/-/id/00NSTU8U3K000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22335 Hamburg",
+    "association": "HFV",
+    "city": "22335 Hamburg",
+    "id": "00ES8GN8JC00002GVV0AG08LVUPGND5I",
+    "name": "Eintracht Fuhlsbüttel",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eintracht-fuhlsbuettel-hamburg/-/id/00ES8GN8JC00002GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22529 Hamburg",
+    "association": "HFV",
+    "city": "22529 Hamburg",
+    "id": "00ES8GN8I400004RVV0AG08LVUPGND5I",
+    "name": "Eintracht Lokstedt",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eintracht-lokstedt-hamburg/-/id/00ES8GN8I400004RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "0138L6L258000000VV0AG811VUQOGJLI",
+    "name": "Eisenbahn Eimsbüttel",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/eisenbahn-eimsbuettel-hamburg/-/id/0138L6L258000000VV0AG811VUQOGJLI"
+  },
+  {
+    "address": "20537 Hamburg",
+    "association": "HFV",
+    "city": "20537 Hamburg",
+    "id": "00ES8GN8JC00002FVV0AG08LVUPGND5I",
+    "name": "Elazig Spor",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/elazig-spor-hamburg/-/id/00ES8GN8JC00002FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21129 Hamburg",
+    "association": "HFV",
+    "city": "21129 Hamburg",
+    "id": "00ES8GN8I4000056VV0AG08LVUPGND5I",
+    "name": "Este 06/70",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/este-06-70-hamburg/-/id/00ES8GN8I4000056VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21033 Hamburg",
+    "association": "HFV",
+    "city": "21033 Hamburg",
+    "id": "00ES8GN8I400004UVV0AG08LVUPGND5I",
+    "name": "ETSV Hamburg",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/etsv-hamburg-hamburg/-/id/00ES8GN8I400004UVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22159 Hamburg",
+    "association": "HFV",
+    "city": "22159 Hamburg",
+    "id": "00ES8GN8I4000058VV0AG08LVUPGND5I",
+    "name": "Farmsen",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/farmsen-hamburg/-/id/00ES8GN8I4000058VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "22305 Hamburg",
+    "association": "HFV",
+    "city": "22305 Hamburg",
+    "id": "00ES8GN8JC00002SVV0AG08LVUPGND5I",
+    "name": "Fatihspor",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fatihspor-hamburg/-/id/00ES8GN8JC00002SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "21033 Hamburg",
+    "association": "HFV",
+    "city": "21033 Hamburg",
+    "id": "0130I1QH78000000VV0AG80NVU6EEQER",
+    "name": "FC Bergedorf 85",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-bergedorf-85-hamburg/-/id/0130I1QH78000000VV0AG80NVU6EEQER"
+  },
+  {
+    "address": "21107 Hamburg",
+    "association": "HFV",
+    "city": "21107 Hamburg",
+    "id": "00IT1R35KO000000VTVG0001VU0V09I0",
+    "name": "FC Bingöl 12",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-bingoel-12-hamburg/-/id/00IT1R35KO000000VTVG0001VU0V09I0"
+  },
+  {
+    "address": "22045 Hamburg",
+    "association": "HFV",
+    "city": "22045 Hamburg",
+    "id": "02Q9IJPO4C000000VS5489B8VU073K4Q",
+    "name": "FC Blättereier",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-blaettereier-hamburg/-/id/02Q9IJPO4C000000VS5489B8VU073K4Q"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSU9ABRK000000VTVG0001VV4PSBJF",
+    "name": "FC Dardania Heroes",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-dardania-heroes-hamburg/-/id/00NSU9ABRK000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "21079 Hamburg",
+    "association": "HFV",
+    "city": "21079 Hamburg",
+    "id": "0130HSKLDK000000VV0AG80NVU6EEQER",
+    "name": "FC Dynamo HH.",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-dynamo-hh-hamburg/-/id/0130HSKLDK000000VV0AG80NVU6EEQER"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSU57VP8000000VTVG0001VV4PSBJF",
+    "name": "FC Endstation",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-endstation-hamburg/-/id/00NSU57VP8000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22179 Hamburg",
+    "association": "HFV",
+    "city": "22179 Hamburg",
+    "id": "02T85AMMC0000000VS5489C2VTGLPFFF",
+    "name": "FC Gregs e.V.",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-gregs-ev-hamburg/-/id/02T85AMMC0000000VS5489C2VTGLPFFF"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00NSUALRNO000000VTVG0001VV4PSBJF",
+    "name": "FC Guinea-Bissau",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-guinea-bissau-hamburg/-/id/00NSUALRNO000000VTVG0001VV4PSBJF"
+  },
+  {
+    "address": "22043 Hamburg",
+    "association": "HFV",
+    "city": "22043 Hamburg",
+    "id": "00V6TTBA5C000000VV0AG80NVVSB1MA9",
+    "name": "FC Haak Bir",
+    "region_city": "Hamburg",
+    "url": "https://www.fussball.de/verein/fc-haak-bir-hamburg/-/id/00V6TTBA5C000000VV0AG80NVVSB1MA9"
+  },
+  {
+    "address": "50937 Köln",
+    "association": "FVM",
+    "city": "50937 Köln",
+    "id": "00ES8GN91400002BVV0AG08LVUPGND5I",
+    "name": "1. FC Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/1-fc-koeln-mittelrhein/-/id/00ES8GN91400002BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51109 Köln",
+    "association": "FVM",
+    "city": "51109 Köln",
+    "id": "016DMJIGD0000000VV0AG80NVTPAHU5I",
+    "name": "1. FC Union Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/1-fc-union-koeln-mittelrhein/-/id/016DMJIGD0000000VV0AG80NVTPAHU5I"
+  },
+  {
+    "address": "50737 Köln",
+    "association": "FVM",
+    "city": "50737 Köln",
+    "id": "01HHM9GIN0000000VV0AG80NVS2IB2LC",
+    "name": "1. FSV Köln 99",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/1-fsv-koeln-99-mittelrhein/-/id/01HHM9GIN0000000VV0AG80NVS2IB2LC"
+  },
+  {
+    "address": "50933 Köln",
+    "association": "FVM",
+    "city": "50933 Köln",
+    "id": "00ES8GN91400003QVV0AG08LVUPGND5I",
+    "name": "1. Jugend-Fußball-Schule Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/1-jugend-fussball-schule-koeln-mittelrhein/-/id/00ES8GN91400003QVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50733 Köln",
+    "association": "FVM",
+    "city": "50733 Köln",
+    "id": "0288DRFUBO000000VS5489B5VSHJP3GF",
+    "name": "AFG Colonia",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/afg-colonia-mittelrhein/-/id/0288DRFUBO000000VS5489B5VSHJP3GF"
+  },
+  {
+    "address": "50769 Köln",
+    "association": "FVM",
+    "city": "50769 Köln",
+    "id": "020H6F8C98000000VS54898GVTAM0VIQ",
+    "name": "AKM Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/akm-koeln-mittelrhein/-/id/020H6F8C98000000VS54898GVTAM0VIQ"
+  },
+  {
+    "address": "51065 Köln",
+    "association": "FVM",
+    "city": "51065 Köln",
+    "id": "00ES8GN91400001LVV0AG08LVUPGND5I",
+    "name": "Anadolu e.V. Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/anadolu-ev-koeln-mittelrhein/-/id/00ES8GN91400001LVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50733 Köln",
+    "association": "FVM",
+    "city": "50733 Köln",
+    "id": "02ST5OEORK000000VS5489C1VT6VJV4E",
+    "name": "AS Nippes",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/as-nippes-mittelrhein/-/id/02ST5OEORK000000VS5489C1VT6VJV4E"
+  },
+  {
+    "address": "51113 Köln",
+    "association": "FVM",
+    "city": "51113 Köln",
+    "id": "00ES8GN91400004CVV0AG08LVUPGND5I",
+    "name": "Ataspor e.V. 74 Köln-Porz",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/ataspor-ev-74-koeln-porz-mittelrhein/-/id/00ES8GN91400004CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51063 Köln",
+    "association": "FVM",
+    "city": "51063 Köln",
+    "id": "0154E0V6MC000000VV0AG811VSMUR1QL",
+    "name": "Baris",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/baris-mittelrhein/-/id/0154E0V6MC000000VV0AG811VSMUR1QL"
+  },
+  {
+    "address": "51107 Köln",
+    "association": "FVM",
+    "city": "51107 Köln",
+    "id": "012S33IQ7G000000VV0AG80NVVH516BU",
+    "name": "Bosna Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/bosna-koeln-mittelrhein/-/id/012S33IQ7G000000VV0AG80NVVH516BU"
+  },
+  {
+    "address": "51061 Köln",
+    "association": "FVM",
+    "city": "51061 Köln",
+    "id": "02QN2SV60S000000VS5489B7VS443EG7",
+    "name": "BSG Edscha",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/bsg-edscha-niederrhein/-/id/02QN2SV60S000000VS5489B7VS443EG7"
+  },
+  {
+    "address": "50858 Köln",
+    "association": "FVM",
+    "city": "50858 Köln",
+    "id": "00VE8KK8DS000000VV0AG80NVV48UB10",
+    "name": "Bunte Liga Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/bunte-liga-koeln-mittelrhein/-/id/00VE8KK8DS000000VV0AG80NVV48UB10"
+  },
+  {
+    "address": "50939 Köln",
+    "association": "FVM",
+    "city": "50939 Köln",
+    "id": "027EL46IQC000000VS5489B5VSEIC24E",
+    "name": "Bäng, Boom, Bäng Ballfieber",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/baeng-boom-baeng-ballfieber-mittelrhein/-/id/027EL46IQC000000VS5489B5VSEIC24E"
+  },
+  {
+    "address": "51065 Köln",
+    "association": "FVM",
+    "city": "51065 Köln",
+    "id": "00ES8GN91400001TVV0AG08LVUPGND5I",
+    "name": "Bühnen-Sport-Club Köln 1961",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/buehnen-sport-club-koeln-1961-mittelrhein/-/id/00ES8GN91400001TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50735 Köln",
+    "association": "FVM",
+    "city": "50735 Köln",
+    "id": "00ES8GN91400002EVV0AG08LVUPGND5I",
+    "name": "CfB Ford Köln-Niehl 09/52 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/cfb-ford-koeln-niehl-09-52-ev-mittelrhein/-/id/00ES8GN91400002EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50733 Köln",
+    "association": "FVM",
+    "city": "50733 Köln",
+    "id": "02Q6SA7C00000000VS5489B8VSMHOE6K",
+    "name": "Cologne 11",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/cologne-11-mittelrhein/-/id/02Q6SA7C00000000VS5489B8VSMHOE6K"
+  },
+  {
+    "address": "50829 Köln",
+    "association": "FVM",
+    "city": "50829 Köln",
+    "id": "00IT1UJ53C000000VTVG0001VV65MLA5",
+    "name": "Cologne FC",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/cologne-fc-mittelrhein/-/id/00IT1UJ53C000000VTVG0001VV65MLA5"
+  },
+  {
+    "address": "50767 Köln",
+    "association": "FVM",
+    "city": "50767 Köln",
+    "id": "0171TP6U5S000000VV0AG80NVSU11VGM",
+    "name": "Croatia Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/croatia-koeln-ev-mittelrhein/-/id/0171TP6U5S000000VV0AG80NVSU11VGM"
+  },
+  {
+    "address": "50769 Köln",
+    "association": "FVM",
+    "city": "50769 Köln",
+    "id": "01E3ICUTNO000000VV0AG80NVUBB6LAR",
+    "name": "Ditib Chorweiler",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/ditib-chorweiler-mittelrhein/-/id/01E3ICUTNO000000VV0AG80NVUBB6LAR"
+  },
+  {
+    "address": "50733 Köln",
+    "association": "FVM",
+    "city": "50733 Köln",
+    "id": "00ES8GN91400003VVV0AG08LVUPGND5I",
+    "name": "DJK Grün-Weiß Nippes 1919 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/djk-gruen-weiss-nippes-1919-ev-mittelrhein/-/id/00ES8GN91400003VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50735 Köln",
+    "association": "FVM",
+    "city": "50735 Köln",
+    "id": "00ES8GN91400003DVV0AG08LVUPGND5I",
+    "name": "DJK Löwe Köln e.V. 1950",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/djk-loewe-koeln-ev-1950-mittelrhein/-/id/00ES8GN91400003DVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50739 Köln",
+    "association": "FVM",
+    "city": "50739 Köln",
+    "id": "00ES8GN91400004MVV0AG08LVUPGND5I",
+    "name": "DJK Roland Köln-West e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/djk-roland-koeln-west-ev-mittelrhein/-/id/00ES8GN91400004MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50937 Köln",
+    "association": "FVM",
+    "city": "50937 Köln",
+    "id": "00ES8GN91400004VVV0AG08LVUPGND5I",
+    "name": "DJK Südwest 1920/27 e.V. Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/djk-suedwest-1920-27-ev-koeln-mittelrhein/-/id/00ES8GN91400004VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51002 Köln",
+    "association": "FVM",
+    "city": "51002 Köln",
+    "id": "00ES8GN91400001SVV0AG08LVUPGND5I",
+    "name": "DJK Viktoria Buchheim",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/djk-viktoria-buchheim-mittelrhein/-/id/00ES8GN91400001SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50823 Köln",
+    "association": "FVM",
+    "city": "50823 Köln",
+    "id": "00ES8GN914000023VV0AG08LVUPGND5I",
+    "name": "DSK Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/dsk-koeln-ev-mittelrhein/-/id/00ES8GN914000023VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51069 Köln",
+    "association": "FVM",
+    "city": "51069 Köln",
+    "id": "00ES8GN914000025VV0AG08LVUPGND5I",
+    "name": "Dünnwalder Sportclub 1929 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/duennwalder-sportclub-1929-ev-mittelrhein/-/id/00ES8GN914000025VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51149 Köln",
+    "association": "FVM",
+    "city": "51149 Köln",
+    "id": "00ES8GN91400002MVV0AG08LVUPGND5I",
+    "name": "ESV Grün-Weiß Gremberghoven",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/esv-gruen-weiss-gremberghoven-mittelrhein/-/id/00ES8GN91400002MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50733 Köln",
+    "association": "FVM",
+    "city": "50733 Köln",
+    "id": "00ES8GN914000041VV0AG08LVUPGND5I",
+    "name": "ESV Olympia Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/esv-olympia-koeln-ev-mittelrhein/-/id/00ES8GN914000041VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50765 Köln",
+    "association": "FVM",
+    "city": "50765 Köln",
+    "id": "02LIGFFEN4000000VS5489B5VTLT177U",
+    "name": "FC Chorweiler",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-chorweiler-mittelrhein/-/id/02LIGFFEN4000000VS5489B5VTLT177U"
+  },
+  {
+    "address": "50829 Köln",
+    "association": "FVM",
+    "city": "50829 Köln",
+    "id": "00ES8GN914000029VV0AG08LVUPGND5I",
+    "name": "FC Eintracht Köln 51/05 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-eintracht-koeln-51-05-ev-mittelrhein/-/id/00ES8GN914000029VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51107 Köln",
+    "association": "FVM",
+    "city": "51107 Köln",
+    "id": "00UNGJAN40000000VV0AG811VVTLUPSF",
+    "name": "FC Energie 2008 Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-energie-2008-koeln-ev-mittelrhein/-/id/00UNGJAN40000000VV0AG811VVTLUPSF"
+  },
+  {
+    "address": "51003 Köln",
+    "association": "FVM",
+    "city": "51003 Köln",
+    "id": "00ES8GN91400003MVV0AG08LVUPGND5I",
+    "name": "FC Germania 1911 Köln-Mülheim",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-germania-1911-koeln-muelheim-mittelrhein/-/id/00ES8GN91400003MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51115 Köln",
+    "association": "FVM",
+    "city": "51115 Köln",
+    "id": "00ES8GN91400005PVV0AG08LVUPGND5I",
+    "name": "FC Germania Zündorf 1913 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-germania-zuendorf-1913-ev-mittelrhein/-/id/00ES8GN91400005PVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50858 Köln",
+    "association": "FVM",
+    "city": "50858 Köln",
+    "id": "00ES8GN91400002UVV0AG08LVUPGND5I",
+    "name": "FC Junkersdorf 1946 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-junkersdorf-1946-ev-mittelrhein/-/id/00ES8GN91400002UVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50765 Köln",
+    "association": "FVM",
+    "city": "50765 Köln",
+    "id": "00ES8GN914000047VV0AG08LVUPGND5I",
+    "name": "FC Pesch 1956 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-pesch-1956-ev-mittelrhein/-/id/00ES8GN914000047VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50829 Köln",
+    "association": "FVM",
+    "city": "50829 Köln",
+    "id": "00ES8GN914000050VV0AG08LVUPGND5I",
+    "name": "FC Suryoye Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-suryoye-koeln-mittelrhein/-/id/00ES8GN914000050VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51103 Köln",
+    "association": "FVM",
+    "city": "51103 Köln",
+    "id": "0176O1EUMK000000VV0AG80NVU9EQM09",
+    "name": "FC Viktoria Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fc-viktoria-koeln-mittelrhein/-/id/0176O1EUMK000000VV0AG80NVU9EQM09"
+  },
+  {
+    "address": "51063 Köln",
+    "association": "FVM",
+    "city": "51063 Köln",
+    "id": "01LLJV3SIK000000VV0AG80NVSGVQAKA",
+    "name": "Fenerbahce Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/fenerbahce-koeln-mittelrhein/-/id/01LLJV3SIK000000VV0AG80NVSGVQAKA"
+  },
+  {
+    "address": "50825 Köln",
+    "association": "FVM",
+    "city": "50825 Köln",
+    "id": "00UKTC8620000000VV0AG80NVTIKV073",
+    "name": "Futsal Panthers Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/futsal-panthers-koeln-ev-mittelrhein/-/id/00UKTC8620000000VV0AG80NVTIKV073"
+  },
+  {
+    "address": "50827 Köln",
+    "association": "FVM",
+    "city": "50827 Köln",
+    "id": "01SE6BI47C000000VS548985VV2TPI9R",
+    "name": "Galatasaray Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/galatasaray-koeln-mittelrhein/-/id/01SE6BI47C000000VS548985VV2TPI9R"
+  },
+  {
+    "address": "50823 Köln",
+    "association": "FVM",
+    "city": "50823 Köln",
+    "id": "00ES8GN91400002JVV0AG08LVUPGND5I",
+    "name": "Hellas FC Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/hellas-fc-koeln-mittelrhein/-/id/00ES8GN91400002JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50933 Köln",
+    "association": "FVM",
+    "city": "50933 Köln",
+    "id": "00ES8GN91400001VVV0AG08LVUPGND5I",
+    "name": "Ideal C.F. Casa de Espana",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/ideal-cf-casa-de-espana-mittelrhein/-/id/00ES8GN91400001VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50737 Köln",
+    "association": "FVM",
+    "city": "50737 Köln",
+    "id": "00ES8GN91400002CVV0AG08LVUPGND5I",
+    "name": "JSV Köln 96 Genclerbirligi",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/jsv-koeln-96-genclerbirligi-mittelrhein/-/id/00ES8GN91400002CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50767 Köln",
+    "association": "FVM",
+    "city": "50767 Köln",
+    "id": "00ES8GN91400002NVV0AG08LVUPGND5I",
+    "name": "KSV 59/65 e.V. Heimersdorf",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/ksv-59-65-ev-heimersdorf-mittelrhein/-/id/00ES8GN91400002NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50827 Köln",
+    "association": "FVM",
+    "city": "50827 Köln",
+    "id": "00KAVM7EQ0000000VTVG0001VV4HS3JV",
+    "name": "Köln Trabzonspor",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/koeln-trabzonspor-mittelrhein/-/id/00KAVM7EQ0000000VTVG0001VV4HS3JV"
+  },
+  {
+    "address": "50737 Köln",
+    "association": "FVM",
+    "city": "50737 Köln",
+    "id": "00ES8GN91400002KVV0AG08LVUPGND5I",
+    "name": "Kölner Gehörlosen SV",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/koelner-gehoerlosen-sv-mittelrhein/-/id/00ES8GN91400002KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50767 Köln",
+    "association": "FVM",
+    "city": "50767 Köln",
+    "id": "024CFGC32O000000VS54898GVUJHGRIL",
+    "name": "Longericher SC",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/longericher-sc-mittelrhein/-/id/024CFGC32O000000VS54898GVUJHGRIL"
+  },
+  {
+    "address": "51143 Köln",
+    "association": "FVM",
+    "city": "51143 Köln",
+    "id": "012UB33770000000VV0AG80NVVCQNUBK",
+    "name": "Mevlana Porz",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/mevlana-porz-mittelrhein/-/id/012UB33770000000VV0AG80NVVCQNUBK"
+  },
+  {
+    "address": "51103 Köln",
+    "association": "FVM",
+    "city": "51103 Köln",
+    "id": "00ES8GN914000048VV0AG08LVUPGND5I",
+    "name": "Polizei-Sportverein Köln 1922",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/polizei-sportverein-koeln-1922-mittelrhein/-/id/00ES8GN914000048VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51109 Köln",
+    "association": "FVM",
+    "city": "51109 Köln",
+    "id": "00ES8GN91400004EVV0AG08LVUPGND5I",
+    "name": "Raderthal Kickers Köln 1991",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/raderthal-kickers-koeln-1991-mittelrhein/-/id/00ES8GN91400004EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50996 Köln",
+    "association": "FVM",
+    "city": "50996 Köln",
+    "id": "00ES8GN92C00009VVV0AG08LVUPGND5I",
+    "name": "Rheinsüd Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/rheinsued-koeln-ev-mittelrhein/-/id/00ES8GN92C00009VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50672 Köln",
+    "association": "FVM",
+    "city": "50672 Köln",
+    "id": "031K4BJQRK000000VS5489C2VSQC76UQ",
+    "name": "Roter Stern Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/roter-stern-koeln-mittelrhein/-/id/031K4BJQRK000000VS5489C2VSQC76UQ"
+  },
+  {
+    "address": "51107 Köln",
+    "association": "FVM",
+    "city": "51107 Köln",
+    "id": "00ES8GN91400004FVV0AG08LVUPGND5I",
+    "name": "RSV Rath-Heumar 1920 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/rsv-rath-heumar-1920-ev-mittelrhein/-/id/00ES8GN91400004FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51145 Köln",
+    "association": "FVM",
+    "city": "51145 Köln",
+    "id": "00ES8GN914000059VV0AG08LVUPGND5I",
+    "name": "RSV Urbach 1912 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/rsv-urbach-1912-ev-mittelrhein/-/id/00ES8GN914000059VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51109 Köln",
+    "association": "FVM",
+    "city": "51109 Köln",
+    "id": "00UNGGUERC000000VV0AG811VVTLUPSF",
+    "name": "S.C.  Köln-Brück 07 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-koeln-brueck-07-ev-mittelrhein/-/id/00UNGGUERC000000VV0AG811VVTLUPSF"
+  },
+  {
+    "address": "50935 Köln",
+    "association": "FVM",
+    "city": "50935 Köln",
+    "id": "00ES8GN91400001PVV0AG08LVUPGND5I",
+    "name": "SC Blau-Weiß 06 Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-blau-weiss-06-koeln-ev-mittelrhein/-/id/00ES8GN91400001PVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50858 Köln",
+    "association": "FVM",
+    "city": "50858 Köln",
+    "id": "00ES8GN91400003BVV0AG08LVUPGND5I",
+    "name": "SC Bor. Lindenthal-Hohenlind",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-bor-lindenthal-hohenlind-mittelrhein/-/id/00ES8GN91400003BVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50999 Köln",
+    "association": "FVM",
+    "city": "50999 Köln",
+    "id": "00ES8GN91400002VVV0AG08LVUPGND5I",
+    "name": "SC Borussia 05 e.V. Köln-Kalk",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-borussia-05-ev-koeln-kalk-mittelrhein/-/id/00ES8GN91400002VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50969 Köln",
+    "association": "FVM",
+    "city": "50969 Köln",
+    "id": "00ES8GN91400002FVV0AG08LVUPGND5I",
+    "name": "SC Fortuna Köln e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-fortuna-koeln-ev-mittelrhein/-/id/00ES8GN91400002FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50827 Köln",
+    "association": "FVM",
+    "city": "50827 Köln",
+    "id": "00ES8GN914000045VV0AG08LVUPGND5I",
+    "name": "SC Germania Ossendorf 1894 e.V",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-germania-ossendorf-1894-ev-mittelrhein/-/id/00ES8GN914000045VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51024 Köln",
+    "association": "FVM",
+    "city": "51024 Köln",
+    "id": "00ES8GN91400002RVV0AG08LVUPGND5I",
+    "name": "SC Holweide 1968 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-holweide-1968-ev-mittelrhein/-/id/00ES8GN91400002RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50674 Köln",
+    "association": "FVM",
+    "city": "50674 Köln",
+    "id": "00ES8GN91400002TVV0AG08LVUPGND5I",
+    "name": "SC Janus Köln",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-janus-koeln-mittelrhein/-/id/00ES8GN91400002TVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "51063 Köln",
+    "association": "FVM",
+    "city": "51063 Köln",
+    "id": "00ES8GN91400003OVV0AG08LVUPGND5I",
+    "name": "SC Köln-Mülheim Nord 1919 e.V.",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-koeln-muelheim-nord-1919-ev-mittelrhein/-/id/00ES8GN91400003OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "50765 Köln",
+    "association": "FVM",
+    "city": "50765 Köln",
+    "id": "00ES8GN91400005JVV0AG08LVUPGND5I",
+    "name": "SC Köln-Weiler-Volkhoven 1948",
+    "region_city": "Köln",
+    "url": "https://www.fussball.de/verein/sc-koeln-weiler-volkhoven-1948-mittelrhein/-/id/00ES8GN91400005JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60460 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60460 Frankfurt am Main",
+    "id": "00ES8GN9L8000054VV0AG08LVUPGND5I",
+    "name": "1. Rödelheimer Fc",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/1-roedelheimer-fc-hessen/-/id/00ES8GN9L8000054VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65931 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65931 Frankfurt am Main",
+    "id": "00ES8GN9U000002KVV0AG08LVUPGND5I",
+    "name": "1.FC Vikt. Sindlingen",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/1fc-vikt-sindlingen-hessen/-/id/00ES8GN9U000002KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65934 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65934 Frankfurt am Main",
+    "id": "031FVTQ7PG000000VS5489C1VTV0QB7V",
+    "name": "1.SV Ethio Addis FFM",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/1sv-ethio-addis-ffm-hessen/-/id/031FVTQ7PG000000VS5489C1VTV0QB7V"
+  },
+  {
+    "address": "60318 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60318 Frankfurt am Main",
+    "id": "00ES8GN9L800005NVV0AG08LVUPGND5I",
+    "name": "Artemis Sport Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/artemis-sport-ffm-hessen/-/id/00ES8GN9L800005NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60320 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60320 Frankfurt am Main",
+    "id": "00ES8GN9L8000038VV0AG08LVUPGND5I",
+    "name": "BSC SW Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/bsc-sw-ffm-hessen/-/id/00ES8GN9L8000038VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60320 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60320 Frankfurt am Main",
+    "id": "00ES8GN9L800003OVV0AG08LVUPGND5I",
+    "name": "Conc.Eschersheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/conceschersheim-hessen/-/id/00ES8GN9L800003OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65929 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65929 Frankfurt am Main",
+    "id": "00ES8GN9U000001RVV0AG08LVUPGND5I",
+    "name": "Creu-Höchst",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/creu-hoechst-hessen/-/id/00ES8GN9U000001RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60486 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60486 Frankfurt am Main",
+    "id": "00ES8GN9L8000048VV0AG08LVUPGND5I",
+    "name": "DJK SW Griesheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/djk-sw-griesheim-hessen/-/id/00ES8GN9L8000048VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65931 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65931 Frankfurt am Main",
+    "id": "00ES8GN9U0000033VV0AG08LVUPGND5I",
+    "name": "DJK Zeilsheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/djk-zeilsheim-hessen/-/id/00ES8GN9U0000033VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60599 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60599 Frankfurt am Main",
+    "id": "00ES8GN9MG00002RVV0AG08LVUPGND5I",
+    "name": "Dreieich Panthers",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/dreieich-panthers-hessen/-/id/00ES8GN9MG00002RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60386 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60386 Frankfurt am Main",
+    "id": "00ES8GN9L800003MVV0AG08LVUPGND5I",
+    "name": "Eintracht Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/eintracht-frankfurt-hessen/-/id/00ES8GN9L800003MVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60487 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60487 Frankfurt am Main",
+    "id": "00ES8GN9L800003CVV0AG08LVUPGND5I",
+    "name": "ESV Blau-Gold Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/esv-blau-gold-ffm-hessen/-/id/00ES8GN9L800003CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60439 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60439 Frankfurt am Main",
+    "id": "00RE7RINTO000000VV0AG811VVIS17BA",
+    "name": "FC  Croatia FFm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-croatia-ffm-hessen/-/id/00RE7RINTO000000VV0AG811VVIS17BA"
+  },
+  {
+    "address": "60528 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60528 Frankfurt am Main",
+    "id": "022II3GJJ0000000VS54898GVSLUMOPC",
+    "name": "FC Dynamo Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-dynamo-frankfurt-hessen/-/id/022II3GJJ0000000VS54898GVSLUMOPC"
+  },
+  {
+    "address": "65929 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65929 Frankfurt am Main",
+    "id": "0276VTK38G000000VS5489B5VSP7KVL8",
+    "name": "FC Ethio Addis Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-ethio-addis-frankfurt-hessen/-/id/0276VTK38G000000VS5489B5VSP7KVL8"
+  },
+  {
+    "address": "60594 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60594 Frankfurt am Main",
+    "id": "00ES8GN9L800003UVV0AG08LVUPGND5I",
+    "name": "FC Fort.Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-fortffm-hessen/-/id/00ES8GN9L800003UVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60435 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60435 Frankfurt am Main",
+    "id": "00ES8GN9L800003LVV0AG08LVUPGND5I",
+    "name": "FC Frankfurt City",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-frankfurt-city-hessen/-/id/00ES8GN9L800003LVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60431 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60431 Frankfurt am Main",
+    "id": "00ES8GN9L8000044VV0AG08LVUPGND5I",
+    "name": "FC Germ. Ginnheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-germ-ginnheim-hessen/-/id/00ES8GN9L8000044VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60322 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60322 Frankfurt am Main",
+    "id": "01DM1GU6JS000000VV0AG80NVTH8NLI3",
+    "name": "FC Gudesding Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-gudesding-frankfurt-hessen/-/id/01DM1GU6JS000000VV0AG80NVTH8NLI3"
+  },
+  {
+    "address": "60529 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60529 Frankfurt am Main",
+    "id": "01KV54BDD4000000VV0AG811VULRS8KS",
+    "name": "FC Heisenrath Goldstein",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-heisenrath-goldstein-hessen/-/id/01KV54BDD4000000VV0AG811VULRS8KS"
+  },
+  {
+    "address": "60386 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60386 Frankfurt am Main",
+    "id": "00ES8GN9L800003RVV0AG08LVUPGND5I",
+    "name": "FC Juz Fechenheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-juz-fechenheim-hessen/-/id/00ES8GN9L800003RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60437 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60437 Frankfurt am Main",
+    "id": "00ES8GN9L800004KVV0AG08LVUPGND5I",
+    "name": "FC Kalbach",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-kalbach-hessen/-/id/00ES8GN9L800004KVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60549 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60549 Frankfurt am Main",
+    "id": "00ES8GN9L800004IVV0AG08LVUPGND5I",
+    "name": "FC Kosova Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-kosova-ffm-hessen/-/id/00ES8GN9L800004IVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65933 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65933 Frankfurt am Main",
+    "id": "02IFICQKK4000000VS5489B5VUMSDLNE",
+    "name": "FC Markaz Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-markaz-frankfurt-hessen/-/id/02IFICQKK4000000VS5489B5VUMSDLNE"
+  },
+  {
+    "address": "60488 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60488 Frankfurt am Main",
+    "id": "00ES8GN9L800004NVV0AG08LVUPGND5I",
+    "name": "FC Maroc Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-maroc-ffm-hessen/-/id/00ES8GN9L800004NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60386 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60386 Frankfurt am Main",
+    "id": "00ES8GN9L800003FVV0AG08LVUPGND5I",
+    "name": "FC Posavina Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-posavina-ffm-hessen/-/id/00ES8GN9L800003FVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60433 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60433 Frankfurt am Main",
+    "id": "02SR8JN8OS000000VS5489C2VU44UL87",
+    "name": "FC Schwarz Weiß Rot Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-schwarz-weiss-rot-ffm-hessen/-/id/02SR8JN8OS000000VS5489C2VU44UL87"
+  },
+  {
+    "address": "60433 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60433 Frankfurt am Main",
+    "id": "00ES8GN9L800005CVV0AG08LVUPGND5I",
+    "name": "FC Serkeftin 92 Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-serkeftin-92-ffm-hessen/-/id/00ES8GN9L800005CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60431 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60431 Frankfurt am Main",
+    "id": "0168F237PO000000VV0AG80NVV7I49O3",
+    "name": "FC Tamil Blues FFM",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-tamil-blues-ffm-hessen/-/id/0168F237PO000000VV0AG80NVV7I49O3"
+  },
+  {
+    "address": "60431 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60431 Frankfurt am Main",
+    "id": "00ES8GN9L800005GVV0AG08LVUPGND5I",
+    "name": "FC Tempo Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-tempo-ffm-hessen/-/id/00ES8GN9L800005GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60528 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60528 Frankfurt am Main",
+    "id": "00ES8GN9L800004RVV0AG08LVUPGND5I",
+    "name": "FC Union Niederrad",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-union-niederrad-hessen/-/id/00ES8GN9L800004RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60594 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60594 Frankfurt am Main",
+    "id": "01FARCMGVC000000VV0AG811VV9UJ0PK",
+    "name": "FC Victoria FFM",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fc-victoria-ffm-hessen/-/id/01FARCMGVC000000VV0AG811VV9UJ0PK"
+  },
+  {
+    "address": "60594 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60594 Frankfurt am Main",
+    "id": "02UE5B1MVC000000VS5489C1VV1GM70V",
+    "name": "FCF Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fcf-frankfurt-hessen/-/id/02UE5B1MVC000000VS5489C1VV1GM70V"
+  },
+  {
+    "address": "60385 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60385 Frankfurt am Main",
+    "id": "00ES8GN9L800004VVV0AG08LVUPGND5I",
+    "name": "FFC Olympia Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/ffc-olympia-ffm-hessen/-/id/00ES8GN9L800004VVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60313 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60313 Frankfurt am Main",
+    "id": "03188CFV0O000000VS5489C1VU0GSCDO",
+    "name": "FFM Brancos FC",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/ffm-brancos-fc-hessen/-/id/03188CFV0O000000VS5489C1VU0GSCDO"
+  },
+  {
+    "address": "60596 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60596 Frankfurt am Main",
+    "id": "00ES8GN9L800005OVV0AG08LVUPGND5I",
+    "name": "Ffmer Volleyballverein",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/ffmer-volleyballverein-hessen/-/id/00ES8GN9L800005OVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60091 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60091 Frankfurt am Main",
+    "id": "00ES8GN9L8000059VV0AG08LVUPGND5I",
+    "name": "FFV Sportfr. Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/ffv-sportfr-ffm-hessen/-/id/00ES8GN9L8000059VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60389 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60389 Frankfurt am Main",
+    "id": "00ES8GN9L8000057VV0AG08LVUPGND5I",
+    "name": "FG Seckbach",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fg-seckbach-hessen/-/id/00ES8GN9L8000057VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60388 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60388 Frankfurt am Main",
+    "id": "00ES8GN9L8000039VV0AG08LVUPGND5I",
+    "name": "FSV Bergen",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fsv-bergen-hessen/-/id/00ES8GN9L8000039VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60386 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60386 Frankfurt am Main",
+    "id": "00ES8GN9L8000040VV0AG08LVUPGND5I",
+    "name": "FSV Frankfurt",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fsv-frankfurt-hessen/-/id/00ES8GN9L8000040VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60433 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60433 Frankfurt am Main",
+    "id": "00ES8GN9L800003PVV0AG08LVUPGND5I",
+    "name": "FV 09 Eschersheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fv-09-eschersheim-hessen/-/id/00ES8GN9L800003PVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60435 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60435 Frankfurt am Main",
+    "id": "00ES8GN9L800003AVV0AG08LVUPGND5I",
+    "name": "FV Berkersheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fv-berkersheim-hessen/-/id/00ES8GN9L800003AVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65934 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65934 Frankfurt am Main",
+    "id": "00ES8GN9U000002CVV0AG08LVUPGND5I",
+    "name": "FV Ffm.-Nied",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fv-ffm-nied-hessen/-/id/00ES8GN9U000002CVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60433 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60433 Frankfurt am Main",
+    "id": "00ES8GN9L800004EVV0AG08LVUPGND5I",
+    "name": "FV Hausen",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fv-hausen-hessen/-/id/00ES8GN9L800004EVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60488 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60488 Frankfurt am Main",
+    "id": "00ES8GN9L800003JVV0AG08LVUPGND5I",
+    "name": "FV Saz-Rock Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/fv-saz-rock-ffm-hessen/-/id/00ES8GN9L800003JVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60594 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60594 Frankfurt am Main",
+    "id": "00ES8GN9L8000043VV0AG08LVUPGND5I",
+    "name": "Germ.94 Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/germ94-ffm-hessen/-/id/00ES8GN9L8000043VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60350 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60350 Frankfurt am Main",
+    "id": "00ES8GN9L800003NVV0AG08LVUPGND5I",
+    "name": "Germ.Enkheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/germenkheim-hessen/-/id/00ES8GN9L800003NVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60529 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60529 Frankfurt am Main",
+    "id": "00ES8GN9U000002RVV0AG08LVUPGND5I",
+    "name": "Germ.Schwanheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/germschwanheim-hessen/-/id/00ES8GN9U000002RVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60596 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60596 Frankfurt am Main",
+    "id": "00ES8GN9L8000049VV0AG08LVUPGND5I",
+    "name": "GSU Hellas Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/gsu-hellas-ffm-hessen/-/id/00ES8GN9L8000049VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60389 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60389 Frankfurt am Main",
+    "id": "02DHOHSS7K000000VS5489B6VV8F6J3E",
+    "name": "GTSV Frankfurt 1908",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/gtsv-frankfurt-1908-hessen/-/id/02DHOHSS7K000000VS5489B6VV8F6J3E"
+  },
+  {
+    "address": "60438 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60438 Frankfurt am Main",
+    "id": "01QG3HUKP0000000VV0AG80NVVTNMLJM",
+    "name": "Riedberger SV",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/riedberger-sv-hessen/-/id/01QG3HUKP0000000VV0AG80NVVTNMLJM"
+  },
+  {
+    "address": "60529 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60529 Frankfurt am Main",
+    "id": "00ES8GN9L8000045VV0AG08LVUPGND5I",
+    "name": "SC Goldstein",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sc-goldstein-hessen/-/id/00ES8GN9L8000045VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60438 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60438 Frankfurt am Main",
+    "id": "01BVUR4GVS000000VV0AG80NVVPQFBT0",
+    "name": "SC Riedberg",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sc-riedberg-hessen/-/id/01BVUR4GVS000000VV0AG80NVVPQFBT0"
+  },
+  {
+    "address": "60528 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60528 Frankfurt am Main",
+    "id": "00ES8GN9L800005LVV0AG08LVUPGND5I",
+    "name": "SC Weiss-Blau Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sc-weiss-blau-ffm-hessen/-/id/00ES8GN9L800005LVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60326 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60326 Frankfurt am Main",
+    "id": "00ES8GN9L8000058VV0AG08LVUPGND5I",
+    "name": "SG 1928 Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-1928-ffm-hessen/-/id/00ES8GN9L8000058VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60385 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60385 Frankfurt am Main",
+    "id": "00ES8GN9L800003GVV0AG08LVUPGND5I",
+    "name": "SG Bornheim GW",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-bornheim-gw-hessen/-/id/00ES8GN9L800003GVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60389 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60389 Frankfurt am Main",
+    "id": "00ES8GN9L800005SVV0AG08LVUPGND5I",
+    "name": "SG Ffm Footbag",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-ffm-footbag-hessen/-/id/00ES8GN9L800005SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65915 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65915 Frankfurt am Main",
+    "id": "00ES8GN9L8000046VV0AG08LVUPGND5I",
+    "name": "SG Griesheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-griesheim-hessen/-/id/00ES8GN9L8000046VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60437 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60437 Frankfurt am Main",
+    "id": "00ES8GN9L800004DVV0AG08LVUPGND5I",
+    "name": "SG Harheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-harheim-hessen/-/id/00ES8GN9L800004DVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65934 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65934 Frankfurt am Main",
+    "id": "00ES8GN9U000001SVV0AG08LVUPGND5I",
+    "name": "SG Hoechst",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-hoechst-hessen/-/id/00ES8GN9U000001SVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60392 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60392 Frankfurt am Main",
+    "id": "00ES8GN9L8000051VV0AG08LVUPGND5I",
+    "name": "SG Praunheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-praunheim-hessen/-/id/00ES8GN9L8000051VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60353 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60353 Frankfurt am Main",
+    "id": "00ES8GN9L8000053VV0AG08LVUPGND5I",
+    "name": "SG Riederwald",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-riederwald-hessen/-/id/00ES8GN9L8000053VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60461 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60461 Frankfurt am Main",
+    "id": "00ES8GN9L8000055VV0AG08LVUPGND5I",
+    "name": "SG Rot-Weiss Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-rot-weiss-ffm-hessen/-/id/00ES8GN9L8000055VV0AG08LVUPGND5I"
+  },
+  {
+    "address": "65929 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "65929 Frankfurt am Main",
+    "id": "00ES8GN9U000002LVV0AG08LVUPGND5I",
+    "name": "SG Sossenheim",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-sossenheim-hessen/-/id/00ES8GN9U000002LVV0AG08LVUPGND5I"
+  },
+  {
+    "address": "60326 Frankfurt am Main",
+    "association": "HFV_HESSEN",
+    "city": "60326 Frankfurt am Main",
+    "id": "00ES8GN9L800005MVV0AG08LVUPGND5I",
+    "name": "SG Westend Ffm",
+    "region_city": "Frankfurt",
+    "url": "https://www.fussball.de/verein/sg-westend-ffm-hessen/-/id/00ES8GN9L800005MVV0AG08LVUPGND5I"
   }
 ]

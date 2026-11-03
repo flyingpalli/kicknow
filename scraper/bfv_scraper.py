@@ -1,4 +1,7 @@
-"""Scraper for clubs and official matches from the Bavarian Football Association (BFV - bfv.de)."""
+"""Scraper for clubs and official matches from the Bavarian Football Association (BFV - bfv.de).
+
+Supports both Munich (Upper Bavaria / Oberbayern) and Nuremberg (Middle Franconia / Mittelfranken).
+"""
 
 import os
 import re
@@ -14,13 +17,16 @@ from scraper.config import (
     BFV_BASE_URL,
     BFV_CLUB_SEARCH_URL,
     BFV_SCHEDULE_PDF_URL,
+    BFV_LEAGUE_QUERIES,
+    NUREMBERG_BFV_QUERIES,
+    NUREMBERG_MUNICIPALITIES,
     HTTP_HEADERS,
     LANDKREIS_MUNICIPALITIES
 )
 
 
-def search_clubs(query: str, timeout: int = 10) -> List[Dict[str, str]]:
-    """Search for football clubs on bfv.de matching the given query."""
+def search_clubs(query: str, timeout: int = 10, city_key: str = "munich") -> List[Dict[str, str]]:
+    """Search for football clubs on bfv.de matching the given query and region."""
     url = BFV_CLUB_SEARCH_URL.format(query=urllib.parse.quote(query))
     req = urllib.request.Request(url, headers=HTTP_HEADERS)
     try:
@@ -44,20 +50,42 @@ def search_clubs(query: str, timeout: int = 10) -> List[Dict[str, str]]:
         city = city.strip()
         club_id = href.rstrip("/").split("/")[-1]
 
-        # Filter: keep clubs in Munich area (PLZ 80xxx, 81xxx, 82xxx, 85xxx) or matching query
-        plz_match = re.search(r"\b(80\d{3}|81\d{3}|82\d{3}|85\d{3})\b", city)
-        is_munich_area = plz_match is not None or "München" in city or "München" in name
-        is_landkreis = any(m.lower() in city.lower() for m in LANDKREIS_MUNICIPALITIES)
+        if city_key == "nuremberg":
+            plz_match = re.search(r"\b(90\d{3}|91\d{3})\b", city)
+            is_nbg = (
+                plz_match is not None
+                or "Nürnberg" in city
+                or "Nürnberg" in name
+                or any(m.lower() in city.lower() for m in NUREMBERG_MUNICIPALITIES)
+            )
+            if is_nbg:
+                results.append({
+                    "id": club_id,
+                    "name": name,
+                    "street": street,
+                    "city": city,
+                    "region_city": "Nürnberg",
+                    "association": "BFV",
+                    "address": f"{street}, {city}" if street else city,
+                    "url": urllib.parse.urljoin(BFV_BASE_URL, href)
+                })
+        else:
+            # Filter: keep clubs in Munich area (PLZ 80xxx, 81xxx, 82xxx, 85xxx) or matching Landkreis
+            plz_match = re.search(r"\b(80\d{3}|81\d{3}|82\d{3}|85\d{3})\b", city)
+            is_munich_area = plz_match is not None or "München" in city or "München" in name
+            is_landkreis = any(m.lower() in city.lower() for m in LANDKREIS_MUNICIPALITIES)
 
-        if is_munich_area or is_landkreis:
-            results.append({
-                "id": club_id,
-                "name": name,
-                "street": street,
-                "city": city,
-                "address": f"{street}, {city}" if street else city,
-                "url": urllib.parse.urljoin(BFV_BASE_URL, href)
-            })
+            if is_munich_area or is_landkreis:
+                results.append({
+                    "id": club_id,
+                    "name": name,
+                    "street": street,
+                    "city": city,
+                    "region_city": "München",
+                    "association": "BFV",
+                    "address": f"{street}, {city}" if street else city,
+                    "url": urllib.parse.urljoin(BFV_BASE_URL, href)
+                })
 
     return results
 
@@ -76,7 +104,7 @@ def fetch_club_schedule_pdf(club_id: str, timeout: int = 12) -> Optional[bytes]:
     return None
 
 
-def parse_schedule_pdf(pdf_bytes: bytes, club_name: str = "") -> List[Dict[str, Any]]:
+def parse_schedule_pdf(pdf_bytes: bytes, club_name: str = "", city_name: str = "München") -> List[Dict[str, Any]]:
     """Parse the PDF text layout of a BFV schedule into structured matches."""
     with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tf:
         tf.write(pdf_bytes)
@@ -160,51 +188,59 @@ def parse_schedule_pdf(pdf_bytes: bytes, club_name: str = "") -> List[Dict[str, 
             "venue_name": venue_name,
             "venue_addr": venue_addr,
             "surface": surface,
-            "reported_by_club": club_name
+            "reported_by_club": club_name,
+            "association": "BFV",
+            "city": city_name,
+            "source": "bfv.de"
         })
 
     return matches
 
 
-def scrape_bfv_data(queries: Optional[List[str]] = None, max_clubs: int = 35, verbose: bool = True) -> Dict[str, Any]:
+def scrape_bfv_data(
+    queries: Optional[List[str]] = None,
+    max_clubs: int = 35,
+    verbose: bool = True,
+    city_key: str = "munich"
+) -> Dict[str, Any]:
     """Scrapes BFV clubs and extracts all their scheduled matches and venues."""
+    city_name = "Nürnberg" if city_key == "nuremberg" else "München"
     if queries is None:
-        from scraper.config import BFV_LEAGUE_QUERIES
-        queries = BFV_LEAGUE_QUERIES
+        queries = NUREMBERG_BFV_QUERIES if city_key == "nuremberg" else BFV_LEAGUE_QUERIES
 
     discovered_clubs = {}
     clubs_by_query = {}
     if verbose:
-        print(f"[BFV Scraper] Searching clubs for queries: {', '.join(queries)}...")
+        print(f"[BFV Scraper ({city_name})] Searching clubs for {len(queries)} queries...")
 
     for q in queries:
-        found = search_clubs(q)
+        found = search_clubs(q, city_key=city_key)
         clubs_by_query[q] = found
         for c in found:
             if c["id"] not in discovered_clubs:
                 discovered_clubs[c["id"]] = c
-        time.sleep(0.1)
+        time.sleep(0.08)
 
     all_clubs = list(discovered_clubs.values())
     if verbose:
-        print(f"[BFV Scraper] Discovered {len(all_clubs)} unique clubs in Munich and Landkreis München.")
+        print(f"[BFV Scraper ({city_name})] Discovered {len(all_clubs)} unique clubs.")
 
-    # Round-robin select clubs across municipalities to ensure both Munich and Landkreis are well represented
+    # Round-robin select clubs across queries to ensure broad geographic representation
     selected_clubs = []
     seen_ids = set()
     while len(selected_clubs) < max_clubs:
         added_in_round = False
         for q in queries:
-            cands = [c for c in clubs_by_query.get(q, []) if c['id'] not in seen_ids]
+            cands = [c for c in clubs_by_query.get(q, []) if c["id"] not in seen_ids]
             if cands and len(selected_clubs) < max_clubs:
                 c = cands[0]
-                seen_ids.add(c['id'])
+                seen_ids.add(c["id"])
                 selected_clubs.append(c)
                 added_in_round = True
         if not added_in_round:
             break
     if verbose:
-        print(f"[BFV Scraper] Fetching match schedules for {len(selected_clubs)} clubs...")
+        print(f"[BFV Scraper ({city_name})] Fetching match schedules for {len(selected_clubs)} clubs...")
 
     all_matches = []
     venues = {}
@@ -216,16 +252,17 @@ def scrape_bfv_data(queries: Optional[List[str]] = None, max_clubs: int = 35, ve
         if not pdf_data:
             continue
 
-        matches = parse_schedule_pdf(pdf_data, club_name=club['name'])
+        matches = parse_schedule_pdf(pdf_data, club_name=club["name"], city_name=city_name)
         all_matches.extend(matches)
 
         for m in matches:
-            v_key = m['venue_name']
+            v_key = m["venue_name"]
             if v_key not in venues:
                 venues[v_key] = {
-                    "name": m['venue_name'],
-                    "address": m['venue_addr'],
+                    "name": m["venue_name"],
+                    "address": m["venue_addr"],
                     "surface": m["surface"],
+                    "city": city_name,
                     "matches_count": 0,
                     "host_clubs": set()
                 }
@@ -233,13 +270,13 @@ def scrape_bfv_data(queries: Optional[List[str]] = None, max_clubs: int = 35, ve
             if m["home"]:
                 venues[v_key]["host_clubs"].add(m["home"])
 
-        time.sleep(0.15)
+        time.sleep(0.12)
 
     for v in venues.values():
         v["host_clubs"] = sorted(list(v["host_clubs"]))
 
     if verbose:
-        print(f"[BFV Scraper] Scrape complete. Extracted {len(all_matches)} matches across {len(venues)} venues.")
+        print(f"[BFV Scraper ({city_name})] Scrape complete. Extracted {len(all_matches)} matches across {len(venues)} venues.")
 
     return {
         "clubs": all_clubs,
@@ -247,3 +284,8 @@ def scrape_bfv_data(queries: Optional[List[str]] = None, max_clubs: int = 35, ve
         "matches": all_matches,
         "venues": venues
     }
+
+
+def scrape_nuremberg_bfv_data(max_clubs: int = 15, verbose: bool = True) -> Dict[str, Any]:
+    """Convenience wrapper to scrape Nuremberg & Mittelfranken clubs and schedules via BFV."""
+    return scrape_bfv_data(queries=NUREMBERG_BFV_QUERIES, max_clubs=max_clubs, verbose=verbose, city_key="nuremberg")

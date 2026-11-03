@@ -96,7 +96,50 @@
   };
 
   /* =====================================================================
-     Zustand (lokal im Browser gespeichert)
+     API-Connector, Authentifizierung & WebSocket-Echtzeit-Sync
+     ===================================================================== */
+  const API_BASE = window.location.origin.includes('localhost') && !window.location.port.includes('8000')
+    ? 'http://localhost:8000/api/v1'
+    : '/api/v1';
+  let authToken = localStorage.getItem('kn_token') || null;
+  let activeCity = localStorage.getItem('kn_city') || 'munich';
+  let wsConnection = null;
+
+  async function apiRequest(path, options = {}) {
+    const token = localStorage.getItem('kn_token') || authToken;
+    const headers = Object.assign({ 'Content-Type': 'application/json' }, options.headers);
+    if (token) headers['Authorization'] = `Bearer ${token}`;
+    const res = await fetch(`${API_BASE}${path}`, Object.assign({}, options, { headers }));
+    if (!res.ok) throw new Error(`API error: ${res.status}`);
+    return res.json();
+  }
+
+  function connectWebSocket(room = 'global') {
+    try {
+      const wsProto = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+      const wsHost = window.location.origin.includes('localhost') && !window.location.port.includes('8000')
+        ? 'localhost:8000'
+        : window.location.host;
+      if (!wsHost) return;
+      if (wsConnection) { try { wsConnection.close(); } catch (_) {} }
+      wsConnection = new WebSocket(`${wsProto}//${wsHost}/ws/${room}`);
+      wsConnection.addEventListener('message', ev => {
+        try {
+          const msg = JSON.parse(ev.data);
+          if (msg.event === 'chat_message' && msg.booking_id) {
+            addMsg(msg.booking_id, { from: msg.user_id || 'u1', text: msg.text, ts: Date.now() });
+            rerenderChat(msg.booking_id);
+          } else if (msg.event === 'slot_booked' || msg.event === 'player_joined' || msg.event === 'booking_cancelled') {
+            refreshTabs();
+            rerenderTop();
+          }
+        } catch (_) {}
+      });
+    } catch (_) {}
+  }
+
+  /* =====================================================================
+     Zustand (lokal im Browser & mit Backend synchronisiert)
      ===================================================================== */
   const STORE = 'kicknow-demo-v1';
   const DEFAULT_FILTER = { radius: 10, onlyFree: false, surface: 'alle', sort: 'distance' };
@@ -549,6 +592,231 @@
     toast(`Suche zentriert auf ${loc.name}`, 'pin');
   }
 
+  function getCitiesConfig() {
+    return window.KN?.CITIES || {
+      munich: { key: 'munich', name: 'München', lat: 48.137154, lng: 11.576124, label: 'Marienplatz, München' },
+      nuremberg: { key: 'nuremberg', name: 'Nürnberg', lat: 49.452102, lng: 11.076665, label: 'Hauptmarkt, Nürnberg' },
+      berlin: { key: 'berlin', name: 'Berlin', lat: 52.520008, lng: 13.404954, label: 'Alexanderplatz, Berlin' },
+      hamburg: { key: 'hamburg', name: 'Hamburg', lat: 53.551086, lng: 9.993682, label: 'Rathausmarkt, Hamburg' },
+      cologne: { key: 'cologne', name: 'Köln', lat: 50.937531, lng: 6.960279, label: 'Heumarkt, Köln' },
+      frankfurt: { key: 'frankfurt', name: 'Frankfurt', lat: 50.110924, lng: 8.682127, label: 'Römerberg, Frankfurt' }
+    };
+  }
+
+  function switchCity(cityKey) {
+    const cities = getCitiesConfig();
+    const cfg = cities[cityKey] || cities.munich;
+    activeCity = cfg.key;
+    try { localStorage.setItem('kn_city', activeCity); } catch (_) {}
+    setCenterLocation({ name: cfg.label, lat: cfg.lat, lng: cfg.lng });
+    apiRequest(`/pitches/?lat=${cfg.lat}&lng=${cfg.lng}&radius_km=${state.filter.radius}`).catch(() => {});
+  }
+
+  let geoWatchId = null;
+  let hasRealLocation = false;
+
+  function applyRealPosition(pos, recenterMap = false, customLabel = 'Mein Standort') {
+    if (!pos || !pos.coords) return;
+    const lat = Number(pos.coords.latitude);
+    const lng = Number(pos.coords.longitude);
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+
+    const firstFix = !hasRealLocation;
+    hasRealLocation = true;
+    USER_LOCATION.lat = lat;
+    USER_LOCATION.lng = lng;
+    USER_LOCATION.label = customLabel;
+    USER_LOCATION.name = customLabel;
+
+    if (customLabel === 'Mein GPS-Standort' && typeof fetch === 'function') {
+      fetch('/api/geo', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ lat, lng })
+      }).catch(() => {});
+    }
+
+    if (userMarker) {
+      if (typeof userMarker.setLngLat === 'function') {
+        userMarker.setLngLat([lng, lat]);
+      } else if (typeof userMarker.setLatLng === 'function') {
+        userMarker.setLatLng([lat, lng]);
+      }
+      const el = userMarker.getElement ? userMarker.getElement() : null;
+      if (el) el.style.display = '';
+    }
+
+    if (firstFix || recenterMap) {
+      currentCenter = { lat, lng, label: customLabel };
+      updateDistances(currentCenter);
+      const qInp = $('#q-map');
+      if (qInp && !qInp.value) qInp.placeholder = 'In meiner Nähe';
+      updateMap();
+      renderMapList();
+      updateListe();
+      renderProfil();
+      if (map) {
+        if (map.flyTo) map.flyTo({ center: [lng, lat], zoom: 13.8, duration: 550 });
+        else if (map.setView) map.setView([lat, lng], 14);
+        setTimeout(() => fitRadius(true), 600);
+      }
+      if (recenterMap) toast('Auf deinen Standort zentriert', 'locate');
+    }
+  }
+
+  async function fetchNetworkGeolocation(recenterMap = false) {
+    const endpoints = [
+      '/api/geo',
+      'https://get.geojs.io/v1/ip/geo.json',
+      'https://ipwho.is/'
+    ];
+    for (const url of endpoints) {
+      try {
+        const ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+        const timer = ctrl ? setTimeout(() => ctrl.abort(), 3000) : null;
+        const res = await fetch(url, ctrl ? { signal: ctrl.signal } : {});
+        if (timer) clearTimeout(timer);
+        if (!res.ok) continue;
+        const data = await res.json();
+        const lat = Number(data.lat ?? data.latitude);
+        const lng = Number(data.lng ?? data.longitude);
+        if (Number.isFinite(lat) && Number.isFinite(lng)) {
+          const nearAnyPitch = PITCHES.some(p => distKm({ lat, lng }, p) <= 25);
+          const useLat = nearAnyPitch ? lat : USER_LOCATION.lat;
+          const useLng = nearAnyPitch ? lng : USER_LOCATION.lng;
+          applyRealPosition({ coords: { latitude: useLat, longitude: useLng } }, recenterMap, 'Mein Standort');
+          return true;
+        }
+      } catch (_) {}
+    }
+    applyRealPosition({ coords: { latitude: USER_LOCATION.lat, longitude: USER_LOCATION.lng } }, recenterMap, 'Mein Standort');
+    return false;
+  }
+
+  function requestRealGeolocation(recenterMap = false) {
+    const canUseHardwareGps = typeof navigator !== 'undefined' &&
+      navigator.geolocation &&
+      (typeof window === 'undefined' || window.isSecureContext !== false);
+
+    if (!canUseHardwareGps) {
+      fetchNetworkGeolocation(recenterMap);
+      return false;
+    }
+
+    try {
+      navigator.geolocation.getCurrentPosition(
+        pos => applyRealPosition(pos, recenterMap, 'Mein GPS-Standort'),
+        () => {
+          // Fallback auf schnelle WLAN-/Mobilfunk-Ortung (enableHighAccuracy: false)
+          navigator.geolocation.getCurrentPosition(
+            pos2 => applyRealPosition(pos2, recenterMap, 'Mein GPS-Standort'),
+            () => { fetchNetworkGeolocation(recenterMap); },
+            { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 }
+          );
+        },
+        { enableHighAccuracy: true, timeout: 6000, maximumAge: 60000 }
+      );
+      if (geoWatchId == null && typeof navigator.geolocation.watchPosition === 'function') {
+        geoWatchId = navigator.geolocation.watchPosition(
+          pos => applyRealPosition(pos, false, 'Mein GPS-Standort'),
+          () => {},
+          { enableHighAccuracy: false, maximumAge: 30000 }
+        );
+      }
+      return true;
+    } catch (_) {
+      fetchNetworkGeolocation(recenterMap);
+      return false;
+    }
+  }
+
+  function renderSuggestDropdown(rawQuery) {
+    const suggestBox = $('#search-suggest');
+    if (!suggestBox) return;
+    const val = (rawQuery || '').trim().toLowerCase();
+    const cities = Object.values(getCitiesConfig());
+
+    const cityChipsHtml = `
+      <div class="suggest-sec">Stadt wechseln</div>
+      <div class="suggest-cities">
+        ${cities.map(c => `<button type="button" class="suggest-city-chip ${c.key === activeCity ? 'on' : ''}" data-type="city" data-val="${esc(c.key)}">${ic('pin')}<span>${esc(c.name)}</span></button>`).join('')}
+      </div>
+    `;
+
+    if (val.length < 2) {
+      const quickLocs = (window.KN?.MUNICH_LOCATIONS || []).slice(0, 4).map(l => `
+        <button type="button" class="suggest-item" data-type="loc" data-val="${esc(l.name)}">
+          <span class="suggest-pin">${ic('pin')}</span>
+          <div class="suggest-info">
+            <div class="suggest-name">${esc(l.name)}</div>
+            <div class="suggest-desc">${esc(l.desc || 'Stadtteil')}</div>
+          </div>
+          <span class="suggest-badge">Stadtteil</span>
+        </button>
+      `).join('');
+      suggestBox.innerHTML = cityChipsHtml + (quickLocs ? `<div class="suggest-sec">Beliebte Bereiche</div>${quickLocs}` : '');
+      suggestBox.classList.add('show');
+      return;
+    }
+
+    const cityMatches = cities.filter(c => c.name.toLowerCase().includes(val) || c.label.toLowerCase().includes(val));
+    const locMatches = (window.KN?.MUNICH_LOCATIONS || []).filter(l =>
+      l.name.toLowerCase().includes(val) || (l.desc && l.desc.toLowerCase().includes(val))
+    ).slice(0, 4);
+
+    const pitchMatches = PITCHES.filter(p =>
+      `${p.name} ${p.district} ${p.surface} ${p.address} ${p.city || ''}`.toLowerCase().includes(val)
+    ).slice(0, 5);
+
+    const items = [];
+    cityMatches.forEach(c => {
+      items.push(`
+        <button type="button" class="suggest-item" data-type="city" data-val="${esc(c.key)}">
+          <span class="suggest-pin">${ic('pin')}</span>
+          <div class="suggest-info">
+            <div class="suggest-name">${esc(c.name)}</div>
+            <div class="suggest-desc">${esc(c.label)}</div>
+          </div>
+          <span class="suggest-badge">Stadt</span>
+        </button>
+      `);
+    });
+
+    locMatches.forEach(l => {
+      items.push(`
+        <button type="button" class="suggest-item" data-type="loc" data-val="${esc(l.name)}">
+          <span class="suggest-pin">${ic('pin')}</span>
+          <div class="suggest-info">
+            <div class="suggest-name">${esc(l.name)}</div>
+            <div class="suggest-desc">${esc(l.desc || 'München')}</div>
+          </div>
+          <span class="suggest-badge">Stadtteil</span>
+        </button>
+      `);
+    });
+
+    pitchMatches.forEach(p => {
+      items.push(`
+        <button type="button" class="suggest-item" data-type="pitch" data-val="${p.id}">
+          <span class="suggest-pin suggest-pin--pitch">${ic('pitch')}</span>
+          <div class="suggest-info">
+            <div class="suggest-name">${esc(p.name)}</div>
+            <div class="suggest-desc">${p.surface} · ${esc(p.district)} · ${fmtKm(p.dist)}</div>
+          </div>
+          ${pill(statusOf(p))}
+        </button>
+      `);
+    });
+
+    if (items.length > 0) {
+      suggestBox.innerHTML = cityChipsHtml + items.join('');
+      suggestBox.classList.add('show');
+    } else {
+      suggestBox.innerHTML = cityChipsHtml;
+      suggestBox.classList.add('show');
+    }
+  }
+
   function buildMapTab() {
     $('#tab-karte').innerHTML = `
       <div class="map-area">
@@ -622,11 +890,12 @@
           map.on('load', setupLayers);
         }
 
-        // Nutzer-Standort-Marker
+        // Nutzer-Standort-Marker (wird mit echtem GPS aktualisiert; ausgeblendet solange kein echtes GPS vorliegt)
         const meEl = document.createElement('div');
         meEl.className = 'me-marker';
         meEl.style.width = '24px';
         meEl.style.height = '24px';
+        if (!hasRealLocation) meEl.style.display = 'none';
         meEl.innerHTML = '<span class="me-pulse"></span><span class="me-dot"></span>';
         userMarker = new maplibregl.Marker({ element: meEl, anchor: 'center' })
           .setLngLat([USER_LOCATION.lng, USER_LOCATION.lat])
@@ -663,10 +932,13 @@
           attribution: '© OpenStreetMap-Mitwirkende'
         }).addTo(map);
 
-        L.marker([USER_LOCATION.lat, USER_LOCATION.lng], {
+        userMarker = L.marker([USER_LOCATION.lat, USER_LOCATION.lng], {
           icon: L.divIcon({ className: 'me-marker', html: '<span class="me-pulse"></span><span class="me-dot"></span>', iconSize: [22, 22], iconAnchor: [11, 11] }),
           interactive: false, zIndexOffset: 1000
         }).addTo(map);
+        if (!hasRealLocation && userMarker.getElement && userMarker.getElement()) {
+          userMarker.getElement().style.display = 'none';
+        }
 
         radiusCircle = L.circle([USER_LOCATION.lat, USER_LOCATION.lng], {
           radius: state.filter.radius * 1000, color: '#103B2F', weight: 1.5, opacity: 0.45, dashArray: '4 6',
@@ -687,62 +959,22 @@
       }
     }
 
-    // Suche & Vorschläge für Münchner Stadtteile
+    // Echten Nutzerstandort via Browser Geolocation API anfragen
+    requestRealGeolocation(false);
+
+    // Suche & Vorschläge (inkl. Städte-Umschalter bei Fokus)
     const qInp = $('#q-map');
     const suggestBox = $('#search-suggest');
+
+    qInp.addEventListener('focus', () => {
+      renderSuggestDropdown(qInp.value);
+    });
 
     qInp.addEventListener('input', e => {
       query = e.target.value;
       syncQuery(e.target);
       selectPitch(null);
-
-      const val = query.trim().toLowerCase();
-      if (val.length >= 2) {
-        const locMatches = (window.KN?.MUNICH_LOCATIONS || []).filter(l =>
-          l.name.toLowerCase().includes(val) || (l.desc && l.desc.toLowerCase().includes(val))
-        ).slice(0, 4);
-
-        const pitchMatches = PITCHES.filter(p =>
-          `${p.name} ${p.district} ${p.surface} ${p.address}`.toLowerCase().includes(val)
-        ).slice(0, 5);
-
-        const items = [];
-        locMatches.forEach(l => {
-          items.push(`
-            <button type="button" class="suggest-item" data-type="loc" data-val="${esc(l.name)}">
-              <span class="suggest-pin">${ic('pin')}</span>
-              <div class="suggest-info">
-                <div class="suggest-name">${esc(l.name)}</div>
-                <div class="suggest-desc">${esc(l.desc || 'München')}</div>
-              </div>
-              <span class="suggest-badge">Stadtteil</span>
-            </button>
-          `);
-        });
-
-        pitchMatches.forEach(p => {
-          items.push(`
-            <button type="button" class="suggest-item" data-type="pitch" data-val="${p.id}">
-              <span class="suggest-pin suggest-pin--pitch">${ic('pitch')}</span>
-              <div class="suggest-info">
-                <div class="suggest-name">${esc(p.name)}</div>
-                <div class="suggest-desc">${p.surface} · ${esc(p.district)} · ${fmtKm(p.dist)}</div>
-              </div>
-              ${pill(statusOf(p))}
-            </button>
-          `);
-        });
-
-        if (items.length > 0) {
-          suggestBox.innerHTML = items.join('');
-          suggestBox.classList.add('show');
-        } else {
-          suggestBox.classList.remove('show');
-        }
-      } else {
-        suggestBox.classList.remove('show');
-      }
-
+      renderSuggestDropdown(query);
       renderMapList();
       updateMap();
       updateListe();
@@ -753,7 +985,10 @@
       if (!b) return;
       const type = b.dataset.type;
       const val = b.dataset.val;
-      if (type === 'loc') {
+      if (type === 'city') {
+        suggestBox.classList.remove('show');
+        switchCity(val);
+      } else if (type === 'loc') {
         const loc = (window.KN?.MUNICH_LOCATIONS || []).find(l => l.name === val);
         if (loc) setCenterLocation(loc);
       } else if (type === 'pitch') {
@@ -780,6 +1015,13 @@
     qInp.addEventListener('keydown', e => {
       if (e.key === 'Enter') {
         const val = qInp.value.trim().toLowerCase();
+        const cityMatch = Object.values(getCitiesConfig()).find(c => c.name.toLowerCase() === val || c.key.toLowerCase() === val);
+        if (cityMatch) {
+          suggestBox.classList.remove('show');
+          switchCity(cityMatch.key);
+          qInp.blur();
+          return;
+        }
         const pitch = PITCHES.find(p => p.name.toLowerCase() === val || p.name.toLowerCase().startsWith(val));
         if (pitch) {
           suggestBox.classList.remove('show');
@@ -963,7 +1205,7 @@
         <h2 class="sec-title">Favoriten</h2>
         ${favs.length ? favs.map(pitchCard).join('') : '<p class="empty-line">Tippe auf das Herz bei einem Platz, um ihn hier zu speichern.</p>'}
         <button class="btn btn-ghost mt" data-act="reset-demo">${ic('refresh')} Demo zurücksetzen</button>
-        <p class="app-foot"><img src="assets/logo.svg" alt=""> KickNow Demo · alle Daten fiktiv<br>Kartendaten © OpenStreetMap-Mitwirkende</p>
+        <p class="app-foot"><img src="assets/logo.svg?v=7" onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22512%22 height=%22512%22 viewBox=%220 0 512 512%22%3E%3Crect width=%22512%22 height=%22512%22 rx=%22112%22 fill=%22%23103B2F%22/%3E%3Cg fill=%22none%22 stroke=%22%23F5F7F4%22 stroke-width=%2216%22 stroke-linejoin=%22round%22 stroke-linecap=%22round%22%3E%3Cpath d=%22M132 256 H380 L428 396 H84 Z%22/%3E%3Cpath d=%22M256 256 V396%22/%3E%3Cellipse cx=%22256%22 cy=%22322%22 rx=%2242%22 ry=%2228%22/%3E%3Cpath d=%22M120 290 H166 L156 362 H96%22/%3E%3Cpath d=%22M392 290 H346 L356 362 H416%22/%3E%3C/g%3E%3Cpath d=%22M256 308 C256 308 180 222 180 172 A76 76 0 1 1 332 172 C332 222 256 308 256 308 Z%22 fill=%22%238BEA9B%22 stroke=%22%23103B2F%22 stroke-width=%2210%22/%3E%3Ccircle cx=%22256%22 cy=%22170%22 r=%2230%22 fill=%22%23103B2F%22/%3E%3C/svg%3E'" alt=""> KickNow · <a href="/datenschutz" target="_blank" rel="noopener">Datenschutz (DSGVO)</a> · <a href="/impressum" target="_blank" rel="noopener">Impressum (§ 5 DDG)</a><br>Kartendaten © OpenStreetMap-Mitwirkende</p>
       </div>`;
     $('.scroll', el).scrollTop = top;
   }
@@ -1166,6 +1408,19 @@
     state.chats[s.id] = [{ system: true, text: `${USER.first} hat den Platz reserviert`, ts: now() }];
     if (f.note.trim()) state.chats[s.id].push({ from: 'me', text: f.note.trim(), ts: now() + 1 });
     save();
+    apiRequest('/bookings/', {
+      method: 'POST',
+      body: JSON.stringify({
+        pitch_id: p.id,
+        date: f.dk,
+        slot_index: f.idx,
+        group_size: f.group,
+        max_players: f.open ? Math.max(f.max, f.group) : f.group,
+        level: f.level,
+        is_open: f.open,
+        note: f.note.trim() || null
+      })
+    }).catch(() => {});
     refreshTabs();
     toast('Reservierung bestätigt');
     replaceTop('game', { id: s.id });
@@ -1233,6 +1488,7 @@
       if (!text) return;
       input.value = ''; entry.draft = '';
       addMsg(id, { from: 'me', text, ts: now() });
+      apiRequest(`/chats/${id}`, { method: 'POST', body: JSON.stringify({ text }) }).catch(() => {});
       rerenderChat(id);
       scheduleReply(id, text);
     });
@@ -1316,6 +1572,7 @@
       state.joined[id] = { count, ts: now() };
       addMsg(id, { system: true, text: `${USER.first} spielt mit${count > 1 ? ` (+${count - 1})` : ''}`, ts: now() });
       if (msg) addMsg(id, { from: 'me', text: msg, ts: now() + 1 });
+      apiRequest(`/bookings/${id}/join`, { method: 'POST', body: JSON.stringify({ count, message: msg || null }) }).catch(() => {});
       closeSheet();
       rerenderTop();
       refreshTabs();
@@ -1394,7 +1651,9 @@
       $('#rv-go', sh).disabled = false;
     });
     $('#rv-go', sh).addEventListener('click', () => {
-      (state.reviews[id] = state.reviews[id] || []).push({ stars: val, text: $('#rv-text', sh).value.trim(), ts: now(), tags: [] });
+      const txt = $('#rv-text', sh).value.trim();
+      (state.reviews[id] = state.reviews[id] || []).push({ stars: val, text: txt, ts: now(), tags: [] });
+      apiRequest(`/reviews/${id}`, { method: 'POST', body: JSON.stringify({ stars: val, text: txt, tags: [] }) }).catch(() => {});
       save(); closeSheet(); rerenderTop(); refreshTabs();
       toast('Danke für deine Bewertung!');
     });
@@ -1403,8 +1662,11 @@
   /* ---------- Filter & Sortierung ---------- */
   function openFilters() {
     const f = state.filter;
+    const cities = Object.values(getCitiesConfig());
     const body = () => `
       <h2>Filter</h2>
+      <label class="field-label">Stadt</label>
+      <div class="seg wrap">${cities.map(c => `<button type="button" class="seg-btn ${activeCity === c.key ? 'on' : ''}" data-f="city" data-v="${esc(c.key)}">${esc(c.name)}</button>`).join('')}</div>
       <label class="field-label">Umkreis</label>
       <div class="seg">${[2, 5, 10, 15, 25].map(km => `<button type="button" class="seg-btn ${f.radius === km ? 'on' : ''}" data-f="radius" data-v="${km}">${km} km</button>`).join('')}</div>
       <div class="toggle-row"><div><b>Nur jetzt freie Plätze</b><span>Plätze ohne aktuelle Buchung oder Spiel</span></div>
@@ -1422,6 +1684,11 @@
       const b = e.target.closest('[data-f]');
       if (!b) return;
       const k = b.dataset.f;
+      if (k === 'city') {
+        switchCity(b.dataset.v);
+        $('.sheet-inner', sh).innerHTML = body();
+        return;
+      }
       if (k === 'radius') f.radius = +b.dataset.v;
       else if (k === 'onlyFree') f.onlyFree = !f.onlyFree;
       else if (k === 'reset') Object.assign(f, DEFAULT_FILTER);
@@ -1473,11 +1740,13 @@
       const id = t.dataset.id;
       delete state.joined[id];
       addMsg(id, { system: true, text: `${USER.first} hat abgesagt`, ts: now() });
+      apiRequest(`/bookings/${id}`, { method: 'DELETE' }).catch(() => {});
       rerenderTop(); refreshTabs(); toast('Du hast abgesagt', 'info');
     }),
     'cancel-booking': t => confirmSheet('Reservierung stornieren?', 'Der Platz wird wieder freigegeben und der Gruppenchat gelöscht.', 'Stornieren', () => {
       const id = t.dataset.id;
       delete state.bookings[id]; delete state.chats[id];
+      apiRequest(`/bookings/${id}`, { method: 'DELETE' }).catch(() => {});
       save(); back(); toast('Reservierung storniert', 'info');
     }),
     filters: () => openFilters(),
@@ -1488,26 +1757,30 @@
       save(); refreshTabs();
     },
     recenter: () => {
-      currentCenter = { lat: USER_LOCATION.lat, lng: USER_LOCATION.lng, label: USER_LOCATION.label };
-      updateDistances(currentCenter);
       const qInp = $('#q-map');
-      if (qInp) {
-        qInp.value = '';
-        qInp.placeholder = USER_LOCATION.label;
-      }
+      if (qInp) qInp.value = '';
       query = '';
       syncQuery(null);
       const sb = $('#search-suggest');
       if (sb) sb.classList.remove('show');
       selectPitch(null);
-      updateMap();
-      renderMapList();
-      updateListe();
-      if (map) {
-        map.flyTo({ center: [USER_LOCATION.lng, USER_LOCATION.lat], zoom: 13.5, duration: 600 });
-        setTimeout(() => fitRadius(true), 650);
+      if (hasRealLocation) {
+        currentCenter = { lat: USER_LOCATION.lat, lng: USER_LOCATION.lng, label: USER_LOCATION.label };
+        updateDistances(currentCenter);
+        if (qInp) qInp.placeholder = 'In meiner Nähe';
+        updateMap();
+        renderMapList();
+        updateListe();
+        if (map) {
+          if (map.flyTo) map.flyTo({ center: [USER_LOCATION.lng, USER_LOCATION.lat], zoom: 13.8, duration: 600 });
+          else if (map.setView) map.setView([USER_LOCATION.lat, USER_LOCATION.lng], 14);
+          setTimeout(() => fitRadius(true), 650);
+        }
+        toast('Auf deinen Standort zentriert', 'locate');
+        requestRealGeolocation(false);
+      } else {
+        requestRealGeolocation(true);
       }
-      toast('Standort: ' + USER_LOCATION.label, 'locate');
     },
     'toggle-sheet': () => {
       if (currentSheetState === 'collapsed') {
@@ -1535,10 +1808,12 @@
      ===================================================================== */
   function fitViewport() {
     const vv = window.visualViewport;
-    const h = vv ? vv.height : window.innerHeight;
-    document.documentElement.style.setProperty('--app-h', `${h}px`);
+    const h = (vv && vv.height > 100) ? vv.height : (window.innerHeight || document.documentElement.clientHeight);
+    if (h > 100) {
+      document.documentElement.style.setProperty('--app-h', `${h}px`);
+    }
     const app = $('#app');
-    app.style.transform = vv && vv.offsetTop > 0 ? `translateY(${vv.offsetTop}px)` : '';
+    if (app) app.style.transform = vv && vv.offsetTop > 0 ? `translateY(${vv.offsetTop}px)` : '';
   }
   if (window.visualViewport) {
     visualViewport.addEventListener('resize', fitViewport);
@@ -1547,10 +1822,26 @@
   window.addEventListener('resize', fitViewport);
   fitViewport();
 
+  const isDevOrTunnel = /^(192\.168\.|10\.|172\.(1[6-9]|2\d|3[01])\.|127\.|localhost)|(\.(lhr\.life|localhost\.run|pinggy\.link|trycloudflare\.com|ngrok-free\.app)$)/i.test(window.location.hostname);
+
+  if ('serviceWorker' in navigator) {
+    if (isDevOrTunnel) {
+      navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister())).catch(() => {});
+      if ('caches' in window) {
+        window.caches.keys().then(keys => keys.forEach(k => window.caches.delete(k))).catch(() => {});
+      }
+    } else {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js').catch(() => {});
+      });
+    }
+  }
+
   showTab('karte'); // zuerst sichtbar machen, damit Leaflet die Kartengröße kennt
   buildMapTab();
   buildListe();
   refreshTabs();
+  if (!isDevOrTunnel) connectWebSocket('global');
   // Status alle 30 s aktualisieren (z. B. wenn ein Slot endet)
   setInterval(() => { if (!$('#sheet-layer').classList.contains('open')) { updateMap(); renderMapList(); } }, 30000);
 

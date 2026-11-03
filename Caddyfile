@@ -1,0 +1,27 @@
+kicknow.app {
+    encode gzip zstd
+
+    # Backend API and WebSocket proxy
+    handle /api/* {
+        reverse_proxy api:8000
+    }
+    handle /ws/* {
+        reverse_proxy api:8000
+    }
+    handle /datenschutz {
+        reverse_proxy api:8000
+    }
+    handle /impressum {
+        reverse_proxy api:8000
+    }
+    handle /health {
+        reverse_proxy api:8000
+    }
+
+    # Static PWA App Files
+    handle {
+        root * /srv/kicknow
+        file_server
+        try_files {path} /index.html
+    }
+}
