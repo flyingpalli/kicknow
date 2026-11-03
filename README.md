@@ -1,84 +1,45 @@
 # KickNow
 
-KickNow is a mobile web app for amateur football players in Munich. It shows 132 pitches and Bolzplätze in Munich and the surrounding Landkreis on a map. For each pitch you can see whether it is free, taken by club training, or used for a league match. You can reserve slots, join open pickup games, chat with other players, and rate pitches. This repository contains a demo version that runs in the browser and stores all data on the phone itself.
+KickNow is a mobile web app for finding football pitches in Munich. It maps 132 pitches and Bolzplätze in the city and the Landkreis, and shows which slots are free, booked for club training, or used for league games. You can reserve slots, join pickup games, chat, and rate pitches. This repo holds a demo that runs fully in the browser and keeps its data on the phone.
 
-## Run the demo on Windows and open it on an iPhone
+## Running the demo on Windows + iPhone
 
-The PC acts as a small web server. The iPhone opens the app in Safari over your Wi-Fi. You do not need to install any software.
+Your PC serves the app, and your iPhone opens it in Safari over the same Wi-Fi. Nothing to install. You need admin rights on the PC and internet on both devices, since the map tiles load from the web.
 
-### What you need
+### 1. Download
 
-- A Windows 10 or 11 PC with admin rights (you must be able to confirm "Allow this app to make changes").
-- An iPhone.
-- One Wi-Fi network that both devices use, with internet access (the map tiles load from the internet).
+Go to <https://github.com/flyingpalli/kicknow>, click the green **Code** button and pick **Download ZIP**. Extract it (right-click > Extract All) and open the inner `kicknow` folder, the one with `index.html` and two `.bat` files.
 
-> **Note:** University, hotel, or guest Wi-Fi networks (for example eduroam) often block devices from talking to each other. If the iPhone cannot reach the PC later, turn on the iPhone's **Personal Hotspot** and connect the PC to it. Then repeat steps 4 to 6.
+If you get a 404, the repo is private. Ask the owner for access or just the ZIP.
 
-### Step 1: Download the project
+### 2. One-time network setup
 
-1. Open the project page on GitHub in your browser: <https://github.com/flyingpalli/kicknow>
-2. Click the green **Code** button near the top right.
-3. Click **Download ZIP**. The file `kicknow-main.zip` lands in your **Downloads** folder.
-4. Right-click the ZIP file and choose **Extract All...**, then click **Extract**.
-5. Open the extracted folder. Inside it, open the subfolder that is also called **kicknow**. It contains `index.html` and two `.bat` files. This is the folder you work in from now on.
+Double-click `Netzwerk einrichten (einmalig).bat` and confirm the admin prompt. Wait for "Fertig!", then press Enter. This lets devices on your local network reach port 8080. It doesn't expose anything to the internet.
 
-> If GitHub shows "404 Page not found", the repository is private. Ask the owner to add your GitHub account or to send you the ZIP file directly.
+If SmartScreen complains, click **More info** > **Run anyway**.
 
-### Step 2: Allow network access (only once per PC)
+### 3. Start the server
 
-1. Double-click **`Netzwerk einrichten (einmalig).bat`**.
-2. Windows asks "Do you want to allow this app to make changes to your device?". Click **Yes**.
-3. A blue window opens. Wait until it says **"Fertig!"** (Done), then press **Enter** to close it.
+Double-click `KickNow starten.bat`. The window shows an address like `http://192.168.178.23:8080/` next to "Am iPhone". Leave the window open while you use the app. Closing it stops the server.
 
-This step allows the demo server to accept connections from other devices in your local network on port 8080. It does not open the PC to the internet.
+If you see a yellow warning instead of an iPhone address, step 2 didn't go through. Run it again and restart the server.
 
-> **Windows SmartScreen:** If a blue box says "Windows protected your PC", click **More info**, then **Run anyway**. This happens because the file was downloaded from the internet.
+### 4. Open it on the iPhone
 
-### Step 3: Start the server
+Connect the iPhone to the same Wi-Fi, open Safari, and type in the exact address from step 3, including `http://` and `:8080`. For an app-like feel, tap Share > **Add to Home Screen**.
 
-1. Double-click **`KickNow starten.bat`**.
-2. A black window opens and shows **"KickNow-Server laeuft"** (server is running).
-3. Below it you see one or more lines like this:
+Next time, just repeat steps 3 and 4.
 
-   ```
-   Am iPhone:  http://192.168.178.23:8080/
-   ```
+### If something's off
 
-   Write down this address. Your numbers will be different.
-4. **Keep this window open** the whole time you use the demo. Closing it stops the app.
+**Page won't load on the iPhone.** Check both devices are on the same network and the server window is still open. Uni or guest Wi-Fi (eduroam etc.) often blocks device-to-device traffic. In that case turn on the iPhone's Personal Hotspot, connect the PC to it, and restart the server.
 
-> If the window shows a yellow warning ("Nur am PC erreichbar"), Step 2 did not work. Close the window, repeat Step 2, and start the server again.
->
-> If several "Am iPhone" lines appear, use the one that starts with `192.168.` first. Try the others if it does not work.
+**Map is blank.** One of the devices has no internet.
 
-### Step 4: Check on the PC (optional)
+**Location is only approximate.** iOS only gives exact GPS to `https://` sites, so the demo falls back to a rough position.
 
-Open <http://localhost:8080/> in your PC browser. If you see the KickNow map, the server works.
+**Address changed.** That happens after a reboot or network switch. Restart the server and use the new one.
 
-### Step 5: Open the app on the iPhone
+**Reset demo data.** Profile tab > "Demo zurücksetzen".
 
-1. Make sure the iPhone is on the **same Wi-Fi** as the PC (Settings > Wi-Fi).
-2. Open **Safari**.
-3. Type the address from Step 3 into the address bar, for example `http://192.168.178.23:8080/`. Type `http://` and the `:8080` at the end exactly as shown.
-4. The KickNow map should load.
-
-### Step 6: Add it to the home screen (optional)
-
-1. In Safari, tap the **Share** button (square with an arrow pointing up).
-2. Scroll down and tap **Add to Home Screen**, then **Add**.
-3. KickNow now opens from its own icon like a normal app, without the Safari bar. The PC server must still be running.
-
-### Stop the demo
-
-Close the black server window, or click into it and press **Ctrl + C**. To start again later, repeat Step 3. Step 2 is not needed again.
-
-### Troubleshooting
-
-| Problem | What to try |
-| --- | --- |
-| Safari says "Safari can't open the page" or loads forever | Check that both devices use the same Wi-Fi. Check that the server window is still open. Try the iPhone hotspot from the note above. |
-| The page loads, but the map stays empty | The PC or iPhone has no internet. The map tiles come from the internet. |
-| The app does not find your exact GPS position | iPhones only share GPS with secure (`https://`) sites. The demo runs on `http://`, so it uses an approximate position instead. |
-| Your PC's address changed | This happens after a restart or on a new network. Start the server again and use the new address it shows. |
-| You want to undo Step 2 | Open PowerShell as admin in the `kicknow\server` folder and run `powershell -ExecutionPolicy Bypass -File setup-network.ps1 -Remove`. |
-| You want to reset the demo data | In the app, open the profile tab and tap **Demo zurücksetzen**. |
+**Undo step 2.** In an admin PowerShell inside `kicknow\server`, run `powershell -ExecutionPolicy Bypass -File setup-network.ps1 -Remove`.
